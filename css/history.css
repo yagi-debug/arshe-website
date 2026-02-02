@@ -1,0 +1,157 @@
+/* History */
+.history {
+    background: #fbfbfb;
+    /* Slightly lighter gray */
+    padding: 6rem 0;
+}
+
+.history-list {
+    max-width: 700px;
+    /* Constrain width for better readability */
+    margin: 0 auto;
+    position: relative;
+    padding: 1rem 0;
+}
+
+/* Timeline vertical line */
+.history-list::before {
+    content: '';
+    position: absolute;
+    top: 15px;
+    /* Start slightly lower */
+    bottom: 15px;
+    /* End slightly earlier */
+    left: 140px;
+    width: 2px;
+    /* Thicker line */
+    background: #e0e0e0;
+}
+
+.history-item {
+    display: flex;
+    align-items: center;
+    /* Center vertically */
+    margin-bottom: 2.5rem;
+    /* Clean spacing */
+    position: relative;
+    z-index: 1;
+}
+
+.history-item:last-child {
+    margin-bottom: 0;
+}
+
+/* Dot on the timeline */
+.history-item::after {
+    content: '';
+    position: absolute;
+    left: 135px;
+    /* Adjusted for 2px line and 12px dot */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    border: 3px solid var(--accent-color);
+    border-radius: 50%;
+    z-index: 2;
+    transition: 0.3s;
+}
+
+.history-item:hover::after {
+    background: var(--accent-color);
+    box-shadow: 0 0 0 4px rgba(197, 160, 89, 0.2);
+}
+
+.history-date {
+    width: 140px;
+    padding-right: 30px;
+    /* More space from line */
+    font-family: var(--font-serif);
+    font-size: 1.1rem;
+    color: var(--primary-color);
+    text-align: right;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.history-content {
+    flex: 1;
+    padding-left: 30px;
+    /* More space from line */
+    display: flex;
+    align-items: center;
+}
+
+.history-label {
+    font-size: 0.75rem;
+    color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+    padding: 3px 10px;
+    border-radius: 20px;
+    margin-right: 1rem;
+    white-space: nowrap;
+    min-width: 60px;
+    text-align: center;
+    background: transparent;
+}
+
+.history-event {
+    font-size: 1rem;
+    color: #333;
+    font-weight: 400;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .history-list {
+        padding-left: 20px;
+        max-width: 100%;
+    }
+
+    .history-list::before {
+        left: 26px;
+        /* Align line to left */
+    }
+
+    .history-item {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 2.5rem;
+        padding-left: 50px;
+        /* Make space for line/dot */
+    }
+
+    .history-item::after {
+        left: 21px;
+        /* Center on line */
+        top: 8px;
+        /* Align with date/label top area */
+        transform: none;
+    }
+
+    .history-date {
+        width: auto;
+        padding-right: 0;
+        margin-bottom: 0.5rem;
+        font-size: 0.9rem;
+        text-align: left;
+        color: #999;
+    }
+
+    .history-content {
+        padding-left: 0;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .history-label {
+        margin-bottom: 0.3rem;
+        margin-right: 0;
+        font-size: 0.7rem;
+    }
+
+    .history-event {
+        font-size: 1rem;
+    }
+}

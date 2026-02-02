@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>美容事業 | 合同会社アルシェスタイル</title>
+    <meta name="description" content="合同会社アルシェスタイルの美容サロン運営情報。ロレインブロウ（南草津・近江八幡）、美容整体ReLUMI（天王寺）のご案内。">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css?v=2">
+    <style>
+        .page-hero {
+            height: 40vh;
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/minamikusatsu.jpg') center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+        }
+
+        .page-title {
+            font-size: 2.5rem;
+            font-family: var(--font-serif);
+        }
+
+        .store-section {
+            padding: 5rem 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .store-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .store-content h3 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .store-content .tag {
+            display: inline-block;
+            background: var(--accent-color);
+            color: #fff;
+            padding: 0.2rem 0.8rem;
+            font-size: 0.8rem;
+            margin-bottom: 1.5rem;
+            border-radius: 2px;
+        }
+
+        .store-details dl {
+            margin: 1.5rem 0;
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 1rem 2rem;
+        }
+
+        .store-details dt {
+            font-weight: bold;
+            color: #666;
+        }
+
+        .store-img img {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        @media (max-width: 768px) {
+            .store-container {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .store-img {
+                order: -1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-inner">
+            <h1 class="logo">
+                <a href="index.html">
+                    <span class="logo-main">ARCHE</span>
+                    <span class="logo-sub">GROUP</span>
+                </a>
+            </h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="real_estate.html">不動産事業</a></li>
+                    <li><a href="salon.html">美容事業</a></li>
+                    <li><a href="index.html#contact">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <h2 class="page-title">Beauty & Salon</h2>
+        </section>
+
+        <section class="store-section">
+            <div class="store-container">
+                <div class="store-content">
+                    <span class="tag">まつ毛パーマ×眉毛サロン</span>
+                    <h3>ロレインブロウ 南草津店</h3>
+                    <p>完全個室のプライベート空間で、お客様一人ひとりの目元に合わせたデザインをご提案します。</p>
+                    <div class="store-details">
+                        <dl>
+                            <dt>住所</dt>
+                            <dd>〒525-0059<br>滋賀県草津市野路1-4-16 MNK-3ビル 402</dd>
+                            <dt>アクセス</dt>
+                            <dd>JR南草津駅 徒歩3分</dd>
+                            <dt>営業時間</dt>
+                            <dd>10:00 - 20:00</dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="store-img">
+                    <img src="image/minamikusatsu.jpg" alt="ロレインブロウ南草津店">
+                </div>
+            </div>
+        </section>
+
+        <section class="store-section" style="background-color: var(--bg-color);">
+            <div class="store-container">
+                <div class="store-img">
+                    <!-- Placeholder using existing image if specific one not available -->
+                    <img src="image/omihachiman2.jpg" alt="ロレインブロウ近江八幡店">
+                </div>
+                <div class="store-content">
+                    <span class="tag">まつ毛パーマ×眉毛サロン</span>
+                    <h3>ロレインブロウ 近江八幡店</h3>
+                    <p>近江八幡駅からのアクセスも良好。落ち着いた雰囲気の中で、理想の目元を実現します。</p>
+                    <div class="store-details">
+                        <dl>
+                            <dt>住所</dt>
+                            <dd>〒523-0898<br>滋賀県近江八幡市鷹飼町南3-2-10 OKD Residence鷹飼町南 101</dd>
+                            <dt>アクセス</dt>
+                            <dd>JR近江八幡駅 徒歩5分</dd>
+                            <dt>営業時間</dt>
+                            <dd>10:00 - 19:30</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="store-section">
+            <div class="store-container">
+                <div class="store-content">
+                    <span class="tag">美容整体</span>
+                    <h3>美容整体ReLUMI 天王寺院</h3>
+                    <p>骨盤矯正と美容整体で、身体の内側から美しさを引き出します。2025年1月OPEN。</p>
+                    <div class="store-details">
+                        <dl>
+                            <dt>エリア</dt>
+                            <dd>大阪市 天王寺エリア</dd>
+                            <dt>OPEN</dt>
+                            <dd>2025年1月予定</dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="store-img">
+                    <img src="image/tennoji.jpg" alt="美容整体ReLUMI 天王寺院">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Arche Group. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
