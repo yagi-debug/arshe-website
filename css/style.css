@@ -457,8 +457,8 @@ ul {
 
     /* Company Name Optimization */
     .about-info h3 {
-        font-size: 1.4rem;
-        line-height: 1.5;
+        font-size: 1.1rem;
+        line-height: 1.6;
     }
 
     .company-name-separator {
@@ -468,5 +468,6 @@ ul {
     .company-name-line {
         display: block;
         margin-bottom: 0.3rem;
+        white-space: nowrap;
     }
 }
