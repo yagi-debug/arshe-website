@@ -66,18 +66,19 @@ ul {
     letter-spacing: 0.1em;
 }
 
-.logo-kana {
-    font-size: 0.7rem;
-    color: #666;
-    margin-left: 0.3rem;
+.logo-en {
+    font-size: 0.65rem;
+    color: #888;
+    margin-left: 0.4rem;
     font-weight: 400;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
 }
 
 .logo-sub {
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     color: var(--accent-color);
-    margin-left: 0.5rem;
+    margin-left: 0.4rem;
     font-weight: 400;
 }
 
