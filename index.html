@@ -199,7 +199,12 @@
                 <h2 class="section-title">お問い合わせ</h2>
                 <div class="contact-box">
                     <p class="contact-text">お問い合わせは、以下のフォームよりお送りください。</p>
-                    <form class="contact-form" action="#" method="post">
+                    <form class="contact-form" action="https://formsubmit.co/info.arshe@arshe-corp.com" method="POST">
+                        <!-- FormSubmit設定 -->
+                        <input type="hidden" name="_subject" value="【アルシェHP】お問い合わせがありました">
+                        <input type="hidden" name="_next" value="https://arshe-corp.com/thanks.html">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="text" name="_honey" style="display:none">
                         <div class="form-group">
                             <label for="name">お名前</label>
                             <input type="text" id="name" name="name" required placeholder="例：山田 太郎">
