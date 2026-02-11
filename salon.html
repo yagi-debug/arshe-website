@@ -84,6 +84,14 @@
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
         }
 
+        .store-img-dual {
+            display: flex;
+            justify-content: space-between;
+        }
+        .store-img-dual img {
+            width: 48%;
+        }
+
         @media (max-width: 768px) {
             .store-container {
                 grid-template-columns: 1fr;
@@ -92,6 +100,14 @@
 
             .store-img {
                 order: -1;
+            }
+
+            .store-img-dual {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            .store-img-dual img {
+                width: 100%;
             }
         }
     </style>
@@ -213,8 +229,9 @@
 
         <section class="store-section" style="background-color: var(--bg-color);">
             <div class="store-container">
-                <div class="store-img">
+                <div class="store-img store-img-dual">
                     <img src="image/rehada.jpg" alt="Re肌">
+                    <img src="image/rehada_organ.jpg" alt="顔と臓器の関係図">
                 </div>
                 <div class="store-content">
                     <span class="tag">肌質改善</span>
