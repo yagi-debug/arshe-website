@@ -1,0 +1,1525 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Threads ユーモア選別</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+<style>
+  :root {
+    --primary: #a78bfa;
+    --secondary: #ec4899;
+    --bg: #0a0a0f;
+    --card-bg: #1a1a2e;
+    --text: #e0e0e8;
+    --danger: #ef4444;
+    --success: #10b981;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+  body {
+    font-family: -apple-system, 'Hiragino Kaku Gothic ProN', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  header {
+    padding: 16px;
+    text-align: center;
+    background: rgba(26, 26, 46, 0.8);
+    backdrop-filter: blur(10px);
+    z-index: 100;
+  }
+  h1 {
+    font-size: 1.2rem;
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .stats { font-size: 0.8rem; color: #888; margin-top: 4px; }
+  
+  .card-container {
+    flex: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    perspective: 1000px;
+  }
+  
+  .card {
+    position: absolute;
+    width: 90%;
+    max-width: 400px;
+    height: 70vh;
+    background: var(--card-bg);
+    border-radius: 20px;
+    padding: 24px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    cursor: grab;
+    user-select: none;
+    z-index: 10;
+  }
+  
+  .card:active { cursor: grabbing; }
+  
+  .card-content { overflow-y: auto; flex: 1; margin-bottom: 16px; }
+  .user-header { display: flex; align-items: center; margin-bottom: 12px; }
+  .username { color: var(--primary); font-weight: bold; font-size: 1.1rem; }
+  .kw-badge { 
+    font-size: 0.7rem; 
+    background: #2d2d4d; 
+    padding: 2px 8px; 
+    border-radius: 10px; 
+    margin-left: 8px; 
+    color: #aaa;
+  }
+  .post-text { font-size: 1rem; line-height: 1.6; white-space: pre-wrap; }
+  
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+    border-top: 1px solid #333;
+  }
+  .link-btn { color: #888; text-decoration: none; font-size: 0.9rem; }
+  
+  /* Swipe Labels */
+  .label {
+    position: absolute;
+    top: 40px;
+    padding: 8px 16px;
+    border: 4px solid;
+    border-radius: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    opacity: 0;
+    z-index: 20;
+    pointer-events: none;
+  }
+  .label.keep { right: 40px; color: var(--success); border-color: var(--success); transform: rotate(15deg); }
+  .label.delete { left: 40px; color: var(--danger); border-color: var(--danger); transform: rotate(-15deg); }
+  
+  /* Instructions */
+  .hint {
+    position: fixed;
+    bottom: 24px;
+    width: 100%;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #555;
+    z-index: 50;
+  }
+
+  /* Final Export Screen */
+  #exportScreen {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: var(--bg);
+    z-index: 200;
+    padding: 24px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  textarea {
+    width: 100%;
+    max-width: 500px;
+    height: 150px;
+    background: #111;
+    color: #fff;
+    border: 1px solid #444;
+    padding: 12px;
+    border-radius: 8px;
+    font-family: monospace;
+    margin: 20px 0;
+  }
+  .btn {
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: none;
+    background: var(--primary);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Threads ユーモア選別</h1>
+  <p class="stats">残り <span id="count">80</span> / 全 80 件</p>
+</header>
+
+<div class="card-container" id="cardStack">
+  <div class="label keep">KEEP</div>
+  <div class="label delete">NG</div>
+  
+  
+  <div class="card" data-id="DVn3xjPj1Rz/media">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@__215.aki/post/DVn3xjPj1Rz/media</span>
+        <span class="kw-badge">じわる</span>
+      </div>
+      <div class="post-text">じわる。こういうの大好き。  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@__215.aki/post/DVn3xjPj1Rz/media" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVn3xjPj1Rz/media</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVn3xjPj1Rz">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@__215.aki</span>
+        <span class="kw-badge">じわる</span>
+      </div>
+      <div class="post-text">じわる。こういうの大好き。  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@__215.aki/post/DVn3xjPj1Rz" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVn3xjPj1Rz</span>
+    </div>
+  </div>
+  <div class="card" data-id="DTzALi0CaMc">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@haaruu322</span>
+        <span class="kw-badge">じわる</span>
+      </div>
+      <div class="post-text">心が誰といても埋まらないのは
+本来、自分で埋めなきゃいけない空白を
+他人に埋めてもらおうとするからなのよ。
+(自分でも分からない空白を他人が理解して
+埋めれるわけない)</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@haaruu322/post/DTzALi0CaMc" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DTzALi0CaMc</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVVo94Lk7DO">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@rn1_530</span>
+        <span class="kw-badge">じわる</span>
+      </div>
+      <div class="post-text">これを投稿してもいいですか…ってHANAちゃんたちに許可取ってるコアくん想像したらかなりじわる  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@rn1_530/post/DVVo94Lk7DO" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVVo94Lk7DO</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVUYfUAk0rM">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@sk_0810.t</span>
+        <span class="kw-badge">じわる</span>
+      </div>
+      <div class="post-text">ブランチブラザーのシールげっと♡
+ト-ストのぷっくりと顔がじわる...
+焦げト-ストもおる🫢
+今日はオリンピア当選したから
+行ってくる♡前回に引き続き当選！
+愛知に比べたら長野は絶対倍率低い👍🏻⸝⋆‬  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@sk_0810.t/post/DVUYfUAk0rM" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVUYfUAk0rM</span>
+    </div>
+  </div>
+  <div class="card" data-id="DUDTyuxkbp3">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@kommkk5</span>
+        <span class="kw-badge">じわる</span>
+      </div>
+      <div class="post-text">新型デリカd5のムーンストーングレー
+迷いに迷って選ばなかったけど
+今だにじわる。  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@kommkk5/post/DUDTyuxkbp3" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DUDTyuxkbp3</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVaBqH2kmWP">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@megoopy_hh04081115</span>
+        <span class="kw-badge">じわる</span>
+      </div>
+      <div class="post-text">ねーねー、このシールじわる。
+シマエナガとハシビロコウ可愛すぎない？  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@megoopy_hh04081115/post/DVaBqH2kmWP" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVaBqH2kmWP</span>
+    </div>
+  </div>
+  <div class="card" data-id="DDnrGiQzfmO">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@glatteriko</span>
+        <span class="kw-badge">じわる</span>
+      </div>
+      <div class="post-text">ブランチブラザーのシールげっと♡
+ト-ストのぷっくりと顔がじわる...
+焦げト-ストもおる🫢
+今日はオリンピア当選したから
+行ってくる♡前回に引き続き当選！
+愛知に比べたら長野は絶対倍率低い👍🏻⸝⋆‬  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@glatteriko/post/DDnrGiQzfmO" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DDnrGiQzfmO</span>
+    </div>
+  </div>
+  <div class="card" data-id="DViuxqykxJ9">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@m081822</span>
+        <span class="kw-badge">おもろい</span>
+      </div>
+      <div class="post-text">認知症のじーちゃん
+台湾か日本かも分かんないのに
+画面みて井端だけ分かるのおもろい😂😂
+(ドラゴンズファンでした！)
+👧そうだよ！じーちゃん！井端監督なんだよ！
+👨‍🦳そうなのか！監督か！！
+10分後
+👨‍🦳井端じゃないか！！メンバーか？
+👧監督だよ！！笑  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@m081822/post/DViuxqykxJ9" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DViuxqykxJ9</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVh5hpkDyVo">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@mhn__0325</span>
+        <span class="kw-badge">おもろい</span>
+      </div>
+      <div class="post-text">粗品としょっぴーのYouTubeおもろい
+って油断してたら</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@mhn__0325/post/DVh5hpkDyVo" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVh5hpkDyVo</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVLmvfECZ1R">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@48maaaaaaaaaahon48</span>
+        <span class="kw-badge">おもろい</span>
+      </div>
+      <div class="post-text">絶対にBloomのコレオでおもろい😂公開されてないコレオ披露してるマヒ😂途中で気付いて焦ってる😂かわいいw JISOOとCHIKA気付いてるのもおもろいwww  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@48maaaaaaaaaahon48/post/DVLmvfECZ1R" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVLmvfECZ1R</span>
+    </div>
+  </div>
+  <div class="card" data-id="DU-x7Igj6Xn">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@okia565656</span>
+        <span class="kw-badge">おもろい</span>
+      </div>
+      <div class="post-text">スレッズ民のおかげで、立纓がAmazonで買えることとか、お内裏様に花咲いたら、おもろい旦那さん来てくれるんじゃない？！とか言ってくれる方々に出会えて、やっぱスレッズ最高じゃねーか！と思ってる。</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@okia565656/post/DU-x7Igj6Xn" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DU-x7Igj6Xn</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVa1_ocEQWT">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@dxxjdd11</span>
+        <span class="kw-badge">おもろい</span>
+      </div>
+      <div class="post-text">大我、粗品に目つけられておもろいwwwwww
+これぞXの王様  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@dxxjdd11/post/DVa1_ocEQWT" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVa1_ocEQWT</span>
+    </div>
+  </div>
+  <div class="card" data-id="DOBO74Vku2C">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@chyankakiko</span>
+        <span class="kw-badge">おもろい</span>
+      </div>
+      <div class="post-text">新郎新婦が投げてくれるお菓子を拾うイベントなのに、拾ったお菓子をそのまま後ろに投げてるのクソ程おもろいwwwwww
+しかも、その場で食べちゃうのもクソおもろい無理wwwwwwwwww
+デブだから笑うとマツコみたいになっちゃうの無理wwwwwwwww
+誰か結婚式出禁にしてくれよwwwwwwwww
+本当におもろい結婚式だった
+おめでとう！！
+ガチこんなデブだからお嫁行けない🥹wwwwww
+戻ったらジム通いだよ😢笑  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@chyankakiko/post/DOBO74Vku2C" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DOBO74Vku2C</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVnCQBxk3OD/media">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@okinawa59/post/DVnCQBxk3OD/media</span>
+        <span class="kw-badge">爆笑</span>
+      </div>
+      <div class="post-text">関西弁は最高ですね～🤣🤣爆笑www
+何にでも笑いが作れる関西弁(⁠≧⁠▽⁠≦⁠)  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@okinawa59/post/DVnCQBxk3OD/media" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVnCQBxk3OD/media</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVJ6hg0EwLQ">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@yoyo_fz_</span>
+        <span class="kw-badge">草</span>
+      </div>
+      <div class="post-text">M.A.Dオフ会
+大概快十年沒逛台北市立動物園了
+近年上野動物園的次數
+還有這家居酒屋的次數
+都比他多（草www  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@yoyo_fz_/post/DVJ6hg0EwLQ" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVJ6hg0EwLQ</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVPVaYrk3ny">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@leleohiyo</span>
+        <span class="kw-badge">草</span>
+      </div>
+      <div class="post-text">2/25-3/5連線
+3/6順豐出貨✨  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@leleohiyo/post/DVPVaYrk3ny" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVPVaYrk3ny</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVC9HXYE71k">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@mian_0706</span>
+        <span class="kw-badge">草</span>
+      </div>
+      <div class="post-text">找到真實世界的蒼月草了(⁠*⁠´⁠ω⁠｀⁠*⁠)</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@mian_0706/post/DVC9HXYE71k" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVC9HXYE71k</span>
+    </div>
+  </div>
+  <div class="card" data-id="DMmpJKFyqLw">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@jasmine.hsiangling</span>
+        <span class="kw-badge">草</span>
+      </div>
+      <div class="post-text">我個人是台派。
+以後藍白草不要來問我問題，你們不配得到我的回答。
+要退追就退追我又不靠這吃飯。  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@jasmine.hsiangling/post/DMmpJKFyqLw" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DMmpJKFyqLw</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVOr3xmk3ir">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@s6513613</span>
+        <span class="kw-badge">草</span>
+      </div>
+      <div class="post-text">M.A.Dオフ会
+大概快十年沒逛台北市立動物園了
+近年上野動物園的次數
+還有這家居酒屋的次數
+都比他多（草www  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@s6513613/post/DVOr3xmk3ir" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVOr3xmk3ir</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVY-um7E2bA">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@rikanyan0725</span>
+        <span class="kw-badge">ボケ</span>
+      </div>
+      <div class="post-text">花粉じゃボケ！  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@rikanyan0725/post/DVY-um7E2bA" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVY-um7E2bA</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVXKGmjk9jv">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@kachiwarigori</span>
+        <span class="kw-badge">ネタ</span>
+      </div>
+      <div class="post-text">小四息子。
+昨日風呂から出て私に報告。
+👦「ち◯￼ち◯の皮を向いたらね。ピチッとなってチ◯カスが超大量に出てきてね。とりあえずお風呂の中に溶かしておいたよ。お風呂チンカス風呂だからね。チ◯カス入浴剤‼️ゲラゲラ🤣」
+😎「ハイハイ、ご報告ありがとう。風邪ひくから、パジャマ早く着なさいね」</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@kachiwarigori/post/DVXKGmjk9jv" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVXKGmjk9jv</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVnCQBxk3OD">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@okinawa59</span>
+        <span class="kw-badge">爆笑</span>
+      </div>
+      <div class="post-text">関西弁は最高ですね～🤣🤣爆笑www
+何にでも笑いが作れる関西弁(⁠≧⁠▽⁠≦⁠)  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@okinawa59/post/DVnCQBxk3OD" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVnCQBxk3OD</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVZkbiqEoAR">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@yyha2024</span>
+        <span class="kw-badge">爆笑</span>
+      </div>
+      <div class="post-text">姪っ子が夜また泣いてて、何かされた！？大丈夫？って聞いたら、
+「こんなにいっぱいシールがあって嬉しくて泣いちゃった」
+って言ってて、そうかそうかと慰めてたら
+「お母さんにはシール欲しいって言えないけど、おばちゃんにはシール欲しいってわがまま言っていい😢？」って……
+いくらでも言いなぁぁぁ😭！！！！！
+って抱きしめた😭
+その後、
+「シールくれた優しいお姉さんにハートを沢山送ってるの！」
+と空に向かって投げキッスしててわたし爆笑😂
+可愛すぎかぁ😂  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@yyha2024/post/DVZkbiqEoAR" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVZkbiqEoAR</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVA158zifqH">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@kumi_29957</span>
+        <span class="kw-badge">爆笑</span>
+      </div>
+      <div class="post-text">入場した！！
+やばい私の席wwwちょっと載せられないです
+爆笑している  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@kumi_29957/post/DVA158zifqH" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVA158zifqH</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVNAWYrksJK">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@kenchi_mauinokaoi</span>
+        <span class="kw-badge">爆笑</span>
+      </div>
+      <div class="post-text">これこれ🤩
+坂本ケオリの爆発力🤣🤣🤣
+会う前から爆笑ってどれだけ幸せな世界線にいるんやろ✨
+#坂本花織
+#りくりゅうペア  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@kenchi_mauinokaoi/post/DVNAWYrksJK" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVNAWYrksJK</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVM76EsEywA">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@m.kohachanmama</span>
+        <span class="kw-badge">爆笑</span>
+      </div>
+      <div class="post-text">姪っ子が夜また泣いてて、何かされた！？大丈夫？って聞いたら、
+「こんなにいっぱいシールがあって嬉しくて泣いちゃった」
+って言ってて、そうかそうかと慰めてたら
+「お母さんにはシール欲しいって言えないけど、おばちゃんにはシール欲しいってわがまま言っていい😢？」って……
+いくらでも言いなぁぁぁ😭！！！！！
+って抱きしめた😭
+その後、
+「シールくれた優しいお姉さんにハートを沢山送ってるの！」
+と空に向かって投げキッスしててわたし爆笑😂
+可愛すぎかぁ😂  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@m.kohachanmama/post/DVM76EsEywA" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVM76EsEywA</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVhh7rJE3HP/media">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@rh0616_/post/DVhh7rJE3HP/media</span>
+        <span class="kw-badge">爆笑</span>
+      </div>
+      <div class="post-text">朝活読み当たった🥺
+私しか並びおらんかった爆笑爆笑  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@rh0616_/post/DVhh7rJE3HP/media" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVhh7rJE3HP/media</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVhh7rJE3HP">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@rh0616_</span>
+        <span class="kw-badge">爆笑</span>
+      </div>
+      <div class="post-text">See what people are talking about and join the conversation.</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@rh0616_/post/DVhh7rJE3HP" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVhh7rJE3HP</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVjNiUpCSqI">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@jake.lin086</span>
+        <span class="kw-badge">爆笑</span>
+      </div>
+      <div class="post-text">志村けん爆笑  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@jake.lin086/post/DVjNiUpCSqI" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVjNiUpCSqI</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVLr5IME5r-">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@yabuuchihebi</span>
+        <span class="kw-badge">ワロタ</span>
+      </div>
+      <div class="post-text">TSMC「熊本の渋滞ヤバすぎワロタ。なんとかして」
+木村県知事「重く受け止めます（受け止めただけ）」  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@yabuuchihebi/post/DVLr5IME5r-" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVLr5IME5r-</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVGI-_8EnEk/media">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@mkty_85/post/DVGI-_8EnEk/media</span>
+        <span class="kw-badge">ワロタ</span>
+      </div>
+      <div class="post-text">東京から帰ってきて
+買った万博グッズ広げたら、まぁまぁ買っててワロタ  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@mkty_85/post/DVGI-_8EnEk/media" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVGI-_8EnEk/media</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVGI-_8EnEk">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@mkty_85</span>
+        <span class="kw-badge">ワロタ</span>
+      </div>
+      <div class="post-text">東京から帰ってきて
+買った万博グッズ広げたら、まぁまぁ買っててワロタ  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@mkty_85/post/DVGI-_8EnEk" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVGI-_8EnEk</span>
+    </div>
+  </div>
+  <div class="card" data-id="DJtLE0wzELr">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@bra.kio.saurus</span>
+        <span class="kw-badge">ワロタ</span>
+      </div>
+      <div class="post-text">お迎え棒キモいって投稿見た。わかる🤮
+でも妊娠中からずっと疑問だったから知りたいんだけど、お迎え棒って性行為でオキシトシンを分泌＝子宮収縮＝陣痛促進ってこと？それならわざわざ棒じゃなくても、1人でもよくないですか？その方が安全そうだし。なんであんなに棒の話ばかり言われてるの？中には助産師さんに勧められたっていう人もいた。不思議。
+あと、「お迎え棒していいか次の健診で助産師さんに聞いてみる」とか言ってる人もいてワロタw恥ずかしくないんかよw  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@bra.kio.saurus/post/DJtLE0wzELr" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DJtLE0wzELr</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVVjcUoEab6">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@aast__</span>
+        <span class="kw-badge">ワロタ</span>
+      </div>
+      <div class="post-text">発寒イオン来てみたらこんな時間でもボンドロ列作っててワロタ  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@aast__/post/DVVjcUoEab6" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVVjcUoEab6</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVf4vMjEkBx">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@mikazu1008</span>
+        <span class="kw-badge">ワロタ</span>
+      </div>
+      <div class="post-text">エルパで初めてシール買えた
+ココキュリオにおいてあるシール、イタリアンブレインロットだったのワロタ  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@mikazu1008/post/DVf4vMjEkBx" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVf4vMjEkBx</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVUeq4_EhEU">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@momiji.45</span>
+        <span class="kw-badge">ワロタ</span>
+      </div>
+      <div class="post-text">お迎え棒キモいって投稿見た。わかる🤮
+でも妊娠中からずっと疑問だったから知りたいんだけど、お迎え棒って性行為でオキシトシンを分泌＝子宮収縮＝陣痛促進ってこと？それならわざわざ棒じゃなくても、1人でもよくないですか？その方が安全そうだし。なんであんなに棒の話ばかり言われてるの？中には助産師さんに勧められたっていう人もいた。不思議。
+あと、「お迎え棒していいか次の健診で助産師さんに聞いてみる」とか言ってる人もいてワロタw恥ずかしくないんかよw  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@momiji.45/post/DVUeq4_EhEU" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVUeq4_EhEU</span>
+    </div>
+  </div>
+  <div class="card" data-id="DTh3z7xDyjk">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@_mi_kan._</span>
+        <span class="kw-badge">面白い</span>
+      </div>
+      <div class="post-text">国保まだ見てないけど面白いんかな
+映画館でまだやってるんかな
+誰か教えて  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@_mi_kan._/post/DTh3z7xDyjk" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DTh3z7xDyjk</span>
+    </div>
+  </div>
+  <div class="card" data-id="DU1dkrsjLOK">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@atsu.reform.room</span>
+        <span class="kw-badge">面白い</span>
+      </div>
+      <div class="post-text">離婚したんですかと聞かれた時に、何か面白い返しはないですかね？  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@atsu.reform.room/post/DU1dkrsjLOK" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DU1dkrsjLOK</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVYKR03ku_-">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@asamin1629</span>
+        <span class="kw-badge">面白い</span>
+      </div>
+      <div class="post-text">Netflixでドロドロ系の復讐系の面白い韓国ドラマ教えてほしいです。マスクガール、ペントハウスは好きでした！
+それ系でおすすめありませんか？  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@asamin1629/post/DVYKR03ku_-" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVYKR03ku_-</span>
+    </div>
+  </div>
+  <div class="card" data-id="DQUhKwiEkd1">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@kgjt_m</span>
+        <span class="kw-badge">面白い</span>
+      </div>
+      <div class="post-text">PMSで泣いた&怒ったエピソードで
+謎すぎて面白いエピソードありますか？</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@kgjt_m/post/DQUhKwiEkd1" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DQUhKwiEkd1</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVX-iyAAXel">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@flyingmoana</span>
+        <span class="kw-badge">面白い</span>
+      </div>
+      <div class="post-text">通りすがりのエミレーツのCAです！コメント欄面白いです🤣🤣🤣10年以上ドバイ住んでますが、ここ2,3年で初めて中東に住むリスクを感じています。日常生活ではドバイは東京より安全です。  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@flyingmoana/post/DVX-iyAAXel" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVX-iyAAXel</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVV2IkNki6y">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@rr518</span>
+        <span class="kw-badge">面白い</span>
+      </div>
+      <div class="post-text">通りすがりのエミレーツのCAです！コメント欄面白いです🤣🤣🤣10年以上ドバイ住んでますが、ここ2,3年で初めて中東に住むリスクを感じています。日常生活ではドバイは東京より安全です。  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@rr518/post/DVV2IkNki6y" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVV2IkNki6y</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVhhlmUkvem">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@miura733</span>
+        <span class="kw-badge">面白い</span>
+      </div>
+      <div class="post-text">脇道9割ストーリー1割で進めています(｡&gt;﹏&lt;｡)💦
+今は階段の活用方法考え中です😊（笑）
+ぽこあポケモンは自分みたいにマイペースで進めたい、脇道ばかりしちゃうのが好きにやりたい人にはかなり面白いゲームですね(｡&gt;﹏&lt;｡)♪
+もちろんストーリー好きな人にもボリュームがあって楽しいと思います😊  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@miura733/post/DVhhlmUkvem" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVhhlmUkvem</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVinJQhjwbA/media">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@yuyu___nnn/post/DVinJQhjwbA/media</span>
+        <span class="kw-badge">草</span>
+      </div>
+      <div class="post-text">比起好市多的牛奶 萊爾富的好喝很多
+雖然我平常都拿來打果汁所以沒特別在乎牛奶品質
+但這款濃到可以泡拿鐵 超讚！  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@yuyu___nnn/post/DVinJQhjwbA/media" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVinJQhjwbA/media</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVinJQhjwbA">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@yuyu___nnn</span>
+        <span class="kw-badge">草</span>
+      </div>
+      <div class="post-text">比起好市多的牛奶 萊爾富的好喝很多
+雖然我平常都拿來打果汁所以沒特別在乎牛奶品質
+但這款濃到可以泡拿鐵 超讚！  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@yuyu___nnn/post/DVinJQhjwbA" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVinJQhjwbA</span>
+    </div>
+  </div>
+  <div class="card" data-id="DViKyk6kTae">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@leoo5566</span>
+        <span class="kw-badge">草</span>
+      </div>
+      <div class="post-text">俗話說科學的盡頭就是玄學
+在淺草寺找到中華隊的方向了…..
+經典賽不要放棄啊啊啊啊啊，還有機會前進邁阿密啊啊啊啊啊啊！  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@leoo5566/post/DViKyk6kTae" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DViKyk6kTae</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVgF8ejklbX">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@chumei2026</span>
+        <span class="kw-badge">草</span>
+      </div>
+      <div class="post-text">清交校草選拔第一輪結果出爐🔥
+這裡列出1～20名
+為了更符合兩校的審美
+即將在清大野台、交大二餐從前五名實體票選出真正的校草！  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@chumei2026/post/DVgF8ejklbX" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVgF8ejklbX</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVfnnAOFMcy">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@fantasy_island.jp</span>
+        <span class="kw-badge">草</span>
+      </div>
+      <div class="post-text">清交校草選拔第一輪結果出爐🔥
+這裡列出1～20名
+為了更符合兩校的審美
+即將在清大野台、交大二餐從前五名實體票選出真正的校草！  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@fantasy_island.jp/post/DVfnnAOFMcy" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVfnnAOFMcy</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVYgOzok5r3">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@_3mq_x</span>
+        <span class="kw-badge">笑</span>
+      </div>
+      <div class="post-text">鹿児島ってまともな男いないの😭
+たらしの誘い断ったらすぐブロックされる笑  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@_3mq_x/post/DVYgOzok5r3" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVYgOzok5r3</span>
+    </div>
+  </div>
+  <div class="card" data-id="DJRRwkriuMw">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@misstaiwanesefood</span>
+        <span class="kw-badge">笑</span>
+      </div>
+      <div class="post-text">欸不是這場直播也太好笑了吧
+為什麼每一個人每一秒的動作都有笑點🤣🤣🤣</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@misstaiwanesefood/post/DJRRwkriuMw" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DJRRwkriuMw</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVirQDggbwx">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@nagaraeba.sub</span>
+        <span class="kw-badge">笑</span>
+      </div>
+      <div class="post-text">彼女いそうって言われるけど、人生で全然いたことない😅誰か拾ってください！笑  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@nagaraeba.sub/post/DVirQDggbwx" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVirQDggbwx</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVVm3zsj-YW">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@930618_91</span>
+        <span class="kw-badge">笑</span>
+      </div>
+      <div class="post-text">睡醒看這東西 笑到肚子好痛</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@930618_91/post/DVVm3zsj-YW" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVVm3zsj-YW</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVd-oCjkvNB">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@keryltsao</span>
+        <span class="kw-badge">笑</span>
+      </div>
+      <div class="post-text">See what people are talking about and join the conversation.</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@keryltsao/post/DVd-oCjkvNB" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVd-oCjkvNB</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVnUpTGDp34">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@nanaco68298</span>
+        <span class="kw-badge">ボケ</span>
+      </div>
+      <div class="post-text">自由にボケて🌸  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@nanaco68298/post/DVnUpTGDp34" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVnUpTGDp34</span>
+    </div>
+  </div>
+  <div class="card" data-id="DONwgC7k14j">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@ayanoism168</span>
+        <span class="kw-badge">ボケ</span>
+      </div>
+      <div class="post-text">そして、10歳以上の子供たちが、
+なんと17,000名以上も行方不明になっていて
+もう今すぐにでも〝平和な日本〟という
+幻想を捨てた方がいいと思う</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@ayanoism168/post/DONwgC7k14j" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DONwgC7k14j</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVF8MbkEuCs">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@tamitami646</span>
+        <span class="kw-badge">ボケ</span>
+      </div>
+      <div class="post-text">おい6年生のお前。
+今息子だと思ってボケとかキモいとかLINEで送ってる相手はそのお母さんだよ。
+ウフフフ　おもしろ  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@tamitami646/post/DVF8MbkEuCs" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVF8MbkEuCs</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVQAtrVk-fk">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@nq__uf</span>
+        <span class="kw-badge">ボケ</span>
+      </div>
+      <div class="post-text">スーパーで見知らぬババアに赤ちゃんダウン症？って聞かれた。
+もし仮にそうだとしたら何なの？だし聞く必要ある？
+赤ちゃん連れて買い物行くのほんと嫌になる。
+イラッとして ボケ老人が。って言ったのはごめん。  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@nq__uf/post/DVQAtrVk-fk" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVQAtrVk-fk</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVAn8d9CfGB">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@renofa.46</span>
+        <span class="kw-badge">面白い</span>
+      </div>
+      <div class="post-text">キムタクってイタくない？
+　バラエティとかで良くドヤ顔でボケて、クソつまんなくても周りが気を遣って笑うから、自分が面白いと勘違いしてそう。
+　共感してくれる人いる？  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@renofa.46/post/DVAn8d9CfGB" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVAn8d9CfGB</span>
+    </div>
+  </div>
+  <div class="card" data-id="DNwy5r25rNT">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@yunna_mama_ikuji</span>
+        <span class="kw-badge">笑い</span>
+      </div>
+      <div class="post-text">ミルク缶の底にハンドスピナー付けて転がしたら
+ケタケタ笑いながら部屋中追いかけてる🤣
+(ヨシそれでたくさん体力消耗してたっぷり昼寝しておくれ☺️)  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@yunna_mama_ikuji/post/DNwy5r25rNT" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DNwy5r25rNT</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVZmM6tE1Zy">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@gulzou.ehimedamashii</span>
+        <span class="kw-badge">笑い</span>
+      </div>
+      <div class="post-text">この世代の子どもたちって、
+小学校の卒業式も、
+中学校の入学式も、
+中学校の卒業式も、
+高校の入学式も、
+すべてコロナで制限がかけられていた
+世代なんですよねー</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@gulzou.ehimedamashii/post/DVZmM6tE1Zy" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVZmM6tE1Zy</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVOLhJrifyK">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@u35_w</span>
+        <span class="kw-badge">笑い</span>
+      </div>
+      <div class="post-text">次女に「誰かが倒れちゃったみたい。ママはお医者さんだから行かなきゃいけない。ここでふたりで待っててくれる？」と言い残して返事も聞かずに現場へ。
+患者さんの状況を見ていろいろ診察して、大丈夫だということを判断しながら車掌さんが来るのを待ち。
+車掌さんが来た時点で現状を伝えて、救急車は必要ないと判断して近くの椅子へ移動……させようとしたら、すぐに周りの方々が手を貸してくださり、「みんな優しいなぁ」と思いながら、一通り終わった。</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@u35_w/post/DVOLhJrifyK" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVOLhJrifyK</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVjF1Ewk24z/media">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@go_english_journey/post/DVjF1Ewk24z/media</span>
+        <span class="kw-badge">ネタ</span>
+      </div>
+      <div class="post-text">「あ、これそういう意味だったんだ！」という発見があると思うので、
+気になった方はぜひのぞいていってください🧙‍♀️  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@go_english_journey/post/DVjF1Ewk24z/media" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVjF1Ewk24z/media</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVjF1Ewk24z">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@go_english_journey</span>
+        <span class="kw-badge">ネタ</span>
+      </div>
+      <div class="post-text">「あ、これそういう意味だったんだ！」という発見があると思うので、
+気になった方はぜひのぞいていってください🧙‍♀️  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@go_english_journey/post/DVjF1Ewk24z" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVjF1Ewk24z</span>
+    </div>
+  </div>
+  <div class="card" data-id="DUsArdeE1uP">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@ikura_wi</span>
+        <span class="kw-badge">ネタ</span>
+      </div>
+      <div class="post-text">みんなは月に何回くらいしてるの??  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@ikura_wi/post/DUsArdeE1uP" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DUsArdeE1uP</span>
+    </div>
+  </div>
+  <div class="card" data-id="DMcXtZPRrJZ">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@slavia_928</span>
+        <span class="kw-badge">大喜利</span>
+      </div>
+      <div class="post-text">「バ」を「ヴァ」に変えてカッコよくしてください  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@slavia_928/post/DMcXtZPRrJZ" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DMcXtZPRrJZ</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVN_ARLCa6j/media">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@decohase/post/DVN_ARLCa6j/media</span>
+        <span class="kw-badge">大喜利</span>
+      </div>
+      <div class="post-text">◆第899回 やみつき大喜利</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@decohase/post/DVN_ARLCa6j/media" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVN_ARLCa6j/media</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVN_ARLCa6j">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@decohase</span>
+        <span class="kw-badge">大喜利</span>
+      </div>
+      <div class="post-text">◆第899回 やみつき大喜利</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@decohase/post/DVN_ARLCa6j" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVN_ARLCa6j</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVLbv1qEkQG/media">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@mi_kk4/post/DVLbv1qEkQG/media</span>
+        <span class="kw-badge">大喜利</span>
+      </div>
+      <div class="post-text">笑いたい気分なのでお願いします🥹  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@mi_kk4/post/DVLbv1qEkQG/media" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVLbv1qEkQG/media</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVRzHX-ko_F">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@yoshina2626</span>
+        <span class="kw-badge">お笑い</span>
+      </div>
+      <div class="post-text">お笑いライブはだいたいひとり参戦。
+お笑い好きな友達ってどうやって作るの？
+周りに語れる人がいない。
+リアルでお笑いの話がしたい。  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@yoshina2626/post/DVRzHX-ko_F" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVRzHX-ko_F</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVh8j54AD6M">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@hashibamiiro</span>
+        <span class="kw-badge">お笑い</span>
+      </div>
+      <div class="post-text">もう結構前になったけど。
+さんまのまんまで無茶振りに
+大森くんが小田さんの歌を
+歌う流れになってしまって
+大森くん凄い不安げで
+もうその表情だけで
+見ているこっちは
+おかん発動しちゃって
+さんまちゃんやめてあげて〜って
+気持ちになっちゃったんだけど
+涼ちゃんが最後全部回収してくれて
+笑いも取ってくれて
+誰も傷つけない所へ着地してくれた時、
+(こっからは私の妄想。)
+↓
+あのお笑い怪獣のさんまさんでも
+こいつすげぇヤツに
+守られてんじゃん、と
+思ったんじゃないかなぁ。</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@hashibamiiro/post/DVh8j54AD6M" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVh8j54AD6M</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVNbEgzEy8Z">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@o_m_331</span>
+        <span class="kw-badge">お笑い</span>
+      </div>
+      <div class="post-text">へぇ…ちゃんみなはマヒナだけ扱い雑って見える人いるんだ…
+歌詞とかMVが一人だけお笑いだと。
+え、どこが…？重要なところ任せられてるし、HANAが安定してるのはマヒナのおかげって凄い言葉だよね。  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@o_m_331/post/DVNbEgzEy8Z" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVNbEgzEy8Z</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVgSkvEknCE">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@cheesecheesycheesest</span>
+        <span class="kw-badge">お笑い</span>
+      </div>
+      <div class="post-text">たぶんですが…天才なので、もしかしたらというか、たぶんグレーの人だと思います。理解されにくい人、だから誤解を招くんでしょうね。私も初めは誤解していたのですが、色々なドキュメンタリーや、寝そべり配信を見ていると、ただただ純粋な人間で、大人になったら誰しもが無くしてしまう大事なものを持ち続けている稀有な人だとわかりました。彼のマネージャーも、デビューしてすぐメディアに出すと誤解されてしまって彼の音楽的才能を見てもらえない可能性があるから、テレビなどにはなかなか出さなかったらしいです。本人は出たかったみたいですけど。世界に実力を認められたので、2025年やっとMステなどに出られたんでしょうね。デビュー前から音楽界では天才天才と言われて、大御所達からも絶賛されているので、実力は間違いないです。 あと、本人はお笑いが大好きで、藤井風テレビという、シソンヌとヒコロヒーとコントやったりしてました。  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@cheesecheesycheesest/post/DVgSkvEknCE" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVgSkvEknCE</span>
+    </div>
+  </div>
+  <div class="card" data-id="DTFouVVEgcq">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@aqsw0000</span>
+        <span class="kw-badge">ネタ</span>
+      </div>
+      <div class="post-text">中2です
+誰か下ネタはなそ  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@aqsw0000/post/DTFouVVEgcq" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DTFouVVEgcq</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVX3bCBgb4C">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@okan_uranaishi</span>
+        <span class="kw-badge">ボケ</span>
+      </div>
+      <div class="post-text">スーパーで見知らぬババアに赤ちゃんダウン症？って聞かれた。
+もし仮にそうだとしたら何なの？だし聞く必要ある？
+赤ちゃん連れて買い物行くのほんと嫌になる。
+イラッとして ボケ老人が。って言ったのはごめん。  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@okan_uranaishi/post/DVX3bCBgb4C" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVX3bCBgb4C</span>
+    </div>
+  </div>
+  <div class="card" data-id="DRk7PtmE9J3">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@ayuminnenikki</span>
+        <span class="kw-badge">爆笑</span>
+      </div>
+      <div class="post-text">本当に疲れているので、涙が出るほど大爆笑する話を聞きたい。
+嘘話でもいい。
+今の私には笑いが足りない。
+誰かわたしに笑いを…  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@ayuminnenikki/post/DRk7PtmE9J3" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DRk7PtmE9J3</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVduhoHAbZw">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@betsuchii4</span>
+        <span class="kw-badge">爆笑</span>
+      </div>
+      <div class="post-text">ブレブレですが💦
+ミャク常田さんの姿に爆笑🤣  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@betsuchii4/post/DVduhoHAbZw" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVduhoHAbZw</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVLbv1qEkQG">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@mi_kk4</span>
+        <span class="kw-badge">大喜利</span>
+      </div>
+      <div class="post-text">本次也特別為手機 App 設計直式操作模式，並加入全新「簡報模式」，可以想成是一場「反向大喜利」：值日生選情境，其他玩家用圖片回答。
+兩種模式皆支援玩家自由投稿，期待看到大家的創意組合！</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@mi_kk4/post/DVLbv1qEkQG" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVLbv1qEkQG</span>
+    </div>
+  </div>
+  <div class="card" data-id="DOV43ZKEuR9">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@ma3_zu</span>
+        <span class="kw-badge">お笑い</span>
+      </div>
+      <div class="post-text">たぶんですが…天才なので、もしかしたらというか、たぶんグレーの人だと思います。理解されにくい人、だから誤解を招くんでしょうね。私も初めは誤解していたのですが、色々なドキュメンタリーや、寝そべり配信を見ていると、ただただ純粋な人間で、大人になったら誰しもが無くしてしまう大事なものを持ち続けている稀有な人だとわかりました。彼のマネージャーも、デビューしてすぐメディアに出すと誤解されてしまって彼の音楽的才能を見てもらえない可能性があるから、テレビなどにはなかなか出さなかったらしいです。本人は出たかったみたいですけど。世界に実力を認められたので、2025年やっとMステなどに出られたんでしょうね。デビュー前から音楽界では天才天才と言われて、大御所達からも絶賛されているので、実力は間違いないです。 あと、本人はお笑いが大好きで、藤井風テレビという、シソンヌとヒコロヒーとコントやったりしてました。  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@ma3_zu/post/DOV43ZKEuR9" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DOV43ZKEuR9</span>
+    </div>
+  </div>
+  <div class="card" data-id="DVQJZzlkXak">
+    <div class="card-content">
+      <div class="user-header">
+        <span class="username">@tokyotokyoto</span>
+        <span class="kw-badge">面白い</span>
+      </div>
+      <div class="post-text">脇道9割ストーリー1割で進めています(｡&gt;﹏&lt;｡)💦
+今は階段の活用方法考え中です😊（笑）
+ぽこあポケモンは自分みたいにマイペースで進めたい、脇道ばかりしちゃうのが好きにやりたい人にはかなり面白いゲームですね(｡&gt;﹏&lt;｡)♪
+もちろんストーリー好きな人にもボリュームがあって楽しいと思います😊  
+Translate</div>
+    </div>
+    <div class="card-footer">
+      <a href="https://www.threads.net/@tokyotokyoto/post/DVQJZzlkXak" target="_blank" class="link-btn">🔗 Threadsで見る</a>
+      <span style="color:#444; font-size:0.7rem;">ID: DVQJZzlkXak</span>
+    </div>
+  </div>
+  
+  <div class="card" style="z-index: 0; background: transparent; box-shadow: none; align-items: center; justify-content: center; text-align: center;">
+    <div>
+      <p style="font-size: 1.5rem; margin-bottom: 20px;">🎉 すべて完了！</p>
+      <button class="btn" onclick="showExport()">削除リストを出す</button>
+    </div>
+  </div>
+</div>
+
+<div class="hint">左スワイプ(←)で削除 / 右スワイプ(→)でキープ</div>
+
+<div id="exportScreen">
+  <h2>選別完了</h2>
+  <p style="color:#888; margin-top:10px;">以下のIDリストをコピーして、ターミナルで実行してください</p>
+  <textarea id="rejectedText" readonly></textarea>
+  <button class="btn" onclick="location.reload()">もう一度（リセット）</button>
+</div>
+
+<script>
+const stack = document.getElementById('cardStack');
+const cards = document.querySelectorAll('.card:not([style*="transparent"])');
+const rejectedIds = [];
+let currentIndex = 0;
+
+cards.forEach((card, index) => {
+  const hammertime = new Hammer(card);
+  const labelKeep = document.querySelector('.label.keep');
+  const labelDelete = document.querySelector('.label.delete');
+  
+  hammertime.on('pan', (ev) => {
+    if (ev.isFinal) return;
+    const x = ev.deltaX;
+    const rotate = x / 10;
+    card.style.transform = `translate(${x}px, ${ev.deltaY}px) rotate(${rotate}deg)`;
+    
+    // Labels opacity
+    if (x > 50) {
+      labelKeep.style.opacity = Math.min(x / 150, 1);
+      labelDelete.style.opacity = 0;
+    } else if (x < -50) {
+      labelDelete.style.opacity = Math.min(-x / 150, 1);
+      labelKeep.style.opacity = 0;
+    } else {
+      labelKeep.style.opacity = 0;
+      labelDelete.style.opacity = 0;
+    }
+  });
+
+  hammertime.on('panend', (ev) => {
+    labelKeep.style.opacity = 0;
+    labelDelete.style.opacity = 0;
+    
+    if (ev.deltaX > 150) {
+      swipe(card, 'right');
+    } else if (ev.deltaX < -150) {
+      swipe(card, 'left');
+    } else {
+      card.style.transform = '';
+    }
+  });
+});
+
+function swipe(card, direction) {
+  const x = direction === 'right' ? 1000 : -1000;
+  card.style.transform = `translate(${x}px, 0) rotate(${x/20}deg)`;
+  card.style.opacity = 0;
+  
+  if (direction === 'left') {
+    rejectedIds.push(card.dataset.id);
+  }
+  
+  currentIndex++;
+  document.getElementById('count').textContent = cards.length - currentIndex;
+  
+  setTimeout(() => card.remove(), 300);
+}
+
+function showExport() {
+  document.getElementById('exportScreen').style.display = 'flex';
+  document.getElementById('rejectedText').value = rejectedIds.join(',');
+}
+
+// Keyboard support
+document.addEventListener('keydown', (e) => {
+  const topCard = document.querySelector('.card:not([style*="transparent"])');
+  if (!topCard) return;
+  
+  if (e.key === 'ArrowRight') swipe(topCard, 'right');
+  if (e.key === 'ArrowLeft') swipe(topCard, 'left');
+});
+</script>
+</body>
+</html>
