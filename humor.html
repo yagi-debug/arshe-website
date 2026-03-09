@@ -1319,8 +1319,7 @@ function fetchNewBatch() {
   .then(data => {
     if (data.status === 'success') {
       if(statusEl) statusEl.textContent = "🚀 収集開始！3分後にリロードしてください";
-      alert('🚀 PC側で収集を開始しました（約3分かかります）。
-完了後、数分おいてからページを再読み込みしてください。');
+      alert('🚀 PC側で収集を開始しました（約3分かかります）。\n完了後、数分おいてからページを再読み込みしてください。');
     } else {
       if(statusEl) statusEl.textContent = "❌ エラーが発生しました";
       alert('❌ エラー: ' + data.message);
