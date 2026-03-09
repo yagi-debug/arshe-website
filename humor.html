@@ -693,11 +693,10 @@
 
 <div id="exportScreen">
   <h2>選別完了</h2>
-  <p style="color:#888; margin-top:10px;">KEEPしたアイテムをダウンロードして保存できます</p>
-  <button class="btn" style="margin-top:16px; background:var(--success);" onclick="downloadKept()">💾 KEEPリストをダウンロード</button>
-  <p style="color:#666; margin-top:16px; font-size:0.8rem;">ダウンロード後にターミナルで以下を実行すると蓄積保存されます:</p>
-  <textarea id="rejectedText" readonly style="height:60px; font-size:0.8rem;">python3 humor_curator.py --import-kept ~/Downloads/kept_humor_export.json</textarea>
-  <button class="btn" style="margin-top:12px;" onclick="resetAll()">🔄 もう一度（リセット）</button>
+  <p style="color:#888; margin-top:10px;">スマホでも簡単に保存できるように、KEEPした投稿のIDをコピーできます。</p>
+  <button class="btn" style="margin-top:16px; background:var(--success);" onclick="copyKeptIds()">📋 KEEPしたIDをコピー</button>
+  <p style="color:#666; margin-top:16px; font-size:0.8rem;">コピーしたID一覧を、チャット画面に貼り付けて送信してください。</p>
+  <button class="btn" style="margin-top:12px; background:#e74c3c;" onclick="resetAll()">🔄 全てリセットしてやり直す</button>
 </div>
 
 <script>
@@ -848,7 +847,6 @@ function swipe(card, direction) {
 function showExport() {
   document.getElementById('exportScreen').style.display = 'flex';
   document.getElementById('swipeView').style.display = 'none';
-  document.getElementById('rejectedText').value = rejectedIds.join(',');
 }
 
 function resetAll() {
@@ -856,20 +854,17 @@ function resetAll() {
   location.reload();
 }
 
-function downloadKept() {
+function copyKeptIds() {
   if (keptItems.length === 0) {
     alert('KEEPしたアイテムがありません');
     return;
   }
-  const blob = new Blob([JSON.stringify(keptItems, null, 2)], {type: 'application/json'});
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement('a');
-  a.href = url;
-  a.download = 'kept_humor_export.json';
-  document.body.appendChild(a);
-  a.click();
-  document.body.removeChild(a);
-  URL.revokeObjectURL(url);
+  const ids = keptItems.map(item => item.id).join(',');
+  navigator.clipboard.writeText(ids).then(() => {
+    alert('📋 コピーしました！チャット画面に貼り付けてください。\n\n' + ids);
+  }).catch(err => {
+    alert('コピーに失敗しました。以下のテキストを選択してコピーしてください:\n\n' + ids);
+  });
 }
 
 function triggerSwipe(direction) {
