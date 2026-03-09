@@ -230,7 +230,8 @@
   <p class="stats">残り <span id="count">24</span> / 全 24 件</p>
   <div style="display: flex; gap: 8px; justify-content: center; margin-top: 10px;">
     <button class="view-toggle" style="margin:0;" onclick="toggleView()">📋 一覧表示</button>
-    <button class="view-toggle" style="margin:0; background:#e74c3c;" onclick="resetLocalStorage()">🔄 履歴をリセット</button>
+    <button class="view-toggle" style="margin:0; background:#3498db;" onclick="fetchNewBatch()">🔄 最新を取得</button>
+    <button class="view-toggle" style="margin:0; background:#e74c3c;" onclick="resetLocalStorage()">⚠️ 履歴リセット</button>
   </div>
 </header>
 
@@ -895,7 +896,31 @@ function triggerSwipe(direction) {
   if (top) swipe(top, direction);
 }
 
-// List View Logic
+function fetchNewBatch() {
+  if (!confirm('PC側で新しい投稿の収集とサイトの更新を開始しますか？\n※反映まで数分かかります。')) return;
+  
+  const REFRESH_URL = 'https://giant-badgers-bet.loca.lt/refresh';
+  
+  fetch(REFRESH_URL, {
+    method: 'POST',
+    headers: { 
+      'Content-Type': 'application/json',
+      'Bypass-Tunnel-Reminder': 'true'
+    },
+    body: JSON.stringify({})
+  })
+  .then(res => res.json())
+  .then(data => {
+    if (data.status === 'success') {
+      alert('🚀 PC側で収集を開始しました！\n2、3分後にこのページを再読み込みしてください。');
+    } else {
+      alert('❌ エラー: ' + data.message);
+    }
+  })
+  .catch(err => {
+    alert('❌ 通信エラー: PCのサーバーが起動しているか確認してください。');
+  });
+}
 let showingList = false;
 function toggleView() {
   showingList = !showingList;
