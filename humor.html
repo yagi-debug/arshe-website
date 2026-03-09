@@ -1299,6 +1299,10 @@ function triggerSwipe(direction) {
   if (top) swipe(top, direction);
 }
 
+function fetchNewBatch() {
+  if (!confirm('PC側で新しい投稿の収集とサイトの更新を開始しますか？\n※反映まで数分かかります。')) return;
+
+  const REFRESH_URL = 'https://twenty-mugs-scream.loca.lt/refresh';
   const statusEl = document.getElementById('syncStatus');
   if(statusEl) statusEl.textContent = "⏳ 収集リクエスト送信中...";
 
