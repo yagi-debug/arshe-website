@@ -227,12 +227,13 @@
 <body>
 <header>
   <h1>Threads ユーモア選別</h1>
-  <p class="stats">残り <span id="count">44</span> / 全 44 件</p>
+  <p class="stats">残り <span id="count">43</span> / 全 43 件</p>
   <div style="display: flex; gap: 8px; justify-content: center; margin-top: 10px; flex-wrap: wrap;">
     <button class="view-toggle" style="margin:0;" onclick="toggleView()">📋 一覧表示</button>
+    <button class="view-toggle" style="margin:0; background:#9b59b6;" onclick="undoSwipe()">↩️ 戻す</button>
+    <button class="view-toggle" style="margin:0; background:var(--success);" onclick="syncToPC()">☁️ PCへ送信</button>
     <button class="view-toggle" style="margin:0; background:#3498db;" onclick="fetchNewBatch()">🔄 最新を取得</button>
     <button class="view-toggle" style="margin:0; background:#e74c3c;" onclick="resetLocalStorage()">⚠️履歴リセット</button>
-    <button class="view-toggle" style="margin:0; background:#9b59b6;" onclick="undoSwipe()">↩️ 1つ戻す</button>
   </div>
 </header>
 
@@ -242,28 +243,6 @@
     <div class="label delete">NG</div>
   
   
-  <div class="card" data-id="DUpzEzHD0Ef">
-    <div class="card-content">
-      <div class="user-header">
-        <span class="username">@spea.k0ut</span>
-        <span class="kw-badge">ユーモア</span>
-        <span style="color:#e74c3c; font-size:0.7rem; margin-left:auto;">❤️ 172</span>
-        <span style="color:#3498db; font-size:0.7rem; margin-left:6px;">💬 2</span>
-      </div>
-      <div class="post-text">おひとり島5 レディースの感想
-ミンジ　ただの面食い
-ゴウン　持てるけど本当のいい男にモテない
-ミナス　ただのヤリマン
-ヒソン　一緒にいてもつまんなそう
-ジュヨン　愛嬌あるチョウチンアンコウ
-ハウン　色気はないが面白い
-イェジン　ユーモアなさそう</div>
-    </div>
-    <div class="card-footer">
-      <a href="https://www.threads.net/@spea.k0ut/post/DUpzEzHD0Ef" target="_blank" class="link-btn" onclick="event.stopPropagation()">🔗 Threadsで見る</a>
-      <span style="color:#444; font-size:0.7rem;">ID: DUpzEzHD0Ef</span>
-    </div>
-  </div>
   <div class="card" data-id="DPi96BSk0Za">
     <div class="card-content">
       <div class="user-header">
@@ -1034,7 +1013,7 @@ SNSを正しく使えば人生が豊かになると実感している</div>
   <div class="card" style="z-index: 0; background: transparent; box-shadow: none; align-items: center; justify-content: center; text-align: center;">
     <div>
       <p style="font-size: 1.5rem; margin-bottom: 20px;">🎉 すべて完了！</p>
-      <button class="btn" onclick="showExport()">削除リストを出す</button>
+      <button class="btn" style="background:var(--success);" onclick="syncToPC()">☁️ PCへデータを送信</button>
     </div>
   </div>
   
@@ -1281,11 +1260,6 @@ function syncToPC() {
     if (data.status === 'success') {
       alert('✅ PCへのデータ送信が完了しました！追加件数: ' + data.added);
       // NOTE: We do NOT call resetAll() here anymore, so the user keeps state.
-      document.getElementById('exportScreen').innerHTML = `
-        <h2>送信完了🎉</h2>
-        <p style="color:#888; margin-top:10px;">PCにデータが保存されました。</p>
-        <p style="color:#3498db; margin-top:16px;">新しいネタを取得するには、上部のメニューから「🔄 最新を取得」を実行してください。</p>
-      `;
     } else {
       alert('❌ サーバーエラー: ' + data.message);
     }
