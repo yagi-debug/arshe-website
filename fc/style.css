@@ -25,6 +25,41 @@ header { background: #1a1a2e; color: white; padding: 16px 0; }
 .badge.warning { background: #fff3cd; color: #856404; padding: 3px 8px; border-radius: 8px; font-size: 0.7rem; }
 .badge.no-recruit { background: #f0f0f0; color: #666; padding: 3px 8px; border-radius: 8px; font-size: 0.7rem; }
 .badge.inquiry { background: #e8f4fd; color: #0c5460; padding: 3px 8px; border-radius: 8px; font-size: 0.7rem; }
+
+/* ランクバッジ（カード用） */
+.rank-badge { font-weight: 800; font-size: 0.85rem; padding: 2px 8px; border-radius: 6px; letter-spacing: 0.05em; }
+.rank-badge.rank-S { background: #ffd700; color: #7a5800; }
+.rank-badge.rank-A { background: #d4edda; color: #155724; }
+.rank-badge.rank-B { background: #cce5ff; color: #004085; }
+.rank-badge.rank-C { background: #fff3cd; color: #856404; }
+.rank-badge.rank-D { background: #f8d7da; color: #721c24; }
+.rank-badge.rank-E { background: #e2e3e5; color: #383d41; }
+.rank-badge.rank-none { background: #e2e3e5; color: #888; }
+
+/* ソートコントロール */
+.sort-controls { margin-top: 10px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.sort-controls span { font-size: 0.85rem; color: #666; }
+.sort-btn { padding: 4px 12px; border: 1px solid #ddd; background: white; border-radius: 16px; cursor: pointer; font-size: 0.8rem; }
+.sort-btn:hover, .sort-btn.active { background: #1a1a2e; color: white; border-color: #1a1a2e; }
+
+/* スコア表示（カード内） */
+.stat .score-val { font-weight: 700; color: #e94560; }
+
+/* スコアブロック（詳細ページ） */
+.score-block { display: flex; align-items: center; gap: 16px; background: #f8f9fa; border-radius: 10px; padding: 14px 18px; margin: 12px 0; }
+.score-block.score-na { color: #888; font-size: 0.9rem; }
+.score-na-text { margin-left: 8px; }
+.score-label { font-size: 0.8rem; color: #666; margin-right: 8px; }
+.score-rank { font-size: 2rem; font-weight: 900; width: 52px; height: 52px; border-radius: 10px; display: flex; align-items: center; justify-content: center; }
+.score-rank.rank-S { background: #ffd700; color: #7a5800; }
+.score-rank.rank-A { background: #28a745; color: white; }
+.score-rank.rank-B { background: #007bff; color: white; }
+.score-rank.rank-C { background: #ffc107; color: #333; }
+.score-rank.rank-D { background: #dc3545; color: white; }
+.score-rank.rank-E { background: #6c757d; color: white; }
+.score-main { font-size: 1.6rem; font-weight: 700; color: #1a1a2e; }
+.score-sub { font-size: 0.9rem; color: #888; font-weight: 400; }
+.score-breakdown { font-size: 0.8rem; color: #666; margin-top: 3px; }
 .fc-card h3 { font-size: 1.1rem; margin-bottom: 12px; }
 .fc-card h3 a { color: #1a1a2e; text-decoration: none; }
 .fc-card h3 a:hover { color: #e94560; }
