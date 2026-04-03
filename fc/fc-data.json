@@ -3,7 +3,7 @@
     "slug": "2ndstreet-geo",
     "name": "セカンドストリート（2nd STREET）— FC調査データ",
     "category": "買取・リユース",
-    "initial_investment": "不明",
+    "initial_investment": "2,000万円〜5,000万円",
     "stores": "880店舗（2025年3月末）",
     "store_trend": "不明",
     "recruit_status": "FC募集なし",
@@ -214,6 +214,18 @@
     "jfa": "非加盟/不明",
     "warning": "",
     "collection_date": "2026-04-02"
+  },
+  {
+    "slug": "dominos-pizza",
+    "name": "ドミノ・ピザ",
+    "category": "その他",
+    "initial_investment": "2,500万円",
+    "stores": "約1,000（2025年時点）**",
+    "store_trend": "不明",
+    "recruit_status": "募集中",
+    "jfa": "加盟",
+    "warning": "",
+    "collection_date": "2026-04-03"
   },
   {
     "slug": "doutor",
