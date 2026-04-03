@@ -23,6 +23,8 @@ header { background: #1a1a2e; color: white; padding: 16px 0; }
 .fc-card-header { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
 .category-tag { background: #f0f4ff; color: #4a6cf7; padding: 3px 10px; border-radius: 12px; font-size: 0.75rem; font-weight: 600; }
 .badge.warning { background: #fff3cd; color: #856404; padding: 3px 8px; border-radius: 8px; font-size: 0.7rem; }
+.badge.no-recruit { background: #f0f0f0; color: #666; padding: 3px 8px; border-radius: 8px; font-size: 0.7rem; }
+.badge.inquiry { background: #e8f4fd; color: #0c5460; padding: 3px 8px; border-radius: 8px; font-size: 0.7rem; }
 .fc-card h3 { font-size: 1.1rem; margin-bottom: 12px; }
 .fc-card h3 a { color: #1a1a2e; text-decoration: none; }
 .fc-card h3 a:hover { color: #e94560; }
