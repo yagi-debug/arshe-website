@@ -528,6 +528,18 @@
     "collection_date": "2026-04-02"
   },
   {
+    "slug": "kfc",
+    "name": "ケンタッキーフライドチキン (KFC)",
+    "category": "その他",
+    "initial_investment": "4,000万円",
+    "stores": "1,339",
+    "store_trend": "▲ 増加中",
+    "recruit_status": "募集中",
+    "jfa": "加盟",
+    "warning": "",
+    "collection_date": "2026-04-03"
+  },
+  {
     "slug": "kids-duo",
     "name": "Kids Duo（キッズデュオ）— FC調査データ",
     "category": "学習塾・教育",
@@ -756,6 +768,18 @@
     "collection_date": "2026-04-02"
   },
   {
+    "slug": "mister-donut",
+    "name": "ミスタードーナツ (Mister Donut)",
+    "category": "その他",
+    "initial_investment": "3,000万円",
+    "stores": "1,050",
+    "store_trend": "→ 横ばい",
+    "recruit_status": "募集中",
+    "jfa": "加盟",
+    "warning": "",
+    "collection_date": "2026-04-03"
+  },
+  {
     "slug": "mos-burger",
     "name": "モスバーガー",
     "category": "飲食",
@@ -982,6 +1006,18 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-02"
+  },
+  {
+    "slug": "sushiro",
+    "name": "スシロー / 鮨・酒・肴 杉玉",
+    "category": "その他",
+    "initial_investment": "4,440万円",
+    "stores": "641",
+    "store_trend": "▲ 増加中",
+    "recruit_status": "FC募集なし",
+    "jfa": "加盟",
+    "warning": "",
+    "collection_date": "2026-04-03"
   },
   {
     "slug": "taiyakan",
