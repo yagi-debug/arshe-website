@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>お問い合わせ | フランチャイズの窓</title>
+<meta name="description" content="フランチャイズに関する情報提供・掲載リクエスト・内容修正のご連絡はこちらから。">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="logo"><a href="index.html" style="color:inherit;text-decoration:none">フランチャイズの窓</a></div>
+  </div>
+</header>
+<main class="container">
+  <nav class="breadcrumb"><a href="index.html">トップ</a> › お問い合わせ</nav>
+
+  <div class="contact-hero">
+    <h1>お問い合わせ・情報提供</h1>
+    <p>フランチャイズに関する情報をお寄せください。いただいた情報は掲載内容の改善に活用させていただきます。</p>
+  </div>
+
+  <div class="contact-types">
+    <div class="contact-type-card">
+      <div class="ct-icon">📝</div>
+      <h3>掲載リクエスト</h3>
+      <p>「このFC銘柄を追加してほしい」「このジャンルを充実させてほしい」</p>
+    </div>
+    <div class="contact-type-card">
+      <div class="ct-icon">⚠️</div>
+      <h3>内容の修正</h3>
+      <p>FC本部の方へ：掲載内容に誤りがある場合はお知らせください。事実確認の上、速やかに修正いたします。</p>
+    </div>
+    <div class="contact-type-card">
+      <div class="ct-icon">🎤</div>
+      <h3>加盟者の声（情報提供）</h3>
+      <p>実際にFCに加盟している方からのリアルな声を募集しています。匿名での掲載も可能です。</p>
+    </div>
+    <div class="contact-type-card">
+      <div class="ct-icon">💡</div>
+      <h3>その他</h3>
+      <p>サイトへのご意見・ご感想・取材依頼など</p>
+    </div>
+  </div>
+
+  <form class="contact-form" action="https://formsubmit.co/fc@arshe-corp.com" method="POST">
+    <input type="hidden" name="_subject" value="【フランチャイズの窓】お問い合わせ">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="https://fc-mado.com/contact-thanks.html">
+    <input type="text" name="_honey" style="display:none">
+
+    <div class="form-group">
+      <label for="category">お問い合わせ種別 <span class="required">*</span></label>
+      <select id="category" name="category" required>
+        <option value="">選択してください</option>
+        <option value="掲載リクエスト">掲載リクエスト（FC銘柄の追加希望）</option>
+        <option value="内容修正">内容の修正（誤った情報の訂正）</option>
+        <option value="加盟者の声">加盟者の声（体験談・情報提供）</option>
+        <option value="インタビュー協力">インタビュー協力（取材を受けてもいい）</option>
+        <option value="FC本部からの連絡">FC本部からのご連絡</option>
+        <option value="その他">その他</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="fc_name">関連するFC銘柄名</label>
+      <input type="text" id="fc_name" name="fc_name" placeholder="例: コメダ珈琲、買取大吉">
+    </div>
+
+    <div class="form-group">
+      <label for="name">お名前（ニックネーム可） <span class="required">*</span></label>
+      <input type="text" id="name" name="name" required placeholder="匿名希望の場合は「匿名」とご記入ください">
+    </div>
+
+    <div class="form-group">
+      <label for="email">メールアドレス <span class="required">*</span></label>
+      <input type="email" id="email" name="email" required placeholder="返信が必要な場合に使用します">
+    </div>
+
+    <div class="form-group">
+      <label for="position">あなたの立場</label>
+      <select id="position" name="position">
+        <option value="">選択してください</option>
+        <option value="FC加盟検討者">FC加盟を検討中</option>
+        <option value="FC加盟者（現役）">FC加盟者（現在運営中）</option>
+        <option value="FC加盟者（元）">元FC加盟者（撤退・閉店済み）</option>
+        <option value="FC本部関係者">FC本部の関係者</option>
+        <option value="業界関係者">業界関係者</option>
+        <option value="一般">一般</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="message">お問い合わせ内容 <span class="required">*</span></label>
+      <textarea id="message" name="message" rows="8" required placeholder="できるだけ具体的にお書きください。&#10;&#10;【加盟者の声の場合】&#10;・加盟しているFC名&#10;・運営歴&#10;・良かった点・悪かった点&#10;・収益面（ざっくりで構いません）&#10;・これから加盟を考えている人へのアドバイス"></textarea>
+    </div>
+
+    <div class="form-group checkbox-group">
+      <label>
+        <input type="checkbox" name="anonymous" value="yes">
+        匿名での掲載を希望します
+      </label>
+    </div>
+
+    <div class="form-group checkbox-group">
+      <label>
+        <input type="checkbox" name="agree" required>
+        いただいた情報をサイト上で活用することに同意します <span class="required">*</span>
+      </label>
+    </div>
+
+    <button type="submit" class="submit-btn">送信する</button>
+  </form>
+
+  <div class="contact-note">
+    <h3>ご注意</h3>
+    <ul>
+      <li>いただいた情報は事実確認の上、掲載内容に反映させていただく場合があります</li>
+      <li>個人が特定される情報は、ご本人の承諾なく公開することはありません</li>
+      <li>すべてのお問い合わせに返信できるとは限りません。ご了承ください</li>
+      <li>営業目的のご連絡には対応いたしかねます</li>
+    </ul>
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <p><a href="index.html">← FC一覧に戻る</a></p>
+  </div>
+</footer>
+</body>
+</html>
