@@ -18,20 +18,20 @@
   },
   {
     "slug": "2nd-street",
-    "name": "セカンドストリート",
+    "name": "セカンドストリート (2nd Street)",
     "category": "買取・リユース",
-    "initial_investment": "5,000万円",
+    "initial_investment": "約6,500万円～1億円",
     "stores": "800",
     "store_trend": "不明",
     "recruit_status": "募集中",
     "jfa": "不明",
     "warning": "",
     "collection_date": "2026-04-04",
-    "total_score": 46.3,
-    "rank": "C",
-    "fact_score": 46.3,
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
     "insight_score": null,
-    "data_coverage": 50
+    "data_coverage": 0
   },
   {
     "slug": "31ice",
@@ -100,6 +100,23 @@
     "fact_score": 58.2,
     "insight_score": 45.5,
     "data_coverage": 50
+  },
+  {
+    "slug": "ai-pizza",
+    "name": "AIピザ窯500 (AI Pizza / 無人ピザ販売)",
+    "category": "その他サービス",
+    "initial_investment": "不明",
+    "stores": "不明",
+    "store_trend": "不明",
+    "recruit_status": "募集中",
+    "jfa": "不明",
+    "warning": "",
+    "collection_date": "2026-04-04",
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
+    "insight_score": null,
+    "data_coverage": 0
   },
   {
     "slug": "aisapo",
@@ -663,6 +680,23 @@
     "data_coverage": 56
   },
   {
+    "slug": "book-off",
+    "name": "ブックオフ (Book Off)",
+    "category": "その他サービス",
+    "initial_investment": "約8,000万円",
+    "stores": "800",
+    "store_trend": "不明",
+    "recruit_status": "募集中",
+    "jfa": "不明",
+    "warning": "",
+    "collection_date": "2026-04-04",
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
+    "insight_score": null,
+    "data_coverage": 0
+  },
+  {
     "slug": "bookoff",
     "name": "ブックオフ",
     "category": "買取・リユース",
@@ -1013,11 +1047,11 @@
     "jfa": "不明",
     "warning": "",
     "collection_date": "2026-04-04",
-    "total_score": 57.7,
-    "rank": "B",
-    "fact_score": 63.5,
-    "insight_score": 51.9,
-    "data_coverage": 56
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
+    "insight_score": null,
+    "data_coverage": 0
   },
   {
     "slug": "curves",
@@ -1081,11 +1115,11 @@
     "jfa": "不明",
     "warning": "",
     "collection_date": "2026-04-04",
-    "total_score": 53.5,
-    "rank": "B",
-    "fact_score": 53.5,
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
     "insight_score": null,
-    "data_coverage": 44
+    "data_coverage": 0
   },
   {
     "slug": "daily-yamazaki",
@@ -1319,11 +1353,11 @@
     "jfa": "不明",
     "warning": "",
     "collection_date": "2026-04-04",
-    "total_score": 52.6,
-    "rank": "B",
-    "fact_score": 52.6,
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
     "insight_score": null,
-    "data_coverage": 50
+    "data_coverage": 0
   },
   {
     "slug": "e-heya-net",
@@ -1853,6 +1887,23 @@
     "data_coverage": 17
   },
   {
+    "slug": "gyoza-yukimatsu",
+    "name": "餃子の雪松 (Gyoza no Yukimatsu)",
+    "category": "その他サービス",
+    "initial_investment": "不明",
+    "stores": "430店舗 (2024年3月現在)",
+    "store_trend": "不明",
+    "recruit_status": "募集中",
+    "jfa": "不明",
+    "warning": "",
+    "collection_date": "2026-04-04",
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
+    "insight_score": null,
+    "data_coverage": 0
+  },
+  {
     "slug": "gyukaku",
     "name": "牛角 (Gyukaku)",
     "category": "飲食（焼肉・焼鳥）",
@@ -2021,6 +2072,23 @@
     "fact_score": 64.6,
     "insight_score": 65.8,
     "data_coverage": 67
+  },
+  {
+    "slug": "hard-off",
+    "name": "ハードオフ (Hard Off)",
+    "category": "その他サービス",
+    "initial_investment": "約6,000万円～9,000万円",
+    "stores": "10",
+    "store_trend": "不明",
+    "recruit_status": "募集中",
+    "jfa": "不明",
+    "warning": "",
+    "collection_date": "2026-04-04",
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
+    "insight_score": null,
+    "data_coverage": 0
   },
   {
     "slug": "hardoff",
@@ -2679,11 +2747,11 @@
     "jfa": "不明",
     "warning": "",
     "collection_date": "2026-04-04",
-    "total_score": 62.8,
-    "rank": "B",
-    "fact_score": 59.9,
-    "insight_score": 65.7,
-    "data_coverage": 72
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
+    "insight_score": null,
+    "data_coverage": 0
   },
   {
     "slug": "kaji-no-tatsujin",
@@ -2955,7 +3023,7 @@
     "rank": "?",
     "fact_score": null,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 6
   },
   {
     "slug": "keirow",
@@ -3941,7 +4009,7 @@
     "rank": "?",
     "fact_score": null,
     "insight_score": null,
-    "data_coverage": 28
+    "data_coverage": 0
   },
   {
     "slug": "napolino-kama",
@@ -4149,20 +4217,37 @@
   },
   {
     "slug": "off-house",
-    "name": "オフハウス フランチャイズ完全ガイド",
+    "name": "オフハウス (Off House)",
     "category": "買取・リユース",
-    "initial_investment": "1,000〜3,000万円",
-    "stores": "480店舗（単独＋複合含む）",
+    "initial_investment": "約6,000万円～1億円",
+    "stores": "150",
     "store_trend": "不明",
     "recruit_status": "募集中",
     "jfa": "不明",
     "warning": "",
-    "collection_date": "",
+    "collection_date": "2026-04-04",
     "total_score": null,
     "rank": "?",
     "fact_score": null,
     "insight_score": null,
-    "data_coverage": 28
+    "data_coverage": 0
+  },
+  {
+    "slug": "okome-mujin",
+    "name": "お米の無人販売所・コイン精米所",
+    "category": "その他サービス",
+    "initial_investment": "約900万円～1,400万円",
+    "stores": "不明",
+    "store_trend": "不明",
+    "recruit_status": "募集中",
+    "jfa": "不明",
+    "warning": "",
+    "collection_date": "2026-04-04",
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
+    "insight_score": null,
+    "data_coverage": 0
   },
   {
     "slug": "on-cleaning",
@@ -4362,11 +4447,11 @@
     "jfa": "不明",
     "warning": "",
     "collection_date": "2026-04-04",
-    "total_score": 80.0,
-    "rank": "S",
-    "fact_score": 80.0,
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
     "insight_score": null,
-    "data_coverage": 50
+    "data_coverage": 0
   },
   {
     "slug": "osouji-kakumei",
@@ -4379,11 +4464,11 @@
     "jfa": "不明",
     "warning": "",
     "collection_date": "2026-04-04",
-    "total_score": 79.5,
-    "rank": "A",
-    "fact_score": 79.5,
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
     "insight_score": null,
-    "data_coverage": 44
+    "data_coverage": 0
   },
   {
     "slug": "osouji-tai-501",
@@ -4430,11 +4515,11 @@
     "jfa": "不明",
     "warning": "",
     "collection_date": "2026-04-04",
-    "total_score": 46.3,
-    "rank": "C",
-    "fact_score": 46.3,
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
     "insight_score": null,
-    "data_coverage": 39
+    "data_coverage": 0
   },
   {
     "slug": "palette-plaza",
@@ -5253,6 +5338,23 @@
     "data_coverage": 83
   },
   {
+    "slug": "selfurugi",
+    "name": "セルフ古着 SELFURUGI",
+    "category": "その他サービス",
+    "initial_investment": "約800万円～1,100万円",
+    "stores": "50店舗 (2024年3月現在)",
+    "store_trend": "不明",
+    "recruit_status": "募集中",
+    "jfa": "不明",
+    "warning": "",
+    "collection_date": "2026-04-04",
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
+    "insight_score": null,
+    "data_coverage": 0
+  },
+  {
     "slug": "selmo",
     "name": "個別学習のセルモ",
     "category": "学習塾・教育",
@@ -5455,6 +5557,23 @@
     "fact_score": 63.6,
     "insight_score": 60.3,
     "data_coverage": 67
+  },
+  {
+    "slug": "smart-cafe24",
+    "name": "スマートカフェ24 (Smart Cafe 24 / 無人カフェ)",
+    "category": "その他サービス",
+    "initial_investment": "不明",
+    "stores": "50",
+    "store_trend": "不明",
+    "recruit_status": "募集中",
+    "jfa": "不明",
+    "warning": "",
+    "collection_date": "2026-04-04",
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
+    "insight_score": null,
+    "data_coverage": 0
   },
   {
     "slug": "sompo-care",
@@ -5951,20 +6070,20 @@
   },
   {
     "slug": "treasure-factory",
-    "name": "トレジャーファクトリー フランチャイズ完全ガイド（詳細版）",
+    "name": "トレジャーファクトリー (Treasure Factory)",
     "category": "買取・リユース",
-    "initial_investment": "1,500〜3,000万円",
-    "stores": "220店舗（2024年度）",
+    "initial_investment": "約7,000万円",
+    "stores": "200",
     "store_trend": "不明",
     "recruit_status": "募集中",
     "jfa": "不明",
     "warning": "",
-    "collection_date": "",
-    "total_score": 63.1,
-    "rank": "B",
-    "fact_score": 63.1,
+    "collection_date": "2026-04-04",
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
     "insight_score": null,
-    "data_coverage": 44
+    "data_coverage": 0
   },
   {
     "slug": "try-group",
@@ -6236,7 +6355,7 @@
     "rank": "?",
     "fact_score": null,
     "insight_score": null,
-    "data_coverage": 22
+    "data_coverage": 0
   },
   {
     "slug": "watami",
@@ -6776,11 +6895,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-04",
-    "total_score": 54.0,
-    "rank": "B",
-    "fact_score": 62.6,
-    "insight_score": 45.5,
-    "data_coverage": 44
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
+    "insight_score": null,
+    "data_coverage": 0
   },
   {
     "slug": "ichiran",
