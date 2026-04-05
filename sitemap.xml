@@ -269,8 +269,6 @@
   <url><loc>https://arshe-corp.com/fc/repark.html</loc><lastmod>2026-04-05</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://arshe-corp.com/fc/reraku.html</loc><lastmod>2026-04-05</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://arshe-corp.com/fc/ringer-hut.html</loc><lastmod>2026-04-05</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://arshe-corp.com/fc/route-inn.html</loc><lastmod>2026-04-05</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://arshe-corp.com/fc/royal-host.html</loc><lastmod>2026-04-05</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://arshe-corp.com/fc/saint-care.html</loc><lastmod>2026-04-05</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://arshe-corp.com/fc/sakimoto.html</loc><lastmod>2026-04-05</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://arshe-corp.com/fc/sakura-heiando.html</loc><lastmod>2026-04-05</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -300,7 +298,6 @@
   <url><loc>https://arshe-corp.com/fc/strawberry-cones.html</loc><lastmod>2026-04-05</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://arshe-corp.com/fc/studio-mario.html</loc><lastmod>2026-04-05</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://arshe-corp.com/fc/subway.html</loc><lastmod>2026-04-05</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://arshe-corp.com/fc/sugi-drug.html</loc><lastmod>2026-04-05</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://arshe-corp.com/fc/sumaho-dock24.html</loc><lastmod>2026-04-05</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://arshe-corp.com/fc/super-cargo.html</loc><lastmod>2026-04-05</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://arshe-corp.com/fc/super-hotel.html</loc><lastmod>2026-04-05</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -465,7 +462,9 @@
   <url><loc>https://arshe-corp.com/fc/quraz.html</loc><lastmod>2026-04-05</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://arshe-corp.com/fc/qureo.html</loc><lastmod>2026-04-05</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://arshe-corp.com/fc/rizap.html</loc><lastmod>2026-04-05</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://arshe-corp.com/fc/route-inn.html</loc><lastmod>2026-04-05</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://arshe-corp.com/fc/royal-homac.html</loc><lastmod>2026-04-05</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://arshe-corp.com/fc/royal-host.html</loc><lastmod>2026-04-05</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://arshe-corp.com/fc/sagawa.html</loc><lastmod>2026-04-05</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://arshe-corp.com/fc/saint-marc-cafe.html</loc><lastmod>2026-04-05</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://arshe-corp.com/fc/saizeriya.html</loc><lastmod>2026-04-05</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -481,6 +480,7 @@
   <url><loc>https://arshe-corp.com/fc/shimamura.html</loc><lastmod>2026-04-05</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://arshe-corp.com/fc/steak-gusto.html</loc><lastmod>2026-04-05</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://arshe-corp.com/fc/stlassh.html</loc><lastmod>2026-04-05</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://arshe-corp.com/fc/sugi-drug.html</loc><lastmod>2026-04-05</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://arshe-corp.com/fc/sugi-pharmacy.html</loc><lastmod>2026-04-05</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://arshe-corp.com/fc/sumitomo-real-estate.html</loc><lastmod>2026-04-05</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://arshe-corp.com/fc/sushizanmai.html</loc><lastmod>2026-04-05</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
