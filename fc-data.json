@@ -10,10 +10,10 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 59.3,
-    "rank": "B",
+    "total_score": 67.3,
+    "rank": "A",
     "fact_score": null,
-    "insight_score": 59.3,
+    "insight_score": 67.3,
     "data_coverage": 44
   },
   {
@@ -27,11 +27,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 54.9,
+    "rank": "B",
+    "fact_score": 59.2,
+    "insight_score": 50.5,
+    "data_coverage": 56
   },
   {
     "slug": "31ice",
@@ -61,11 +61,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 54.0,
+    "rank": "B",
+    "fact_score": 57.4,
+    "insight_score": 50.6,
+    "data_coverage": 50
   },
   {
     "slug": "able",
@@ -95,11 +95,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 58.6,
+    "total_score": 64.2,
     "rank": "B",
-    "fact_score": 56.8,
-    "insight_score": 60.5,
-    "data_coverage": 50
+    "fact_score": 76.4,
+    "insight_score": 51.9,
+    "data_coverage": 56
   },
   {
     "slug": "aeon",
@@ -116,7 +116,7 @@
     "rank": "?",
     "fact_score": null,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 33
   },
   {
     "slug": "agu-hair",
@@ -146,11 +146,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
+    "total_score": 64.1,
+    "rank": "B",
+    "fact_score": 64.1,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 61
   },
   {
     "slug": "aisapo",
@@ -163,11 +163,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 78.5,
+    "total_score": 71.7,
     "rank": "A",
-    "fact_score": 78.5,
-    "insight_score": null,
-    "data_coverage": 50
+    "fact_score": 68.6,
+    "insight_score": 74.7,
+    "data_coverage": 61
   },
   {
     "slug": "akabou",
@@ -197,11 +197,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 50.6,
+    "total_score": 62.4,
     "rank": "B",
-    "fact_score": 48.4,
-    "insight_score": 52.8,
-    "data_coverage": 67
+    "fact_score": 76.2,
+    "insight_score": 48.5,
+    "data_coverage": 56
   },
   {
     "slug": "amazon-dsp",
@@ -231,11 +231,11 @@
     "jfa": "不明",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 54.5,
-    "rank": "B",
-    "fact_score": 54.5,
+    "total_score": 84.5,
+    "rank": "S",
+    "fact_score": 84.5,
     "insight_score": null,
-    "data_coverage": 39
+    "data_coverage": 44
   },
   {
     "slug": "anytime-fitness",
@@ -265,11 +265,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 35.4,
-    "rank": "C",
-    "fact_score": 35.4,
+    "total_score": 77.6,
+    "rank": "A",
+    "fact_score": 77.6,
     "insight_score": null,
-    "data_coverage": 33
+    "data_coverage": 50
   },
   {
     "slug": "apaman",
@@ -333,11 +333,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 47.3,
-    "rank": "C",
-    "fact_score": 47.3,
-    "insight_score": null,
-    "data_coverage": 39
+    "total_score": 58.7,
+    "rank": "B",
+    "fact_score": 76.9,
+    "insight_score": 40.5,
+    "data_coverage": 50
   },
   {
     "slug": "aqua-bank",
@@ -350,11 +350,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 68.2,
-    "rank": "A",
-    "fact_score": null,
-    "insight_score": 68.2,
-    "data_coverage": 33
+    "total_score": 91.4,
+    "rank": "S",
+    "fact_score": 91.4,
+    "insight_score": null,
+    "data_coverage": 44
   },
   {
     "slug": "aqura-home",
@@ -367,11 +367,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 64.1,
+    "total_score": 64.5,
     "rank": "B",
-    "fact_score": 64.1,
-    "insight_score": null,
-    "data_coverage": 44
+    "fact_score": 79.4,
+    "insight_score": 49.6,
+    "data_coverage": 56
   },
   {
     "slug": "art-hikkoshi",
@@ -401,11 +401,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
+    "total_score": 43.2,
+    "rank": "C",
     "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "insight_score": 43.2,
+    "data_coverage": 33
   },
   {
     "slug": "asakuma",
@@ -418,11 +418,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 52.0,
+    "rank": "B",
+    "fact_score": 68.0,
+    "insight_score": 36.0,
+    "data_coverage": 56
   },
   {
     "slug": "ash",
@@ -469,11 +469,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 67.8,
+    "total_score": 74.7,
     "rank": "A",
-    "fact_score": 70.4,
-    "insight_score": 65.2,
-    "data_coverage": 61
+    "fact_score": 85.6,
+    "insight_score": 63.7,
+    "data_coverage": 56
   },
   {
     "slug": "autobacs",
@@ -605,10 +605,10 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 83.8,
-    "rank": "S",
-    "fact_score": 83.8,
-    "insight_score": null,
+    "total_score": 70.6,
+    "rank": "A",
+    "fact_score": 88.1,
+    "insight_score": 53.1,
     "data_coverage": 50
   },
   {
@@ -639,11 +639,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 78.4,
+    "rank": "A",
+    "fact_score": 94.1,
+    "insight_score": 62.7,
+    "data_coverage": 61
   },
   {
     "slug": "bic-camera",
@@ -656,11 +656,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
+    "total_score": 54.1,
+    "rank": "B",
     "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "insight_score": 54.1,
+    "data_coverage": 39
   },
   {
     "slug": "big-echo",
@@ -809,11 +809,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 60.1,
+    "rank": "B",
+    "fact_score": 65.5,
+    "insight_score": 54.7,
+    "data_coverage": 72
   },
   {
     "slug": "brandear",
@@ -843,11 +843,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 70.3,
+    "rank": "A",
+    "fact_score": 75.2,
+    "insight_score": 65.5,
+    "data_coverage": 61
   },
   {
     "slug": "bronco-billy",
@@ -860,11 +860,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 50.3,
-    "rank": "B",
-    "fact_score": 50.3,
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
     "insight_score": null,
-    "data_coverage": 50
+    "data_coverage": 44
   },
   {
     "slug": "burger-king",
@@ -877,9 +877,9 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 33.5,
-    "rank": "D",
-    "fact_score": 33.5,
+    "total_score": 40.5,
+    "rank": "C",
+    "fact_score": 40.5,
     "insight_score": null,
     "data_coverage": 56
   },
@@ -928,11 +928,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 54.7,
+    "rank": "B",
+    "fact_score": 67.8,
+    "insight_score": 41.6,
+    "data_coverage": 67
   },
   {
     "slug": "car-convini",
@@ -950,23 +950,6 @@
     "fact_score": 58.8,
     "insight_score": null,
     "data_coverage": 44
-  },
-  {
-    "slug": "car-seven",
-    "name": "カーセブン",
-    "category": "自動車・レンタカー",
-    "initial_investment": "約5,000万円",
-    "stores": "160店舗（2023〜2025年）",
-    "store_trend": "不明",
-    "recruit_status": "募集中",
-    "jfa": "加盟",
-    "warning": "",
-    "collection_date": "2026-04-05",
-    "total_score": 51.9,
-    "rank": "B",
-    "fact_score": 51.9,
-    "insight_score": null,
-    "data_coverage": 33
   },
   {
     "slug": "care-partner",
@@ -1013,11 +996,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 28
+    "total_score": 50.2,
+    "rank": "B",
+    "fact_score": 66.9,
+    "insight_score": 33.5,
+    "data_coverage": 56
   },
   {
     "slug": "chateraise",
@@ -1047,10 +1030,10 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 65.0,
-    "rank": "A",
-    "fact_score": 64.8,
-    "insight_score": 65.2,
+    "total_score": 58.9,
+    "rank": "B",
+    "fact_score": 65.2,
+    "insight_score": 52.5,
     "data_coverage": 56
   },
   {
@@ -1064,11 +1047,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
+    "total_score": 58.2,
+    "rank": "B",
+    "fact_score": 58.2,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 50
   },
   {
     "slug": "choushimaru",
@@ -1098,11 +1081,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
+    "total_score": 28.1,
+    "rank": "D",
     "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "insight_score": 28.1,
+    "data_coverage": 39
   },
   {
     "slug": "coco-ichibanya",
@@ -1149,11 +1132,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 70.4,
+    "rank": "A",
+    "fact_score": 79.7,
+    "insight_score": 61.1,
+    "data_coverage": 67
   },
   {
     "slug": "coo-riku",
@@ -1166,11 +1149,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 53.1,
-    "rank": "B",
-    "fact_score": 53.1,
-    "insight_score": null,
-    "data_coverage": 44
+    "total_score": 46.1,
+    "rank": "C",
+    "fact_score": 55.4,
+    "insight_score": 36.9,
+    "data_coverage": 50
   },
   {
     "slug": "copain-house",
@@ -1183,11 +1166,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 69.3,
-    "rank": "A",
-    "fact_score": 69.3,
-    "insight_score": null,
-    "data_coverage": 39
+    "total_score": 61.7,
+    "rank": "B",
+    "fact_score": 59.9,
+    "insight_score": 63.5,
+    "data_coverage": 50
   },
   {
     "slug": "cosmos",
@@ -1204,7 +1187,7 @@
     "rank": "?",
     "fact_score": null,
     "insight_score": null,
-    "data_coverage": 22
+    "data_coverage": 33
   },
   {
     "slug": "costco",
@@ -1221,7 +1204,7 @@
     "rank": "?",
     "fact_score": null,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 39
   },
   {
     "slug": "coverall",
@@ -1336,10 +1319,10 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 66.7,
-    "rank": "A",
-    "fact_score": 66.7,
-    "insight_score": null,
+    "total_score": 54.5,
+    "rank": "B",
+    "fact_score": 74.6,
+    "insight_score": 34.4,
     "data_coverage": 56
   },
   {
@@ -1353,11 +1336,11 @@
     "jfa": "不明",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 52.6,
-    "rank": "B",
-    "fact_score": 48.6,
-    "insight_score": 56.6,
-    "data_coverage": 56
+    "total_score": 48.1,
+    "rank": "C",
+    "fact_score": 48.1,
+    "insight_score": null,
+    "data_coverage": 50
   },
   {
     "slug": "danran-no-ie",
@@ -1425,7 +1408,7 @@
     "rank": "?",
     "fact_score": null,
     "insight_score": null,
-    "data_coverage": 28
+    "data_coverage": 39
   },
   {
     "slug": "deno-tantan",
@@ -1438,11 +1421,11 @@
     "jfa": "不明",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 48.3,
+    "rank": "C",
+    "fact_score": 53.4,
+    "insight_score": 43.3,
+    "data_coverage": 56
   },
   {
     "slug": "dominos-pizza",
@@ -1472,11 +1455,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
+    "total_score": 78.7,
+    "rank": "A",
+    "fact_score": 78.7,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 44
   },
   {
     "slug": "dorakids",
@@ -1506,11 +1489,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 52.9,
+    "total_score": 64.3,
     "rank": "B",
-    "fact_score": 52.9,
+    "fact_score": 64.3,
     "insight_score": null,
-    "data_coverage": 33
+    "data_coverage": 39
   },
   {
     "slug": "doutor-coffee",
@@ -1523,11 +1506,11 @@
     "jfa": "不明",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 61.5,
-    "rank": "B",
-    "fact_score": 78.7,
-    "insight_score": 44.2,
-    "data_coverage": 56
+    "total_score": 49.3,
+    "rank": "C",
+    "fact_score": null,
+    "insight_score": 49.3,
+    "data_coverage": 44
   },
   {
     "slug": "doutor",
@@ -1591,11 +1574,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 63.8,
+    "rank": "B",
+    "fact_score": 72.0,
+    "insight_score": 55.5,
+    "data_coverage": 67
   },
   {
     "slug": "e-heya-net",
@@ -1608,10 +1591,10 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 74.0,
+    "total_score": 66.6,
     "rank": "A",
-    "fact_score": 74.0,
-    "insight_score": null,
+    "fact_score": 77.1,
+    "insight_score": 56.1,
     "data_coverage": 61
   },
   {
@@ -1625,11 +1608,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 79.0,
-    "rank": "A",
-    "fact_score": 79.0,
-    "insight_score": null,
-    "data_coverage": 44
+    "total_score": 63.5,
+    "rank": "B",
+    "fact_score": 77.0,
+    "insight_score": 50.0,
+    "data_coverage": 50
   },
   {
     "slug": "ecc-junior",
@@ -1642,11 +1625,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 88.8,
-    "rank": "S",
-    "fact_score": 88.8,
-    "insight_score": null,
-    "data_coverage": 50
+    "total_score": 67.5,
+    "rank": "A",
+    "fact_score": 64.0,
+    "insight_score": 71.1,
+    "data_coverage": 56
   },
   {
     "slug": "ecc",
@@ -1693,11 +1676,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
+    "total_score": 68.7,
+    "rank": "A",
+    "fact_score": 68.7,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 56
   },
   {
     "slug": "eggsnthings",
@@ -1727,9 +1710,9 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 63.2,
-    "rank": "B",
-    "fact_score": 63.2,
+    "total_score": 69.2,
+    "rank": "A",
+    "fact_score": 69.2,
     "insight_score": null,
     "data_coverage": 44
   },
@@ -1812,11 +1795,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 47.6,
-    "rank": "C",
-    "fact_score": 47.6,
-    "insight_score": null,
-    "data_coverage": 44
+    "total_score": 76.6,
+    "rank": "A",
+    "fact_score": 76.0,
+    "insight_score": 77.2,
+    "data_coverage": 50
   },
   {
     "slug": "fit365",
@@ -1863,11 +1846,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 62.7,
-    "rank": "B",
-    "fact_score": 62.7,
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
     "insight_score": null,
-    "data_coverage": 50
+    "data_coverage": 44
   },
   {
     "slug": "fujisoba",
@@ -1982,11 +1965,11 @@
     "jfa": "不明",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 54.8,
-    "rank": "B",
-    "fact_score": 54.8,
+    "total_score": 48.2,
+    "rank": "C",
+    "fact_score": 48.2,
     "insight_score": null,
-    "data_coverage": 56
+    "data_coverage": 50
   },
   {
     "slug": "gin-no-sara",
@@ -2016,11 +1999,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 49.2,
+    "rank": "C",
+    "fact_score": 65.8,
+    "insight_score": 32.6,
+    "data_coverage": 61
   },
   {
     "slug": "gindaco",
@@ -2084,11 +2067,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 55.0,
+    "rank": "B",
+    "fact_score": 68.2,
+    "insight_score": 41.8,
+    "data_coverage": 56
   },
   {
     "slug": "gold-gym",
@@ -2101,11 +2084,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 32.3,
-    "rank": "D",
-    "fact_score": 32.3,
-    "insight_score": null,
-    "data_coverage": 33
+    "total_score": 35.6,
+    "rank": "C",
+    "fact_score": 43.4,
+    "insight_score": 27.8,
+    "data_coverage": 56
   },
   {
     "slug": "golf-do",
@@ -2118,11 +2101,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 41.4,
-    "rank": "C",
-    "fact_score": 46.3,
-    "insight_score": 36.5,
-    "data_coverage": 56
+    "total_score": 67.8,
+    "rank": "A",
+    "fact_score": 66.0,
+    "insight_score": 69.5,
+    "data_coverage": 67
   },
   {
     "slug": "golf-partner",
@@ -2186,11 +2169,11 @@
     "jfa": "不明",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 66.5,
+    "rank": "A",
+    "fact_score": 80.6,
+    "insight_score": 52.4,
+    "data_coverage": 56
   },
   {
     "slug": "gyoza-yukimatsu",
@@ -2203,11 +2186,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 69.2,
+    "rank": "A",
+    "fact_score": 71.7,
+    "insight_score": 66.7,
+    "data_coverage": 50
   },
   {
     "slug": "gyukaku",
@@ -2220,11 +2203,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 49.3,
-    "rank": "C",
-    "fact_score": 49.3,
-    "insight_score": null,
-    "data_coverage": 50
+    "total_score": 57.0,
+    "rank": "B",
+    "fact_score": 55.0,
+    "insight_score": 58.9,
+    "data_coverage": 61
   },
   {
     "slug": "hachiban-ramen",
@@ -2322,11 +2305,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 54.0,
+    "total_score": 63.9,
     "rank": "B",
-    "fact_score": 54.0,
-    "insight_score": null,
-    "data_coverage": 50
+    "fact_score": 67.6,
+    "insight_score": 60.2,
+    "data_coverage": 56
   },
   {
     "slug": "hananomai",
@@ -2390,11 +2373,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 49.0,
+    "rank": "C",
+    "fact_score": 71.0,
+    "insight_score": 26.9,
+    "data_coverage": 61
   },
   {
     "slug": "hardoff",
@@ -2407,11 +2390,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 35.2,
+    "total_score": 48.3,
     "rank": "C",
-    "fact_score": 33.5,
-    "insight_score": 36.9,
-    "data_coverage": 56
+    "fact_score": 66.0,
+    "insight_score": 30.6,
+    "data_coverage": 67
   },
   {
     "slug": "hattendo",
@@ -2428,7 +2411,7 @@
     "rank": "?",
     "fact_score": null,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 28
   },
   {
     "slug": "headmint",
@@ -2492,11 +2475,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 62.5,
+    "total_score": 61.0,
     "rank": "B",
-    "fact_score": 73.1,
+    "fact_score": 70.1,
     "insight_score": 51.9,
-    "data_coverage": 50
+    "data_coverage": 56
   },
   {
     "slug": "hikari-food",
@@ -2509,11 +2492,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 56.7,
+    "total_score": 62.2,
     "rank": "B",
-    "fact_score": null,
-    "insight_score": 56.7,
-    "data_coverage": 56
+    "fact_score": 66.4,
+    "insight_score": 58.1,
+    "data_coverage": 67
   },
   {
     "slug": "hinoya-curry",
@@ -2526,11 +2509,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 67.2,
+    "rank": "A",
+    "fact_score": 85.6,
+    "insight_score": 48.8,
+    "data_coverage": 56
   },
   {
     "slug": "hoken-madoguchi",
@@ -2560,11 +2543,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 83.2,
-    "rank": "S",
-    "fact_score": 83.2,
+    "total_score": 75.1,
+    "rank": "A",
+    "fact_score": 75.1,
     "insight_score": null,
-    "data_coverage": 39
+    "data_coverage": 61
   },
   {
     "slug": "hokkahokka-tei",
@@ -2594,11 +2577,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 58.9,
+    "rank": "B",
+    "fact_score": 68.0,
+    "insight_score": 49.8,
+    "data_coverage": 72
   },
   {
     "slug": "honke-kamadoya",
@@ -2662,10 +2645,10 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 72.2,
+    "total_score": 79.6,
     "rank": "A",
-    "fact_score": 72.2,
-    "insight_score": null,
+    "fact_score": null,
+    "insight_score": 79.6,
     "data_coverage": 50
   },
   {
@@ -2696,10 +2679,10 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 70.2,
+    "total_score": 65.6,
     "rank": "A",
-    "fact_score": 70.2,
-    "insight_score": null,
+    "fact_score": 74.6,
+    "insight_score": 56.6,
     "data_coverage": 56
   },
   {
@@ -2713,9 +2696,9 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 69.3,
-    "rank": "A",
-    "fact_score": 69.3,
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
     "insight_score": null,
     "data_coverage": 44
   },
@@ -2781,11 +2764,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 52.4,
+    "rank": "B",
+    "fact_score": 54.5,
+    "insight_score": 50.2,
+    "data_coverage": 50
   },
   {
     "slug": "ikinari-steak",
@@ -2798,11 +2781,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 46.3,
+    "total_score": 45.4,
     "rank": "C",
-    "fact_score": 46.3,
-    "insight_score": null,
-    "data_coverage": 44
+    "fact_score": 64.1,
+    "insight_score": 26.8,
+    "data_coverage": 61
   },
   {
     "slug": "ikkakuya",
@@ -2815,10 +2798,10 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 66.9,
-    "rank": "A",
-    "fact_score": 74.3,
-    "insight_score": 59.5,
+    "total_score": 83.0,
+    "rank": "S",
+    "fact_score": 82.9,
+    "insight_score": 83.0,
     "data_coverage": 61
   },
   {
@@ -2832,11 +2815,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 67.8,
+    "rank": "A",
+    "fact_score": 70.4,
+    "insight_score": 65.1,
+    "data_coverage": 67
   },
   {
     "slug": "ippudo",
@@ -2849,9 +2832,9 @@
     "jfa": "不明",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 32.7,
-    "rank": "D",
-    "fact_score": 32.7,
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
     "insight_score": null,
     "data_coverage": 44
   },
@@ -2866,11 +2849,11 @@
     "jfa": "不明",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 41.9,
+    "rank": "C",
+    "fact_score": 60.0,
+    "insight_score": 23.7,
+    "data_coverage": 50
   },
   {
     "slug": "italian-tomato",
@@ -2883,10 +2866,10 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 61.3,
+    "total_score": 57.5,
     "rank": "B",
-    "fact_score": 57.4,
-    "insight_score": 65.2,
+    "fact_score": 66.4,
+    "insight_score": 48.5,
     "data_coverage": 61
   },
   {
@@ -2900,10 +2883,10 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 46.7,
-    "rank": "C",
+    "total_score": null,
+    "rank": "?",
     "fact_score": null,
-    "insight_score": 46.7,
+    "insight_score": null,
     "data_coverage": 39
   },
   {
@@ -2917,11 +2900,11 @@
     "jfa": "不明",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
+    "total_score": 43.9,
+    "rank": "C",
+    "fact_score": 43.9,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 39
   },
   {
     "slug": "itto",
@@ -2934,11 +2917,11 @@
     "jfa": "不明",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 64.2,
+    "rank": "B",
+    "fact_score": 71.7,
+    "insight_score": 56.6,
+    "data_coverage": 56
   },
   {
     "slug": "iyashidokoro",
@@ -2985,10 +2968,10 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 64.2,
-    "rank": "B",
-    "fact_score": 78.9,
-    "insight_score": 49.4,
+    "total_score": 65.9,
+    "rank": "A",
+    "fact_score": 85.1,
+    "insight_score": 46.8,
     "data_coverage": 56
   },
   {
@@ -3002,10 +2985,10 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 70.8,
-    "rank": "A",
-    "fact_score": 87.0,
-    "insight_score": 54.5,
+    "total_score": 84.0,
+    "rank": "S",
+    "fact_score": 96.4,
+    "insight_score": 71.6,
     "data_coverage": 61
   },
   {
@@ -3036,11 +3019,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
+    "total_score": 50.6,
+    "rank": "B",
     "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "insight_score": 50.6,
+    "data_coverage": 33
   },
   {
     "slug": "jiro-futon",
@@ -3070,11 +3053,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 39.5,
+    "rank": "C",
+    "fact_score": 50.9,
+    "insight_score": 28.1,
+    "data_coverage": 56
   },
   {
     "slug": "jonan-covettz",
@@ -3172,11 +3155,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 56.0,
+    "rank": "B",
+    "fact_score": 58.5,
+    "insight_score": 53.5,
+    "data_coverage": 61
   },
   {
     "slug": "kagetsu-arashi",
@@ -3189,11 +3172,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 58.0,
-    "rank": "B",
-    "fact_score": 59.3,
-    "insight_score": 56.6,
-    "data_coverage": 61
+    "total_score": 67.9,
+    "rank": "A",
+    "fact_score": 67.9,
+    "insight_score": null,
+    "data_coverage": 56
   },
   {
     "slug": "kairikiya",
@@ -3295,7 +3278,7 @@
     "rank": "?",
     "fact_score": null,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 44
   },
   {
     "slug": "kanazawaya",
@@ -3410,11 +3393,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 71.2,
-    "rank": "A",
-    "fact_score": 65.4,
-    "insight_score": 76.9,
-    "data_coverage": 50
+    "total_score": 49.3,
+    "rank": "C",
+    "fact_score": 58.3,
+    "insight_score": 40.3,
+    "data_coverage": 61
   },
   {
     "slug": "katagiri-juku",
@@ -3499,7 +3482,7 @@
     "rank": "?",
     "fact_score": null,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 33
   },
   {
     "slug": "keeper",
@@ -3563,11 +3546,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 48.7,
+    "rank": "C",
+    "fact_score": 69.3,
+    "insight_score": 28.1,
+    "data_coverage": 50
   },
   {
     "slug": "kfc",
@@ -3597,11 +3580,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 71.1,
-    "rank": "A",
-    "fact_score": 71.1,
+    "total_score": 84.1,
+    "rank": "S",
+    "fact_score": 84.1,
     "insight_score": null,
-    "data_coverage": 50
+    "data_coverage": 56
   },
   {
     "slug": "kids-duo",
@@ -3614,11 +3597,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 62.8,
+    "total_score": 56.6,
     "rank": "B",
-    "fact_score": 52.9,
-    "insight_score": 72.8,
-    "data_coverage": 56
+    "fact_score": null,
+    "insight_score": 56.6,
+    "data_coverage": 50
   },
   {
     "slug": "king-family",
@@ -3631,28 +3614,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 44.9,
-    "rank": "C",
-    "fact_score": 44.9,
-    "insight_score": null,
-    "data_coverage": 56
-  },
-  {
-    "slug": "kobac",
-    "name": "車検のコバック",
-    "category": "自動車・レンタカー",
-    "initial_investment": "5,000万円",
-    "stores": "540",
-    "store_trend": "→ 横ばい",
-    "recruit_status": "募集中",
-    "jfa": "不明",
-    "warning": "",
-    "collection_date": "2026-04-04",
-    "total_score": 48.8,
-    "rank": "C",
-    "fact_score": 48.8,
-    "insight_score": null,
-    "data_coverage": 44
+    "total_score": 58.1,
+    "rank": "B",
+    "fact_score": null,
+    "insight_score": 58.1,
+    "data_coverage": 61
   },
   {
     "slug": "kohnan",
@@ -3665,11 +3631,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
+    "total_score": 47.9,
+    "rank": "C",
     "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 39
+    "insight_score": 47.9,
+    "data_coverage": 44
   },
   {
     "slug": "komeda-coffee",
@@ -3733,11 +3699,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 50.9,
-    "rank": "B",
-    "fact_score": 50.9,
-    "insight_score": null,
-    "data_coverage": 50
+    "total_score": 46.0,
+    "rank": "C",
+    "fact_score": 61.4,
+    "insight_score": 30.6,
+    "data_coverage": 61
   },
   {
     "slug": "krispy-kreme",
@@ -3767,11 +3733,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 57.6,
+    "rank": "B",
+    "fact_score": 63.3,
+    "insight_score": 51.9,
+    "data_coverage": 50
   },
   {
     "slug": "kumon",
@@ -3784,11 +3750,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 63.2,
+    "rank": "B",
+    "fact_score": 74.6,
+    "insight_score": 51.9,
+    "data_coverage": 50
   },
   {
     "slug": "kuradashiya",
@@ -3801,11 +3767,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
+    "total_score": 53.1,
+    "rank": "B",
     "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "insight_score": 53.1,
+    "data_coverage": 50
   },
   {
     "slug": "kurazushi",
@@ -3818,11 +3784,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 66.7,
-    "rank": "A",
+    "total_score": 16.3,
+    "rank": "E",
     "fact_score": null,
-    "insight_score": 66.7,
-    "data_coverage": 44
+    "insight_score": 16.3,
+    "data_coverage": 50
   },
   {
     "slug": "kushikatsu-tanaka",
@@ -3835,11 +3801,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 52.9,
+    "total_score": 61.4,
     "rank": "B",
-    "fact_score": 52.9,
+    "fact_score": 61.4,
     "insight_score": null,
-    "data_coverage": 50
+    "data_coverage": 56
   },
   {
     "slug": "kutsu-senka",
@@ -3869,11 +3835,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 69.1,
-    "rank": "A",
-    "fact_score": 61.3,
-    "insight_score": 76.9,
-    "data_coverage": 56
+    "total_score": 44.9,
+    "rank": "C",
+    "fact_score": 56.0,
+    "insight_score": 33.8,
+    "data_coverage": 61
   },
   {
     "slug": "kyoshin",
@@ -3891,23 +3857,6 @@
     "fact_score": 62.4,
     "insight_score": 50.6,
     "data_coverage": 61
-  },
-  {
-    "slug": "laundry-depot",
-    "name": "ランドリーデポ (Laundry Depot)",
-    "category": "その他サービス",
-    "initial_investment": "約3,000万円～4,500万円",
-    "stores": "100",
-    "store_trend": "不明",
-    "recruit_status": "募集中",
-    "jfa": "不明",
-    "warning": "",
-    "collection_date": "2026-04-04",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
   },
   {
     "slug": "lava",
@@ -3988,11 +3937,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
+    "total_score": 79.5,
+    "rank": "A",
+    "fact_score": 79.5,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 39
   },
   {
     "slug": "loft",
@@ -4005,11 +3954,11 @@
     "jfa": "不明",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
+    "total_score": 70.8,
+    "rank": "A",
+    "fact_score": 70.8,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 44
   },
   {
     "slug": "logiquest",
@@ -4043,7 +3992,7 @@
     "rank": "?",
     "fact_score": null,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 39
   },
   {
     "slug": "lorraine-brow",
@@ -4056,11 +4005,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 51.8,
+    "total_score": 57.3,
     "rank": "B",
     "fact_score": 51.8,
-    "insight_score": null,
-    "data_coverage": 56
+    "insight_score": 62.8,
+    "data_coverage": 61
   },
   {
     "slug": "lotteria",
@@ -4073,11 +4022,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 50.0,
-    "rank": "B",
-    "fact_score": 50.0,
+    "total_score": 77.4,
+    "rank": "A",
+    "fact_score": 77.4,
     "insight_score": null,
-    "data_coverage": 50
+    "data_coverage": 44
   },
   {
     "slug": "machida-shoten",
@@ -4124,11 +4073,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
+    "total_score": 53.2,
+    "rank": "B",
     "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 17
+    "insight_score": 53.2,
+    "data_coverage": 44
   },
   {
     "slug": "maido-ookini",
@@ -4162,7 +4111,7 @@
     "rank": "?",
     "fact_score": null,
     "insight_score": null,
-    "data_coverage": 6
+    "data_coverage": 33
   },
   {
     "slug": "makizume-hosei",
@@ -4192,11 +4141,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
+    "total_score": 68.3,
+    "rank": "A",
+    "fact_score": 68.3,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 61
   },
   {
     "slug": "mammaciao",
@@ -4226,11 +4175,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 50.2,
-    "rank": "B",
+    "total_score": null,
+    "rank": "?",
     "fact_score": null,
-    "insight_score": 50.2,
-    "data_coverage": 39
+    "insight_score": null,
+    "data_coverage": 44
   },
   {
     "slug": "manga-souko",
@@ -4243,11 +4192,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 64.7,
+    "total_score": 53.4,
     "rank": "B",
-    "fact_score": 64.7,
-    "insight_score": null,
-    "data_coverage": 39
+    "fact_score": 63.9,
+    "insight_score": 42.9,
+    "data_coverage": 61
   },
   {
     "slug": "mango-tree",
@@ -4260,11 +4209,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
+    "total_score": 63.0,
+    "rank": "B",
+    "fact_score": 63.0,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 44
   },
   {
     "slug": "marugen-ramen",
@@ -4294,11 +4243,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 17
+    "total_score": 60.7,
+    "rank": "B",
+    "fact_score": 68.3,
+    "insight_score": 53.1,
+    "data_coverage": 56
   },
   {
     "slug": "matsuya",
@@ -4345,11 +4294,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
+    "total_score": 66.7,
+    "rank": "A",
     "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 39
+    "insight_score": 66.7,
+    "data_coverage": 56
   },
   {
     "slug": "meiko-gijuku",
@@ -4379,11 +4328,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 65.7,
+    "rank": "A",
+    "fact_score": 77.7,
+    "insight_score": 53.7,
+    "data_coverage": 67
   },
   {
     "slug": "meikogijuku",
@@ -4532,11 +4481,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 38.1,
-    "rank": "C",
-    "fact_score": 38.1,
-    "insight_score": null,
-    "data_coverage": 44
+    "total_score": 62.0,
+    "rank": "B",
+    "fact_score": 67.5,
+    "insight_score": 56.6,
+    "data_coverage": 61
   },
   {
     "slug": "mos",
@@ -4566,11 +4515,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 54.2,
+    "rank": "B",
+    "fact_score": 66.4,
+    "insight_score": 42.0,
+    "data_coverage": 56
   },
   {
     "slug": "musashino-mori-coffee",
@@ -4600,11 +4549,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
+    "total_score": 62.9,
+    "rank": "B",
+    "fact_score": 62.9,
     "insight_score": null,
-    "data_coverage": 28
+    "data_coverage": 44
   },
   {
     "slug": "musubell",
@@ -4617,11 +4566,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
+    "total_score": 84.3,
+    "rank": "S",
+    "fact_score": 84.3,
     "insight_score": null,
-    "data_coverage": 28
+    "data_coverage": 50
   },
   {
     "slug": "mypl",
@@ -4634,11 +4583,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 66.4,
-    "rank": "A",
-    "fact_score": 66.4,
-    "insight_score": null,
-    "data_coverage": 44
+    "total_score": 59.0,
+    "rank": "B",
+    "fact_score": 70.2,
+    "insight_score": 47.9,
+    "data_coverage": 61
   },
   {
     "slug": "nakau",
@@ -4719,11 +4668,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 59.2,
+    "rank": "B",
+    "fact_score": 75.4,
+    "insight_score": 42.9,
+    "data_coverage": 67
   },
   {
     "slug": "net-off",
@@ -4736,10 +4685,10 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 74.8,
-    "rank": "A",
-    "fact_score": 85.0,
-    "insight_score": 64.6,
+    "total_score": 81.8,
+    "rank": "S",
+    "fact_score": 94.1,
+    "insight_score": 69.6,
     "data_coverage": 61
   },
   {
@@ -4753,11 +4702,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 39.3,
-    "rank": "C",
-    "fact_score": 39.3,
+    "total_score": 79.7,
+    "rank": "A",
+    "fact_score": 79.7,
     "insight_score": null,
-    "data_coverage": 33
+    "data_coverage": 50
   },
   {
     "slug": "nhk-culture",
@@ -4770,11 +4719,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
+    "total_score": 95.6,
+    "rank": "S",
+    "fact_score": 95.6,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 44
   },
   {
     "slug": "nichiigakkan",
@@ -4821,11 +4770,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 60.4,
-    "rank": "B",
-    "fact_score": 56.0,
-    "insight_score": 64.8,
-    "data_coverage": 50
+    "total_score": 79.7,
+    "rank": "A",
+    "fact_score": 79.7,
+    "insight_score": null,
+    "data_coverage": 56
   },
   {
     "slug": "nikoniko-rentacar",
@@ -4855,11 +4804,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
+    "total_score": 47.5,
+    "rank": "C",
     "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "insight_score": 47.5,
+    "data_coverage": 39
   },
   {
     "slug": "nishimatsuya",
@@ -4872,11 +4821,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
+    "total_score": 32.6,
+    "rank": "D",
     "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "insight_score": 32.6,
+    "data_coverage": 44
   },
   {
     "slug": "nitori",
@@ -4889,11 +4838,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 55.3,
+    "rank": "B",
+    "fact_score": 54.0,
+    "insight_score": 56.6,
+    "data_coverage": 56
   },
   {
     "slug": "o-net",
@@ -4910,7 +4859,7 @@
     "rank": "?",
     "fact_score": null,
     "insight_score": null,
-    "data_coverage": 33
+    "data_coverage": 39
   },
   {
     "slug": "oa-land",
@@ -4940,11 +4889,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 57.7,
+    "rank": "B",
+    "fact_score": 74.6,
+    "insight_score": 40.8,
+    "data_coverage": 50
   },
   {
     "slug": "ok-store",
@@ -4961,7 +4910,7 @@
     "rank": "?",
     "fact_score": null,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 33
   },
   {
     "slug": "okome-mujin",
@@ -4974,11 +4923,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 64.2,
+    "rank": "B",
+    "fact_score": 68.5,
+    "insight_score": 60.0,
+    "data_coverage": 67
   },
   {
     "slug": "on-cleaning",
@@ -5008,11 +4957,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 52.7,
-    "rank": "B",
-    "fact_score": 52.7,
-    "insight_score": null,
-    "data_coverage": 56
+    "total_score": 44.8,
+    "rank": "C",
+    "fact_score": 61.7,
+    "insight_score": 27.9,
+    "data_coverage": 61
   },
   {
     "slug": "openhouse",
@@ -5025,11 +4974,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
+    "total_score": 86.0,
+    "rank": "S",
+    "fact_score": 86.0,
     "insight_score": null,
-    "data_coverage": 33
+    "data_coverage": 39
   },
   {
     "slug": "origin",
@@ -5127,11 +5076,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 59.1,
-    "rank": "B",
-    "fact_score": 67.6,
-    "insight_score": 50.6,
-    "data_coverage": 61
+    "total_score": 70.4,
+    "rank": "A",
+    "fact_score": 70.4,
+    "insight_score": null,
+    "data_coverage": 50
   },
   {
     "slug": "osho",
@@ -5284,7 +5233,7 @@
     "rank": "?",
     "fact_score": null,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 33
   },
   {
     "slug": "partner-agent",
@@ -5314,11 +5263,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 49.6,
-    "rank": "C",
+    "total_score": null,
+    "rank": "?",
     "fact_score": null,
-    "insight_score": 49.6,
-    "data_coverage": 50
+    "insight_score": null,
+    "data_coverage": 39
   },
   {
     "slug": "pet-paradise",
@@ -5331,11 +5280,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 77.7,
-    "rank": "A",
-    "fact_score": 77.7,
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
     "insight_score": null,
-    "data_coverage": 33
+    "data_coverage": 39
   },
   {
     "slug": "pets-first",
@@ -5348,9 +5297,9 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 47.9,
-    "rank": "C",
-    "fact_score": 47.9,
+    "total_score": 57.1,
+    "rank": "B",
+    "fact_score": 57.1,
     "insight_score": null,
     "data_coverage": 50
   },
@@ -5416,10 +5365,10 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 60.8,
-    "rank": "B",
-    "fact_score": 56.4,
-    "insight_score": 65.2,
+    "total_score": 71.0,
+    "rank": "A",
+    "fact_score": 76.0,
+    "insight_score": 66.1,
     "data_coverage": 61
   },
   {
@@ -5450,11 +5399,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 64.7,
-    "rank": "B",
+    "total_score": 76.7,
+    "rank": "A",
     "fact_score": 78.7,
-    "insight_score": 50.6,
-    "data_coverage": 50
+    "insight_score": 74.6,
+    "data_coverage": 61
   },
   {
     "slug": "primero",
@@ -5467,11 +5416,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 63.5,
+    "rank": "B",
+    "fact_score": 71.0,
+    "insight_score": 55.9,
+    "data_coverage": 78
   },
   {
     "slug": "pronto",
@@ -5484,9 +5433,9 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 71.8,
+    "total_score": 66.8,
     "rank": "A",
-    "fact_score": 71.8,
+    "fact_score": 66.8,
     "insight_score": null,
     "data_coverage": 56
   },
@@ -5505,7 +5454,7 @@
     "rank": "?",
     "fact_score": null,
     "insight_score": null,
-    "data_coverage": 22
+    "data_coverage": 33
   },
   {
     "slug": "qureo",
@@ -5535,11 +5484,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 46.2,
-    "rank": "C",
-    "fact_score": 46.2,
+    "total_score": 69.8,
+    "rank": "A",
+    "fact_score": 69.8,
     "insight_score": null,
-    "data_coverage": 33
+    "data_coverage": 56
   },
   {
     "slug": "raffine",
@@ -5552,11 +5501,11 @@
     "jfa": "不明",
     "warning": "",
     "collection_date": "",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 28
+    "total_score": 54.9,
+    "rank": "B",
+    "fact_score": 53.2,
+    "insight_score": 56.6,
+    "data_coverage": 50
   },
   {
     "slug": "rairaitei",
@@ -5586,11 +5535,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 6
+    "total_score": 66.2,
+    "rank": "A",
+    "fact_score": 81.7,
+    "insight_score": 50.6,
+    "data_coverage": 50
   },
   {
     "slug": "record-book",
@@ -5620,11 +5569,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 66.7,
-    "rank": "A",
-    "fact_score": 66.7,
-    "insight_score": null,
-    "data_coverage": 50
+    "total_score": 61.9,
+    "rank": "B",
+    "fact_score": 75.9,
+    "insight_score": 47.9,
+    "data_coverage": 56
   },
   {
     "slug": "red",
@@ -5654,11 +5603,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 64.5,
-    "rank": "B",
-    "fact_score": 64.5,
+    "total_score": 70.7,
+    "rank": "A",
+    "fact_score": 70.7,
     "insight_score": null,
-    "data_coverage": 56
+    "data_coverage": 50
   },
   {
     "slug": "reha-pride",
@@ -5722,11 +5671,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 65.5,
-    "rank": "A",
-    "fact_score": 73.8,
-    "insight_score": 57.2,
-    "data_coverage": 61
+    "total_score": 83.2,
+    "rank": "S",
+    "fact_score": 83.2,
+    "insight_score": null,
+    "data_coverage": 50
   },
   {
     "slug": "renaissance",
@@ -5739,11 +5688,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
+    "total_score": 59.1,
+    "rank": "B",
+    "fact_score": 59.1,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 33
   },
   {
     "slug": "repark",
@@ -5756,11 +5705,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
+    "total_score": 85.7,
+    "rank": "S",
+    "fact_score": 85.7,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 33
   },
   {
     "slug": "reraku",
@@ -5841,11 +5790,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 48.3,
-    "rank": "C",
-    "fact_score": 58.3,
-    "insight_score": 38.3,
-    "data_coverage": 56
+    "total_score": 55.9,
+    "rank": "B",
+    "fact_score": 61.5,
+    "insight_score": 50.2,
+    "data_coverage": 50
   },
   {
     "slug": "route-inn",
@@ -5858,9 +5807,9 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 49.0,
-    "rank": "C",
-    "fact_score": 49.0,
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
     "insight_score": null,
     "data_coverage": 33
   },
@@ -5892,11 +5841,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 93.0,
+    "total_score": 89.8,
     "rank": "S",
-    "fact_score": 93.0,
+    "fact_score": 89.8,
     "insight_score": null,
-    "data_coverage": 44
+    "data_coverage": 50
   },
   {
     "slug": "saint-care",
@@ -5909,11 +5858,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 56.4,
-    "rank": "B",
-    "fact_score": 56.4,
-    "insight_score": null,
-    "data_coverage": 33
+    "total_score": 65.7,
+    "rank": "A",
+    "fact_score": 63.2,
+    "insight_score": 68.2,
+    "data_coverage": 61
   },
   {
     "slug": "saint-marc-cafe",
@@ -5926,11 +5875,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 55.3,
+    "total_score": 58.8,
     "rank": "B",
-    "fact_score": 55.3,
+    "fact_score": 58.8,
     "insight_score": null,
-    "data_coverage": 50
+    "data_coverage": 61
   },
   {
     "slug": "saint-marc",
@@ -6011,10 +5960,10 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 63.8,
+    "total_score": 60.5,
     "rank": "B",
-    "fact_score": 67.6,
-    "insight_score": 60.0,
+    "fact_score": 67.7,
+    "insight_score": 53.3,
     "data_coverage": 67
   },
   {
@@ -6028,10 +5977,10 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 60.1,
+    "total_score": 56.8,
     "rank": "B",
-    "fact_score": 66.1,
-    "insight_score": 54.1,
+    "fact_score": 70.2,
+    "insight_score": 43.4,
     "data_coverage": 56
   },
   {
@@ -6045,11 +5994,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
+    "total_score": 44.2,
+    "rank": "C",
     "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 33
+    "insight_score": 44.2,
+    "data_coverage": 44
   },
   {
     "slug": "sanikurin",
@@ -6062,11 +6011,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
+    "total_score": 45.1,
+    "rank": "C",
     "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "insight_score": 45.1,
+    "data_coverage": 50
   },
   {
     "slug": "sawa-honpo",
@@ -6113,11 +6062,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 62.5,
+    "total_score": 54.1,
     "rank": "B",
-    "fact_score": 66.8,
-    "insight_score": 58.3,
-    "data_coverage": 50
+    "fact_score": 69.1,
+    "insight_score": 39.1,
+    "data_coverage": 61
   },
   {
     "slug": "seicomart",
@@ -6130,11 +6079,11 @@
     "jfa": "不明",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 52.5,
-    "rank": "B",
-    "fact_score": 54.5,
-    "insight_score": 50.6,
-    "data_coverage": 61
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
+    "insight_score": null,
+    "data_coverage": 39
   },
   {
     "slug": "seiha",
@@ -6168,7 +6117,7 @@
     "rank": "?",
     "fact_score": null,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 39
   },
   {
     "slug": "seino",
@@ -6215,11 +6164,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 55.8,
+    "rank": "B",
+    "fact_score": 60.4,
+    "insight_score": 51.1,
+    "data_coverage": 72
   },
   {
     "slug": "selmo",
@@ -6249,11 +6198,11 @@
     "jfa": "不明",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 50.2,
+    "total_score": 55.5,
     "rank": "B",
-    "fact_score": null,
-    "insight_score": 50.2,
-    "data_coverage": 28
+    "fact_score": 55.5,
+    "insight_score": null,
+    "data_coverage": 50
   },
   {
     "slug": "seven-eleven",
@@ -6321,7 +6270,7 @@
     "rank": "?",
     "fact_score": null,
     "insight_score": null,
-    "data_coverage": 28
+    "data_coverage": 33
   },
   {
     "slug": "shimamura",
@@ -6334,11 +6283,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 58.3,
+    "rank": "B",
+    "fact_score": 71.1,
+    "insight_score": 45.5,
+    "data_coverage": 44
   },
   {
     "slug": "shinya-ramen",
@@ -6351,11 +6300,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 51.4,
+    "total_score": 57.2,
     "rank": "B",
-    "fact_score": 48.6,
-    "insight_score": 54.1,
-    "data_coverage": 67
+    "fact_score": 60.0,
+    "insight_score": 54.5,
+    "data_coverage": 61
   },
   {
     "slug": "shonan-beauty",
@@ -6368,11 +6317,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
+    "total_score": 62.3,
+    "rank": "B",
     "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "insight_score": 62.3,
+    "data_coverage": 56
   },
   {
     "slug": "shouin-juku",
@@ -6402,11 +6351,11 @@
     "jfa": "不明",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 57.9,
-    "rank": "B",
-    "fact_score": 57.9,
+    "total_score": 69.7,
+    "rank": "A",
+    "fact_score": 69.7,
     "insight_score": null,
-    "data_coverage": 50
+    "data_coverage": 56
   },
   {
     "slug": "shuei-id",
@@ -6470,11 +6419,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
+    "total_score": 57.7,
+    "rank": "B",
+    "fact_score": 57.7,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 61
   },
   {
     "slug": "sompo-care",
@@ -6504,11 +6453,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 55.7,
+    "rank": "B",
+    "fact_score": 78.7,
+    "insight_score": 32.6,
+    "data_coverage": 50
   },
   {
     "slug": "step-golf",
@@ -6542,7 +6491,7 @@
     "rank": "?",
     "fact_score": null,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 39
   },
   {
     "slug": "storage-king",
@@ -6644,7 +6593,7 @@
     "rank": "?",
     "fact_score": null,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 39
   },
   {
     "slug": "sumaho-dock24",
@@ -6691,11 +6640,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 22
+    "total_score": 68.6,
+    "rank": "A",
+    "fact_score": 70.4,
+    "insight_score": 66.7,
+    "data_coverage": 50
   },
   {
     "slug": "surugaya",
@@ -6725,11 +6674,11 @@
     "jfa": "不明",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
+    "total_score": 44.2,
+    "rank": "C",
+    "fact_score": 44.2,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 44
   },
   {
     "slug": "sushiro",
@@ -6759,11 +6708,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
+    "total_score": 29.6,
+    "rank": "D",
     "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 6
+    "insight_score": 29.6,
+    "data_coverage": 44
   },
   {
     "slug": "syurou-a",
@@ -6810,11 +6759,11 @@
     "jfa": "不明",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
+    "total_score": 76.7,
+    "rank": "A",
+    "fact_score": 76.7,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 56
   },
   {
     "slug": "taiyakan",
@@ -6827,11 +6776,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
+    "total_score": 86.9,
+    "rank": "S",
+    "fact_score": 86.9,
     "insight_score": null,
-    "data_coverage": 33
+    "data_coverage": 44
   },
   {
     "slug": "takano-yuri",
@@ -6848,7 +6797,7 @@
     "rank": "?",
     "fact_score": null,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 39
   },
   {
     "slug": "takeda-juku",
@@ -6895,11 +6844,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 48.4,
-    "rank": "C",
-    "fact_score": 48.4,
-    "insight_score": null,
-    "data_coverage": 33
+    "total_score": 56.6,
+    "rank": "B",
+    "fact_score": 61.8,
+    "insight_score": 51.5,
+    "data_coverage": 56
   },
   {
     "slug": "tbc",
@@ -6916,7 +6865,7 @@
     "rank": "?",
     "fact_score": null,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 39
   },
   {
     "slug": "temomin",
@@ -6946,11 +6895,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 54.5,
-    "rank": "B",
-    "fact_score": 54.5,
+    "total_score": 73.0,
+    "rank": "A",
+    "fact_score": 73.0,
     "insight_score": null,
-    "data_coverage": 50
+    "data_coverage": 56
   },
   {
     "slug": "tenya",
@@ -6997,9 +6946,9 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 68.6,
-    "rank": "A",
-    "fact_score": 68.6,
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
     "insight_score": null,
     "data_coverage": 39
   },
@@ -7014,11 +6963,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 56.6,
+    "rank": "B",
+    "fact_score": 86.9,
+    "insight_score": 26.2,
+    "data_coverage": 39
   },
   {
     "slug": "tokiwatei",
@@ -7048,11 +6997,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 61.8,
+    "rank": "B",
+    "fact_score": 66.9,
+    "insight_score": 56.6,
+    "data_coverage": 61
   },
   {
     "slug": "torikizoku",
@@ -7065,11 +7014,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 58.2,
+    "total_score": 59.8,
     "rank": "B",
-    "fact_score": 58.2,
+    "fact_score": 59.8,
     "insight_score": null,
-    "data_coverage": 50
+    "data_coverage": 61
   },
   {
     "slug": "torori-tenshi",
@@ -7116,11 +7065,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 48.1,
-    "rank": "C",
-    "fact_score": 48.1,
+    "total_score": 58.8,
+    "rank": "B",
+    "fact_score": 58.8,
     "insight_score": null,
-    "data_coverage": 33
+    "data_coverage": 44
   },
   {
     "slug": "toyota-rentacar",
@@ -7150,11 +7099,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 51.4,
+    "rank": "B",
+    "fact_score": 73.1,
+    "insight_score": 29.7,
+    "data_coverage": 61
   },
   {
     "slug": "trial",
@@ -7171,7 +7120,7 @@
     "rank": "?",
     "fact_score": null,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 33
   },
   {
     "slug": "try-group",
@@ -7184,11 +7133,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 60.2,
-    "rank": "B",
-    "fact_score": 60.2,
-    "insight_score": null,
-    "data_coverage": 39
+    "total_score": 65.1,
+    "rank": "A",
+    "fact_score": 79.6,
+    "insight_score": 50.6,
+    "data_coverage": 61
   },
   {
     "slug": "try-kobetsu",
@@ -7201,10 +7150,10 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 65.5,
-    "rank": "A",
-    "fact_score": null,
-    "insight_score": 65.5,
+    "total_score": 58.0,
+    "rank": "B",
+    "fact_score": 59.5,
+    "insight_score": 56.4,
     "data_coverage": 56
   },
   {
@@ -7235,11 +7184,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 52.6,
+    "total_score": 63.7,
     "rank": "B",
-    "fact_score": 58.6,
-    "insight_score": 46.6,
-    "data_coverage": 67
+    "fact_score": 63.7,
+    "insight_score": null,
+    "data_coverage": 56
   },
   {
     "slug": "tsukui",
@@ -7269,11 +7218,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
+    "total_score": 50.2,
+    "rank": "B",
     "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 22
+    "insight_score": 50.2,
+    "data_coverage": 44
   },
   {
     "slug": "tsutaya",
@@ -7286,11 +7235,11 @@
     "jfa": "不明",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 54.1,
-    "rank": "B",
-    "fact_score": 54.1,
+    "total_score": 66.2,
+    "rank": "A",
+    "fact_score": 66.2,
     "insight_score": null,
-    "data_coverage": 50
+    "data_coverage": 44
   },
   {
     "slug": "tullys-coffee",
@@ -7337,11 +7286,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 59.0,
+    "rank": "B",
+    "fact_score": 79.3,
+    "insight_score": 38.8,
+    "data_coverage": 50
   },
   {
     "slug": "uniqlo",
@@ -7354,11 +7303,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
+    "total_score": 28.1,
+    "rank": "D",
     "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "insight_score": 28.1,
+    "data_coverage": 39
   },
   {
     "slug": "up-garage",
@@ -7371,11 +7320,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 49.8,
+    "total_score": 47.7,
     "rank": "C",
-    "fact_score": 49.8,
-    "insight_score": null,
-    "data_coverage": 50
+    "fact_score": 62.7,
+    "insight_score": 32.7,
+    "data_coverage": 61
   },
   {
     "slug": "usachan-cleaning",
@@ -7405,11 +7354,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
+    "total_score": 73.6,
+    "rank": "A",
     "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 33
+    "insight_score": 73.6,
+    "data_coverage": 50
   },
   {
     "slug": "wam",
@@ -7456,11 +7405,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 64.7,
+    "total_score": 51.3,
     "rank": "B",
     "fact_score": null,
-    "insight_score": 64.7,
-    "data_coverage": 50
+    "insight_score": 51.3,
+    "data_coverage": 56
   },
   {
     "slug": "wash-house",
@@ -7490,11 +7439,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 64.7,
+    "total_score": 58.9,
     "rank": "B",
-    "fact_score": 64.7,
-    "insight_score": null,
-    "data_coverage": 50
+    "fact_score": 66.9,
+    "insight_score": 50.8,
+    "data_coverage": 67
   },
   {
     "slug": "watts",
@@ -7507,11 +7456,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 54.6,
+    "total_score": 51.6,
     "rank": "B",
     "fact_score": null,
-    "insight_score": 54.6,
-    "data_coverage": 39
+    "insight_score": 51.6,
+    "data_coverage": 56
   },
   {
     "slug": "wecars",
@@ -7524,11 +7473,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 61.8,
-    "rank": "B",
-    "fact_score": null,
-    "insight_score": 61.8,
-    "data_coverage": 39
+    "total_score": 35.8,
+    "rank": "C",
+    "fact_score": 41.7,
+    "insight_score": 29.9,
+    "data_coverage": 56
   },
   {
     "slug": "welcia",
@@ -7541,11 +7490,11 @@
     "jfa": "不明",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
+    "total_score": 41.5,
+    "rank": "C",
     "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 22
+    "insight_score": 41.5,
+    "data_coverage": 44
   },
   {
     "slug": "whitening-cafe",
@@ -7579,7 +7528,7 @@
     "rank": "?",
     "fact_score": null,
     "insight_score": null,
-    "data_coverage": 28
+    "data_coverage": 39
   },
   {
     "slug": "wisdom-academy",
@@ -7592,11 +7541,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
+    "total_score": 49.4,
+    "rank": "C",
     "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 22
+    "insight_score": 49.4,
+    "data_coverage": 44
   },
   {
     "slug": "workman",
@@ -7609,11 +7558,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 67.7,
+    "rank": "A",
+    "fact_score": 84.7,
+    "insight_score": 50.6,
+    "data_coverage": 67
   },
   {
     "slug": "x-kitchen",
@@ -7626,11 +7575,11 @@
     "jfa": "不明",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
+    "total_score": 72.9,
+    "rank": "A",
+    "fact_score": 72.9,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 56
   },
   {
     "slug": "yakiniku-king",
@@ -7643,11 +7592,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 59.8,
+    "total_score": 56.7,
     "rank": "B",
-    "fact_score": 59.8,
-    "insight_score": null,
-    "data_coverage": 50
+    "fact_score": 55.0,
+    "insight_score": 58.4,
+    "data_coverage": 61
   },
   {
     "slug": "yakitori-daikichi",
@@ -7660,11 +7609,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 64.0,
-    "rank": "B",
-    "fact_score": null,
-    "insight_score": 64.0,
-    "data_coverage": 44
+    "total_score": 82.7,
+    "rank": "S",
+    "fact_score": 89.7,
+    "insight_score": 75.7,
+    "data_coverage": 50
   },
   {
     "slug": "yakuzen-hinabe",
@@ -7677,11 +7626,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 40.9,
+    "rank": "C",
+    "fact_score": 53.7,
+    "insight_score": 28.1,
+    "data_coverage": 50
   },
   {
     "slug": "yamachan",
@@ -7715,7 +7664,7 @@
     "rank": "?",
     "fact_score": null,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 33
   },
   {
     "slug": "yamada-homes",
@@ -7762,11 +7711,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 54.5,
-    "rank": "B",
-    "fact_score": 58.4,
+    "total_score": 48.4,
+    "rank": "C",
+    "fact_score": 46.2,
     "insight_score": 50.6,
-    "data_coverage": 50
+    "data_coverage": 61
   },
   {
     "slug": "yamaha",
@@ -7779,11 +7728,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 60.4,
+    "rank": "B",
+    "fact_score": 60.3,
+    "insight_score": 60.5,
+    "data_coverage": 56
   },
   {
     "slug": "yamaokaya",
@@ -7813,11 +7762,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 71.3,
-    "rank": "A",
-    "fact_score": 86.1,
-    "insight_score": 56.6,
-    "data_coverage": 56
+    "total_score": 63.5,
+    "rank": "B",
+    "fact_score": 74.6,
+    "insight_score": 52.5,
+    "data_coverage": 61
   },
   {
     "slug": "yaruki-switch",
@@ -7847,11 +7796,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 49.4,
-    "rank": "C",
-    "fact_score": 59.8,
-    "insight_score": 39.0,
-    "data_coverage": 67
+    "total_score": 63.2,
+    "rank": "B",
+    "fact_score": 63.3,
+    "insight_score": 63.2,
+    "data_coverage": 61
   },
   {
     "slug": "yellow-hat",
@@ -7885,7 +7834,7 @@
     "rank": "?",
     "fact_score": null,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 33
   },
   {
     "slug": "yoroinotaki",
@@ -7898,9 +7847,9 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 58.7,
-    "rank": "B",
-    "fact_score": 58.7,
+    "total_score": 76.3,
+    "rank": "A",
+    "fact_score": 76.3,
     "insight_score": null,
     "data_coverage": 50
   },
@@ -7915,11 +7864,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 56.6,
-    "rank": "B",
-    "fact_score": null,
-    "insight_score": 56.6,
-    "data_coverage": 39
+    "total_score": 70.7,
+    "rank": "A",
+    "fact_score": 87.1,
+    "insight_score": 54.2,
+    "data_coverage": 56
   },
   {
     "slug": "yoshinoya",
@@ -7949,9 +7898,9 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
-    "total_score": 60.3,
-    "rank": "B",
-    "fact_score": 60.3,
+    "total_score": 71.1,
+    "rank": "A",
+    "fact_score": 71.1,
     "insight_score": null,
     "data_coverage": 50
   },
@@ -7966,11 +7915,827 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-05",
+    "total_score": 80.4,
+    "rank": "S",
+    "fact_score": 80.4,
+    "insight_score": null,
+    "data_coverage": 56
+  },
+  {
+    "slug": "car-seven",
+    "name": "カーセブン",
+    "category": "自動車・レンタカー",
+    "initial_investment": "約5,000万円",
+    "stores": "160店舗（2023〜2025年）",
+    "store_trend": "不明",
+    "recruit_status": "募集中",
+    "jfa": "加盟",
+    "warning": "",
+    "collection_date": "2026-04-05",
+    "total_score": 61.8,
+    "rank": "B",
+    "fact_score": 66.2,
+    "insight_score": 57.3,
+    "data_coverage": 61
+  },
+  {
+    "slug": "kobac",
+    "name": "車検のコバック",
+    "category": "自動車・レンタカー",
+    "initial_investment": "5,000万円",
+    "stores": "540",
+    "store_trend": "→ 横ばい",
+    "recruit_status": "募集中",
+    "jfa": "不明",
+    "warning": "",
+    "collection_date": "2026-04-04",
+    "total_score": 48.8,
+    "rank": "C",
+    "fact_score": 48.8,
+    "insight_score": null,
+    "data_coverage": 44
+  },
+  {
+    "slug": "laundry-depot",
+    "name": "ランドリーデポ (Laundry Depot)",
+    "category": "その他サービス",
+    "initial_investment": "約3,000万円～4,500万円",
+    "stores": "100",
+    "store_trend": "不明",
+    "recruit_status": "募集中",
+    "jfa": "不明",
+    "warning": "",
+    "collection_date": "2026-04-04",
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
+    "insight_score": null,
+    "data_coverage": 0
+  },
+  {
+    "slug": "alsok",
+    "name": "ALSOK (綜合警備保障)",
+    "category": "その他サービス",
+    "initial_investment": "5,000万円",
+    "stores": "2,200",
+    "store_trend": "不明",
+    "recruit_status": "募集中",
+    "jfa": "不明",
+    "warning": "",
+    "collection_date": "2026-04-04",
+    "total_score": 31.9,
+    "rank": "D",
+    "fact_score": 31.9,
+    "insight_score": null,
+    "data_coverage": 44
+  },
+  {
+    "slug": "aoki",
+    "name": "AOKI（紳士服）",
+    "category": "その他サービス",
+    "initial_investment": "不明",
+    "stores": "496店舗",
+    "store_trend": "→ 横ばい",
+    "recruit_status": "FC募集なし",
+    "jfa": "加盟",
+    "warning": "",
+    "collection_date": "2026-04-02",
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
+    "insight_score": null,
+    "data_coverage": 33
+  },
+  {
+    "slug": "ari-hikkoshi",
+    "name": "アリさんマークの引越社",
+    "category": "その他サービス",
+    "initial_investment": "不明",
+    "stores": "不明",
+    "store_trend": "→ 横ばい",
+    "recruit_status": "FC募集なし",
+    "jfa": "加盟",
+    "warning": "",
+    "collection_date": "2026-04-03",
+    "total_score": 56.6,
+    "rank": "B",
+    "fact_score": null,
+    "insight_score": 56.6,
+    "data_coverage": 39
+  },
+  {
+    "slug": "dai-ichi-life",
+    "name": "第一生命 (Dai-ichi Life)",
+    "category": "その他サービス",
+    "initial_investment": "200万円〜500万円",
+    "stores": "不明",
+    "store_trend": "不明",
+    "recruit_status": "募集中",
+    "jfa": "不明",
+    "warning": "",
+    "collection_date": "2026-04-04",
+    "total_score": 91.1,
+    "rank": "S",
+    "fact_score": 91.1,
+    "insight_score": null,
+    "data_coverage": 50
+  },
+  {
+    "slug": "daito-kentaku-partners",
+    "name": "大東建託パートナーズ",
+    "category": "その他サービス",
+    "initial_investment": "不明",
+    "stores": "180",
+    "store_trend": "→ 横ばい",
+    "recruit_status": "募集中",
+    "jfa": "加盟",
+    "warning": "",
+    "collection_date": "2026-04-03",
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
+    "insight_score": null,
+    "data_coverage": 39
+  },
+  {
+    "slug": "daiwa-house",
+    "name": "大和ハウス（Daiwa House） 住宅・不動産フランチャイズ完全ガイド",
+    "category": "その他サービス",
+    "initial_investment": "5,000万円〜5億円",
+    "stores": "不明",
+    "store_trend": "不明",
+    "recruit_status": "募集中",
+    "jfa": "不明",
+    "warning": "",
+    "collection_date": "",
+    "total_score": 46.9,
+    "rank": "C",
+    "fact_score": 46.9,
+    "insight_score": null,
+    "data_coverage": 39
+  },
+  {
+    "slug": "edion",
+    "name": "エディオン (EDION)",
+    "category": "その他サービス",
+    "initial_investment": "1,500万円",
+    "stores": "1,200",
+    "store_trend": "→ 横ばい",
+    "recruit_status": "募集中",
+    "jfa": "加盟",
+    "warning": "",
+    "collection_date": "2026-04-04",
+    "total_score": 68.7,
+    "rank": "A",
+    "fact_score": 68.7,
+    "insight_score": null,
+    "data_coverage": 56
+  },
+  {
+    "slug": "fukuya-estate",
+    "name": "福屋不動産販売",
+    "category": "その他サービス",
+    "initial_investment": "不明",
+    "stores": "97店舗 (すべて直営)",
+    "store_trend": "— 直営のみ",
+    "recruit_status": "FC募集なし",
+    "jfa": "加盟",
+    "warning": "",
+    "collection_date": "2026-04-03",
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
+    "insight_score": null,
+    "data_coverage": 39
+  },
+  {
+    "slug": "gu",
+    "name": "GU (ジーユー)",
+    "category": "その他サービス",
+    "initial_investment": "3億円",
+    "stores": "460",
+    "store_trend": "▲ 増加中",
+    "recruit_status": "募集中",
+    "jfa": "加盟",
+    "warning": "",
+    "collection_date": "2026-04-04",
+    "total_score": 70.6,
+    "rank": "A",
+    "fact_score": 70.6,
+    "insight_score": null,
+    "data_coverage": 50
+  },
+  {
+    "slug": "hankyuhanshin-re",
+    "name": "阪急阪神不動産",
+    "category": "その他サービス",
+    "initial_investment": "不明",
+    "stores": "35店舗以上 (直営)",
+    "store_trend": "— 直営のみ",
+    "recruit_status": "FC募集なし",
+    "jfa": "加盟",
+    "warning": "",
+    "collection_date": "2026-04-03",
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
+    "insight_score": null,
+    "data_coverage": 33
+  },
+  {
+    "slug": "haruyama",
+    "name": "はるやま",
+    "category": "その他サービス",
+    "initial_investment": "約5,000万円〜8,000万円",
+    "stores": "418店舗** (2024年3月末時点、グループ合計)",
+    "store_trend": "不明",
+    "recruit_status": "募集中",
+    "jfa": "加盟",
+    "warning": "",
+    "collection_date": "2026-04-03",
+    "total_score": 45.9,
+    "rank": "C",
+    "fact_score": 51.7,
+    "insight_score": 40.0,
+    "data_coverage": 67
+  },
+  {
+    "slug": "ikea",
+    "name": "IKEA (イケア)",
+    "category": "その他サービス",
+    "initial_investment": "150億円",
+    "stores": "10",
+    "store_trend": "不明",
+    "recruit_status": "募集中",
+    "jfa": "加盟",
+    "warning": "",
+    "collection_date": "2026-04-04",
+    "total_score": 52.4,
+    "rank": "B",
+    "fact_score": 54.5,
+    "insight_score": 50.2,
+    "data_coverage": 50
+  },
+  {
+    "slug": "isetan-mitsukoshi-realestate",
+    "name": "三越伊勢丹不動産",
+    "category": "その他サービス",
+    "initial_investment": "不明",
+    "stores": "不明",
+    "store_trend": "不明",
+    "recruit_status": "FC募集なし",
+    "jfa": "加盟",
+    "warning": "",
+    "collection_date": "2026-04-03",
     "total_score": null,
     "rank": "?",
     "fact_score": null,
     "insight_score": null,
     "data_coverage": 28
+  },
+  {
+    "slug": "joyful-honda",
+    "name": "ジョイフル本田",
+    "category": "その他サービス",
+    "initial_investment": "不明",
+    "stores": "18店舗 (超大型店) + 専門店12店舗",
+    "store_trend": "不明",
+    "recruit_status": "FC募集なし",
+    "jfa": "加盟",
+    "warning": "",
+    "collection_date": "2026-04-03",
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
+    "insight_score": null,
+    "data_coverage": 39
+  },
+  {
+    "slug": "keio-fudosan",
+    "name": "京王不動産",
+    "category": "その他サービス",
+    "initial_investment": "不明",
+    "stores": "不明",
+    "store_trend": "→ 横ばい",
+    "recruit_status": "FC募集なし",
+    "jfa": "加盟",
+    "warning": "",
+    "collection_date": "2026-04-03",
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
+    "insight_score": null,
+    "data_coverage": 33
+  },
+  {
+    "slug": "kintetsu-re",
+    "name": "近鉄不動産",
+    "category": "その他サービス",
+    "initial_investment": "不明",
+    "stores": "90店舗以上 (直営)",
+    "store_trend": "→ 横ばい",
+    "recruit_status": "FC募集なし",
+    "jfa": "不明",
+    "warning": "",
+    "collection_date": "2026-04-03",
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
+    "insight_score": null,
+    "data_coverage": 33
+  },
+  {
+    "slug": "kireimo",
+    "name": "キレイモ",
+    "category": "その他サービス",
+    "initial_investment": "不明",
+    "stores": "28",
+    "store_trend": "不明",
+    "recruit_status": "FC募集なし",
+    "jfa": "加盟",
+    "warning": "",
+    "collection_date": "2026-04-02",
+    "total_score": 56.6,
+    "rank": "B",
+    "fact_score": null,
+    "insight_score": 56.6,
+    "data_coverage": 28
+  },
+  {
+    "slug": "kojima-pet",
+    "name": "ペットのコジマ（PETのコジマ） フランチャイズ完全ガイド",
+    "category": "その他サービス",
+    "initial_investment": "不明",
+    "stores": "50店舗以上（首都圏中心にドミナント展開）",
+    "store_trend": "不明",
+    "recruit_status": "募集中",
+    "jfa": "不明",
+    "warning": "",
+    "collection_date": "",
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
+    "insight_score": null,
+    "data_coverage": 22
+  },
+  {
+    "slug": "ks-denki",
+    "name": "ケーズデンキ (K's Denki)",
+    "category": "その他サービス",
+    "initial_investment": "5億円",
+    "stores": "560",
+    "store_trend": "不明",
+    "recruit_status": "募集中",
+    "jfa": "加盟",
+    "warning": "",
+    "collection_date": "2026-04-04",
+    "total_score": 57.6,
+    "rank": "B",
+    "fact_score": 63.3,
+    "insight_score": 51.9,
+    "data_coverage": 50
+  },
+  {
+    "slug": "lego-school",
+    "name": "レゴスクール（LEGO School）— FC調査データ",
+    "category": "その他サービス",
+    "initial_investment": "不明",
+    "stores": "不明",
+    "store_trend": "→ 横ばい",
+    "recruit_status": "FC募集なし",
+    "jfa": "加盟",
+    "warning": "",
+    "collection_date": "2026-04-02",
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
+    "insight_score": null,
+    "data_coverage": 28
+  },
+  {
+    "slug": "misawa-home",
+    "name": "ミサワホーム",
+    "category": "その他サービス",
+    "initial_investment": "不明",
+    "stores": "260",
+    "store_trend": "→ 横ばい",
+    "recruit_status": "募集中",
+    "jfa": "加盟",
+    "warning": "",
+    "collection_date": "2026-04-03",
+    "total_score": 55.6,
+    "rank": "B",
+    "fact_score": 55.6,
+    "insight_score": null,
+    "data_coverage": 50
+  },
+  {
+    "slug": "mitsui-rehouse",
+    "name": "三井のリハウス",
+    "category": "その他サービス",
+    "initial_investment": "不明",
+    "stores": "280店舗",
+    "store_trend": "不明",
+    "recruit_status": "FC募集なし",
+    "jfa": "加盟",
+    "warning": "",
+    "collection_date": "2026-04-03",
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
+    "insight_score": null,
+    "data_coverage": 39
+  },
+  {
+    "slug": "ms-ad",
+    "name": "三井住友海上 (MS&AD)",
+    "category": "その他サービス",
+    "initial_investment": "100万円〜500万円",
+    "stores": "不明",
+    "store_trend": "不明",
+    "recruit_status": "FC募集なし",
+    "jfa": "不明",
+    "warning": "",
+    "collection_date": "2026-04-04",
+    "total_score": 92.0,
+    "rank": "S",
+    "fact_score": 92.0,
+    "insight_score": null,
+    "data_coverage": 50
+  },
+  {
+    "slug": "musbell",
+    "name": "ムスベル",
+    "category": "その他サービス",
+    "initial_investment": "不明",
+    "stores": "44店舗",
+    "store_trend": "→ 横ばい",
+    "recruit_status": "FC募集なし",
+    "jfa": "不明",
+    "warning": "",
+    "collection_date": "2026-04-02",
+    "total_score": 69.1,
+    "rank": "A",
+    "fact_score": null,
+    "insight_score": 69.1,
+    "data_coverage": 39
+  },
+  {
+    "slug": "mybasket",
+    "name": "まいばすけっと",
+    "category": "その他サービス",
+    "initial_investment": "不明",
+    "stores": "1,000",
+    "store_trend": "— 直営のみ",
+    "recruit_status": "FC募集なし",
+    "jfa": "加盟",
+    "warning": "",
+    "collection_date": "2026-04-03",
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
+    "insight_score": null,
+    "data_coverage": 39
+  },
+  {
+    "slug": "nafco",
+    "name": "ナフコ",
+    "category": "その他サービス",
+    "initial_investment": "不明",
+    "stores": "359店舗 (2024年9月末時点)",
+    "store_trend": "→ 横ばい",
+    "recruit_status": "FC募集なし",
+    "jfa": "加盟",
+    "warning": "",
+    "collection_date": "2026-04-03",
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
+    "insight_score": null,
+    "data_coverage": 44
+  },
+  {
+    "slug": "newdays",
+    "name": "NewDays",
+    "category": "その他サービス",
+    "initial_investment": "不明",
+    "stores": "665",
+    "store_trend": "不明",
+    "recruit_status": "FC募集なし",
+    "jfa": "加盟",
+    "warning": "",
+    "collection_date": "2026-04-04",
+    "total_score": 50.6,
+    "rank": "B",
+    "fact_score": null,
+    "insight_score": 50.6,
+    "data_coverage": 39
+  },
+  {
+    "slug": "nihon-house-hd",
+    "name": "日本ハウスホールディングス",
+    "category": "その他サービス",
+    "initial_investment": "不明",
+    "stores": "不明",
+    "store_trend": "不明",
+    "recruit_status": "FC募集なし",
+    "jfa": "不明",
+    "warning": "",
+    "collection_date": "2026-04-03",
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
+    "insight_score": null,
+    "data_coverage": 28
+  },
+  {
+    "slug": "nissay",
+    "name": "日本生命 (Nissay)",
+    "category": "その他サービス",
+    "initial_investment": "200万円〜500万円",
+    "stores": "不明",
+    "store_trend": "不明",
+    "recruit_status": "募集中",
+    "jfa": "不明",
+    "warning": "",
+    "collection_date": "2026-04-04",
+    "total_score": 91.1,
+    "rank": "S",
+    "fact_score": 91.1,
+    "insight_score": null,
+    "data_coverage": 50
+  },
+  {
+    "slug": "nitori",
+    "name": "ニトリ (Nitori)",
+    "category": "その他サービス",
+    "initial_investment": "10億円",
+    "stores": "750",
+    "store_trend": "→ 横ばい",
+    "recruit_status": "募集中",
+    "jfa": "加盟",
+    "warning": "",
+    "collection_date": "2026-04-04",
+    "total_score": 55.3,
+    "rank": "B",
+    "fact_score": 54.0,
+    "insight_score": 56.6,
+    "data_coverage": 56
+  },
+  {
+    "slug": "nomura-re-nos",
+    "name": "野村不動産ソリューションズ",
+    "category": "その他サービス",
+    "initial_investment": "不明",
+    "stores": "100店舗以上 (すべて直営)",
+    "store_trend": "— 直営のみ",
+    "recruit_status": "FC募集なし",
+    "jfa": "加盟",
+    "warning": "",
+    "collection_date": "2026-04-03",
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
+    "insight_score": null,
+    "data_coverage": 39
+  },
+  {
+    "slug": "odakyu-fudosan",
+    "name": "小田急不動産",
+    "category": "その他サービス",
+    "initial_investment": "不明",
+    "stores": "30店舗以上 (直営)",
+    "store_trend": "→ 横ばい",
+    "recruit_status": "FC募集なし",
+    "jfa": "加盟",
+    "warning": "",
+    "collection_date": "2026-04-03",
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
+    "insight_score": null,
+    "data_coverage": 39
+  },
+  {
+    "slug": "open-house",
+    "name": "オープンハウス",
+    "category": "その他サービス",
+    "initial_investment": "不明",
+    "stores": "200店舗規模 (すべて直営)",
+    "store_trend": "▲ 増加中",
+    "recruit_status": "FC募集なし",
+    "jfa": "不明",
+    "warning": "",
+    "collection_date": "2026-04-03",
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
+    "insight_score": null,
+    "data_coverage": 39
+  },
+  {
+    "slug": "polus",
+    "name": "ポラス (POLUS)",
+    "category": "その他サービス",
+    "initial_investment": "不明",
+    "stores": "不明",
+    "store_trend": "不明",
+    "recruit_status": "FC募集なし",
+    "jfa": "不明",
+    "warning": "",
+    "collection_date": "2026-04-03",
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
+    "insight_score": null,
+    "data_coverage": 22
+  },
+  {
+    "slug": "royal-homac",
+    "name": "ロイヤルホームセンター",
+    "category": "その他サービス",
+    "initial_investment": "不明",
+    "stores": "64店舗 (2025年3月時点予定)",
+    "store_trend": "不明",
+    "recruit_status": "FC募集なし",
+    "jfa": "加盟",
+    "warning": "",
+    "collection_date": "2026-04-03",
+    "total_score": 32.6,
+    "rank": "D",
+    "fact_score": null,
+    "insight_score": 32.6,
+    "data_coverage": 44
+  },
+  {
+    "slug": "seibu-re-solutions",
+    "name": "西武リアルティソリューションズ",
+    "category": "その他サービス",
+    "initial_investment": "不明",
+    "stores": "不明",
+    "store_trend": "→ 横ばい",
+    "recruit_status": "FC募集なし",
+    "jfa": "加盟",
+    "warning": "",
+    "collection_date": "2026-04-03",
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
+    "insight_score": null,
+    "data_coverage": 33
+  },
+  {
+    "slug": "sekisui-house",
+    "name": "積水ハウス（Sekisui House） 住宅・不動産フランチャイズ完全ガイド",
+    "category": "その他サービス",
+    "initial_investment": "5,000万円〜2億円",
+    "stores": "不明",
+    "store_trend": "不明",
+    "recruit_status": "募集中",
+    "jfa": "不明",
+    "warning": "",
+    "collection_date": "",
+    "total_score": 50.9,
+    "rank": "B",
+    "fact_score": 50.9,
+    "insight_score": null,
+    "data_coverage": 39
+  },
+  {
+    "slug": "shimachu",
+    "name": "島忠",
+    "category": "その他サービス",
+    "initial_investment": "不明",
+    "stores": "60店舗 (2024年時点)",
+    "store_trend": "→ 横ばい",
+    "recruit_status": "FC募集なし",
+    "jfa": "加盟",
+    "warning": "",
+    "collection_date": "2026-04-03",
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
+    "insight_score": null,
+    "data_coverage": 44
+  },
+  {
+    "slug": "shimamura",
+    "name": "しまむら (Shimamura)",
+    "category": "その他サービス",
+    "initial_investment": "3億円",
+    "stores": "2,200",
+    "store_trend": "不明",
+    "recruit_status": "募集中",
+    "jfa": "加盟",
+    "warning": "",
+    "collection_date": "2026-04-04",
+    "total_score": 58.3,
+    "rank": "B",
+    "fact_score": 71.1,
+    "insight_score": 45.5,
+    "data_coverage": 44
+  },
+  {
+    "slug": "sugi-pharmacy",
+    "name": "スギ薬局",
+    "category": "その他サービス",
+    "initial_investment": "不明",
+    "stores": "2,100",
+    "store_trend": "不明",
+    "recruit_status": "募集中",
+    "jfa": "不明",
+    "warning": "",
+    "collection_date": "2026-04-04",
+    "total_score": 56.6,
+    "rank": "B",
+    "fact_score": null,
+    "insight_score": 56.6,
+    "data_coverage": 33
+  },
+  {
+    "slug": "sumitomo-real-estate",
+    "name": "住友不動産（Sumitomo Realty） 住宅・不動産フランチャイズ完全ガイド",
+    "category": "その他サービス",
+    "initial_investment": "3,000万円〜2億円",
+    "stores": "不明",
+    "store_trend": "不明",
+    "recruit_status": "募集中",
+    "jfa": "不明",
+    "warning": "",
+    "collection_date": "",
+    "total_score": 52.7,
+    "rank": "B",
+    "fact_score": 52.7,
+    "insight_score": null,
+    "data_coverage": 33
+  },
+  {
+    "slug": "tbc",
+    "name": "TBC",
+    "category": "その他サービス",
+    "initial_investment": "不明",
+    "stores": "173",
+    "store_trend": "→ 横ばい",
+    "recruit_status": "FC募集なし",
+    "jfa": "加盟",
+    "warning": "",
+    "collection_date": "2026-04-02",
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
+    "insight_score": null,
+    "data_coverage": 39
+  },
+  {
+    "slug": "tokyu-livable",
+    "name": "東急リバブル",
+    "category": "その他サービス",
+    "initial_investment": "不明",
+    "stores": "216店舗（2024年現在）",
+    "store_trend": "不明",
+    "recruit_status": "FC募集なし",
+    "jfa": "加盟",
+    "warning": "",
+    "collection_date": "2026-04-03",
+    "total_score": 50.2,
+    "rank": "B",
+    "fact_score": null,
+    "insight_score": 50.2,
+    "data_coverage": 44
+  },
+  {
+    "slug": "town-housing",
+    "name": "タウンハウジング",
+    "category": "その他サービス",
+    "initial_investment": "不明",
+    "stores": "250店舗以上 (すべて直営)",
+    "store_trend": "→ 横ばい",
+    "recruit_status": "FC募集なし",
+    "jfa": "加盟",
+    "warning": "",
+    "collection_date": "2026-04-03",
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
+    "insight_score": null,
+    "data_coverage": 39
+  },
+  {
+    "slug": "zara",
+    "name": "ZARA (ザラ)",
+    "category": "その他サービス",
+    "initial_investment": "15億円",
+    "stores": "90",
+    "store_trend": "▲ 増加中",
+    "recruit_status": "募集中",
+    "jfa": "加盟",
+    "warning": "",
+    "collection_date": "2026-04-04",
+    "total_score": 56.0,
+    "rank": "B",
+    "fact_score": 66.4,
+    "insight_score": 45.5,
+    "data_coverage": 44
   },
   {
     "slug": "2ndstreet-geo",
@@ -7983,11 +8748,11 @@
     "jfa": "加盟",
     "warning": "セカンドストリートは現在、一般向けFC加盟を事実上停止（直営シフト中）",
     "collection_date": "2026-04-02",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 54.9,
+    "rank": "B",
+    "fact_score": 53.2,
+    "insight_score": 56.6,
+    "data_coverage": 67
   },
   {
     "slug": "adastria",
@@ -7996,15 +8761,15 @@
     "initial_investment": "5,000万円",
     "stores": "不明",
     "store_trend": "不明",
-    "recruit_status": "FC募集なし",
+    "recruit_status": "募集中",
     "jfa": "不明",
     "warning": "",
     "collection_date": "2026-04-03",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 46.8,
+    "rank": "C",
+    "fact_score": 44.3,
+    "insight_score": 49.3,
+    "data_coverage": 61
   },
   {
     "slug": "akachan-honpo",
@@ -8013,15 +8778,15 @@
     "initial_investment": "3億円",
     "stores": "125",
     "store_trend": "▲ 増加中",
-    "recruit_status": "FC募集なし",
+    "recruit_status": "募集中",
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-04",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 56.2,
+    "rank": "B",
+    "fact_score": 67.0,
+    "insight_score": 45.5,
+    "data_coverage": 56
   },
   {
     "slug": "bestland",
@@ -8038,7 +8803,7 @@
     "rank": "?",
     "fact_score": null,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 28
   },
   {
     "slug": "cafe-veloce",
@@ -8047,15 +8812,15 @@
     "initial_investment": "3,500万円",
     "stores": "85",
     "store_trend": "不明",
-    "recruit_status": "FC募集なし",
+    "recruit_status": "募集中",
     "jfa": "不明",
     "warning": "",
     "collection_date": "2026-04-04",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
+    "total_score": 53.5,
+    "rank": "B",
+    "fact_score": 53.5,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 44
   },
   {
     "slug": "cocoichi",
@@ -8064,15 +8829,15 @@
     "initial_investment": "3,000万円",
     "stores": "1,200",
     "store_trend": "→ 横ばい",
-    "recruit_status": "FC募集なし",
+    "recruit_status": "募集中",
     "jfa": "不明",
     "warning": "",
     "collection_date": "2026-04-04",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
+    "total_score": 65.9,
+    "rank": "A",
+    "fact_score": 65.9,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 50
   },
   {
     "slug": "excelsior",
@@ -8081,15 +8846,15 @@
     "initial_investment": "5,000万円〜8,000万円",
     "stores": "不明",
     "store_trend": "→ 横ばい",
-    "recruit_status": "FC募集なし",
+    "recruit_status": "募集中",
     "jfa": "不明",
     "warning": "",
     "collection_date": "2026-04-03",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 45.5,
+    "rank": "C",
+    "fact_score": 49.4,
+    "insight_score": 41.7,
+    "data_coverage": 61
   },
   {
     "slug": "hm",
@@ -8098,15 +8863,15 @@
     "initial_investment": "10億円",
     "stores": "120",
     "store_trend": "不明",
-    "recruit_status": "FC募集なし",
+    "recruit_status": "募集中",
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-04",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 54.0,
+    "rank": "B",
+    "fact_score": 62.6,
+    "insight_score": 45.5,
+    "data_coverage": 44
   },
   {
     "slug": "ichiran",
@@ -8115,15 +8880,15 @@
     "initial_investment": "3億円",
     "stores": "85",
     "store_trend": "→ 横ばい",
-    "recruit_status": "FC募集なし",
+    "recruit_status": "募集中",
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-04",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
+    "total_score": 46.2,
+    "rank": "C",
+    "fact_score": 46.2,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 56
   },
   {
     "slug": "kitamura",
@@ -8140,7 +8905,7 @@
     "rank": "?",
     "fact_score": null,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 28
   },
   {
     "slug": "kura-sushi",
@@ -8149,15 +8914,15 @@
     "initial_investment": "6億円",
     "stores": "650",
     "store_trend": "▲ 増加中",
-    "recruit_status": "FC募集なし",
+    "recruit_status": "募集中",
     "jfa": "不明",
     "warning": "",
     "collection_date": "2026-04-04",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
+    "total_score": 56.2,
+    "rank": "B",
+    "fact_score": 56.2,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 44
   },
   {
     "slug": "lashinbang",
@@ -8166,15 +8931,15 @@
     "initial_investment": "3,000万円〜8,000万円",
     "stores": "不明",
     "store_trend": "→ 横ばい",
-    "recruit_status": "FC募集なし",
+    "recruit_status": "募集中",
     "jfa": "不明",
     "warning": "",
     "collection_date": "2026-04-04",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 56.9,
+    "rank": "B",
+    "fact_score": 53.3,
+    "insight_score": 60.5,
+    "data_coverage": 61
   },
   {
     "slug": "manekineko",
@@ -8191,7 +8956,7 @@
     "rank": "?",
     "fact_score": null,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 33
   },
   {
     "slug": "marugame-seimen",
@@ -8200,15 +8965,15 @@
     "initial_investment": "2,000万円",
     "stores": "850",
     "store_trend": "→ 横ばい",
-    "recruit_status": "FC募集なし",
+    "recruit_status": "募集中",
     "jfa": "不明",
     "warning": "",
     "collection_date": "2026-04-04",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
+    "total_score": 47.7,
+    "rank": "C",
+    "fact_score": 47.7,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 50
   },
   {
     "slug": "minit",
@@ -8221,11 +8986,436 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-04",
+    "total_score": 61.1,
+    "rank": "B",
+    "fact_score": 66.3,
+    "insight_score": 56.0,
+    "data_coverage": 61
+  },
+  {
+    "slug": "muji",
+    "name": "無印良品 (MUJI)",
+    "category": "その他サービス",
+    "initial_investment": "3億円",
+    "stores": "580",
+    "store_trend": "▲ 増加中",
+    "recruit_status": "募集中",
+    "jfa": "加盟",
+    "warning": "",
+    "collection_date": "2026-04-04",
+    "total_score": 54.2,
+    "rank": "B",
+    "fact_score": 66.4,
+    "insight_score": 42.0,
+    "data_coverage": 56
+  },
+  {
+    "slug": "nojima",
+    "name": "ノジマ (Nojima)",
+    "category": "その他サービス",
+    "initial_investment": "3億円",
+    "stores": "210",
+    "store_trend": "不明",
+    "recruit_status": "募集中",
+    "jfa": "加盟",
+    "warning": "",
+    "collection_date": "2026-04-04",
+    "total_score": 61.2,
+    "rank": "B",
+    "fact_score": 70.6,
+    "insight_score": 51.9,
+    "data_coverage": 50
+  },
+  {
+    "slug": "owndays",
+    "name": "オンデーズ (OWNDAYS)",
+    "category": "その他サービス",
+    "initial_investment": "1,500万円〜3,000万円",
+    "stores": "不明",
+    "store_trend": "不明",
+    "recruit_status": "募集中",
+    "jfa": "不明",
+    "warning": "",
+    "collection_date": "2026-04-03",
+    "total_score": 52.5,
+    "rank": "B",
+    "fact_score": 52.5,
+    "insight_score": null,
+    "data_coverage": 50
+  },
+  {
+    "slug": "qbhouse",
+    "name": "QBハウス",
+    "category": "その他サービス",
+    "initial_investment": "2,500万円",
+    "stores": "580",
+    "store_trend": "不明",
+    "recruit_status": "募集中",
+    "jfa": "不明",
+    "warning": "",
+    "collection_date": "2026-04-04",
+    "total_score": 47.4,
+    "rank": "C",
+    "fact_score": 47.4,
+    "insight_score": null,
+    "data_coverage": 44
+  },
+  {
+    "slug": "raffine",
+    "name": "ラフィネ",
+    "category": "その他サービス",
+    "initial_investment": "2,500万円",
+    "stores": "500",
+    "store_trend": "不明",
+    "recruit_status": "募集中",
+    "jfa": "不明",
+    "warning": "",
+    "collection_date": "2026-04-04",
+    "total_score": 54.9,
+    "rank": "B",
+    "fact_score": 53.2,
+    "insight_score": 56.6,
+    "data_coverage": 50
+  },
+  {
+    "slug": "renaissance",
+    "name": "ルネサンス フランチャイズ完全ガイド",
+    "category": "その他サービス",
+    "initial_investment": "10億円",
+    "stores": "130店舗（直営＋委託）",
+    "store_trend": "不明",
+    "recruit_status": "募集中",
+    "jfa": "不明",
+    "warning": "",
+    "collection_date": "",
+    "total_score": 59.1,
+    "rank": "B",
+    "fact_score": 59.1,
+    "insight_score": null,
+    "data_coverage": 33
+  },
+  {
+    "slug": "st-marc-cafe",
+    "name": "サンマルクカフェ (Saint Marc Cafe)",
+    "category": "その他サービス",
+    "initial_investment": "3,000万円〜6,000万円",
+    "stores": "不明",
+    "store_trend": "不明",
+    "recruit_status": "募集中",
+    "jfa": "不明",
+    "warning": "",
+    "collection_date": "2026-04-04",
+    "total_score": 45.7,
+    "rank": "C",
+    "fact_score": 45.7,
+    "insight_score": null,
+    "data_coverage": 50
+  },
+  {
+    "slug": "studio-alice",
+    "name": "スタジオアリス (Studio Alice)",
+    "category": "その他サービス",
+    "initial_investment": "6,000万円",
+    "stores": "不明",
+    "store_trend": "▲ 増加中",
+    "recruit_status": "募集中",
+    "jfa": "不明",
+    "warning": "",
+    "collection_date": "2026-04-04",
+    "total_score": 61.8,
+    "rank": "B",
+    "fact_score": 61.8,
+    "insight_score": null,
+    "data_coverage": 56
+  },
+  {
+    "slug": "sukiya",
+    "name": "すき家 (Sukiya)",
+    "category": "その他サービス",
+    "initial_investment": "5,000万円",
+    "stores": "1,950",
+    "store_trend": "不明",
+    "recruit_status": "募集中",
+    "jfa": "不明",
+    "warning": "",
+    "collection_date": "2026-04-04",
+    "total_score": 38.1,
+    "rank": "C",
+    "fact_score": 38.1,
+    "insight_score": null,
+    "data_coverage": 44
+  },
+  {
+    "slug": "uobei",
+    "name": "魚べい (Uobei)",
+    "category": "その他サービス",
+    "initial_investment": "5,000万円",
+    "stores": "180",
+    "store_trend": "不明",
+    "recruit_status": "募集中",
+    "jfa": "不明",
+    "warning": "",
+    "collection_date": "2026-04-04",
+    "total_score": 44.0,
+    "rank": "C",
+    "fact_score": 31.4,
+    "insight_score": 56.6,
+    "data_coverage": 50
+  },
+  {
+    "slug": "2ndstreet-geo",
+    "name": "セカンドストリート（2nd STREET）— FC調査データ",
+    "category": "その他サービス",
+    "initial_investment": "2,000万円〜5,000万円",
+    "stores": "880店舗（2025年3月末）",
+    "store_trend": "不明",
+    "recruit_status": "FC募集なし",
+    "jfa": "加盟",
+    "warning": "セカンドストリートは現在、一般向けFC加盟を事実上停止（直営シフト中）",
+    "collection_date": "2026-04-02",
+    "total_score": 54.9,
+    "rank": "B",
+    "fact_score": 53.2,
+    "insight_score": 56.6,
+    "data_coverage": 67
+  },
+  {
+    "slug": "adastria",
+    "name": "アダストリア",
+    "category": "その他サービス",
+    "initial_investment": "5,000万円",
+    "stores": "不明",
+    "store_trend": "不明",
+    "recruit_status": "FC募集なし",
+    "jfa": "不明",
+    "warning": "",
+    "collection_date": "2026-04-03",
+    "total_score": 46.8,
+    "rank": "C",
+    "fact_score": 44.3,
+    "insight_score": 49.3,
+    "data_coverage": 61
+  },
+  {
+    "slug": "akachan-honpo",
+    "name": "赤ちゃん本舗 (Akachan Honpo)",
+    "category": "その他サービス",
+    "initial_investment": "3億円",
+    "stores": "125",
+    "store_trend": "▲ 増加中",
+    "recruit_status": "FC募集なし",
+    "jfa": "加盟",
+    "warning": "",
+    "collection_date": "2026-04-04",
+    "total_score": 56.2,
+    "rank": "B",
+    "fact_score": 67.0,
+    "insight_score": 45.5,
+    "data_coverage": 56
+  },
+  {
+    "slug": "bestland",
+    "name": "ベストランド",
+    "category": "その他サービス",
+    "initial_investment": "1,000万円",
+    "stores": "700",
+    "store_trend": "— 直営のみ",
+    "recruit_status": "FC募集なし",
+    "jfa": "加盟",
+    "warning": "",
+    "collection_date": "2026-04-02",
     "total_score": null,
     "rank": "?",
     "fact_score": null,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 28
+  },
+  {
+    "slug": "cafe-veloce",
+    "name": "カフェ・ベローチェ (Cafe Veloce)",
+    "category": "その他サービス",
+    "initial_investment": "3,500万円",
+    "stores": "85",
+    "store_trend": "不明",
+    "recruit_status": "FC募集なし",
+    "jfa": "不明",
+    "warning": "",
+    "collection_date": "2026-04-04",
+    "total_score": 53.5,
+    "rank": "B",
+    "fact_score": 53.5,
+    "insight_score": null,
+    "data_coverage": 44
+  },
+  {
+    "slug": "cocoichi",
+    "name": "カレーハウスCoCo壱番屋 (CoCoIchibanya)",
+    "category": "その他サービス",
+    "initial_investment": "3,000万円",
+    "stores": "1,200",
+    "store_trend": "→ 横ばい",
+    "recruit_status": "FC募集なし",
+    "jfa": "不明",
+    "warning": "",
+    "collection_date": "2026-04-04",
+    "total_score": 65.9,
+    "rank": "A",
+    "fact_score": 65.9,
+    "insight_score": null,
+    "data_coverage": 50
+  },
+  {
+    "slug": "excelsior",
+    "name": "エクセルシオール カフェ",
+    "category": "その他サービス",
+    "initial_investment": "5,000万円〜8,000万円",
+    "stores": "不明",
+    "store_trend": "→ 横ばい",
+    "recruit_status": "FC募集なし",
+    "jfa": "不明",
+    "warning": "",
+    "collection_date": "2026-04-03",
+    "total_score": 45.5,
+    "rank": "C",
+    "fact_score": 49.4,
+    "insight_score": 41.7,
+    "data_coverage": 61
+  },
+  {
+    "slug": "hm",
+    "name": "H&M (エイチ・アンド・エム)",
+    "category": "その他サービス",
+    "initial_investment": "10億円",
+    "stores": "120",
+    "store_trend": "不明",
+    "recruit_status": "FC募集なし",
+    "jfa": "加盟",
+    "warning": "",
+    "collection_date": "2026-04-04",
+    "total_score": 54.0,
+    "rank": "B",
+    "fact_score": 62.6,
+    "insight_score": 45.5,
+    "data_coverage": 44
+  },
+  {
+    "slug": "ichiran",
+    "name": "天然とんこつラーメン 一蘭 (Ichiran)",
+    "category": "その他サービス",
+    "initial_investment": "3億円",
+    "stores": "85",
+    "store_trend": "→ 横ばい",
+    "recruit_status": "FC募集なし",
+    "jfa": "加盟",
+    "warning": "",
+    "collection_date": "2026-04-04",
+    "total_score": 46.2,
+    "rank": "C",
+    "fact_score": 46.2,
+    "insight_score": null,
+    "data_coverage": 56
+  },
+  {
+    "slug": "kitamura",
+    "name": "カメラのキタムラ",
+    "category": "その他サービス",
+    "initial_investment": "不明",
+    "stores": "35",
+    "store_trend": "不明",
+    "recruit_status": "FC募集なし",
+    "jfa": "加盟",
+    "warning": "カメラのキタムラは基本的に直営チェーン。外部向けFC加盟募集は現時点では行われていない",
+    "collection_date": "2026-04-02",
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
+    "insight_score": null,
+    "data_coverage": 28
+  },
+  {
+    "slug": "kura-sushi",
+    "name": "くら寿司 (Kura Sushi)",
+    "category": "その他サービス",
+    "initial_investment": "6億円",
+    "stores": "650",
+    "store_trend": "▲ 増加中",
+    "recruit_status": "FC募集なし",
+    "jfa": "不明",
+    "warning": "",
+    "collection_date": "2026-04-04",
+    "total_score": 56.2,
+    "rank": "B",
+    "fact_score": 56.2,
+    "insight_score": null,
+    "data_coverage": 44
+  },
+  {
+    "slug": "lashinbang",
+    "name": "らしんばん (Lashinbang)",
+    "category": "その他サービス",
+    "initial_investment": "3,000万円〜8,000万円",
+    "stores": "不明",
+    "store_trend": "→ 横ばい",
+    "recruit_status": "FC募集なし",
+    "jfa": "不明",
+    "warning": "",
+    "collection_date": "2026-04-04",
+    "total_score": 56.9,
+    "rank": "B",
+    "fact_score": 53.3,
+    "insight_score": 60.5,
+    "data_coverage": 61
+  },
+  {
+    "slug": "manekineko",
+    "name": "まねきねこ（カラオケ）— FC調査データ",
+    "category": "その他サービス",
+    "initial_investment": "不明",
+    "stores": "703店舗（2025年8月末、ワンカラ含む）",
+    "store_trend": "▼ 減少傾向",
+    "recruit_status": "FC募集なし",
+    "jfa": "加盟",
+    "warning": "まねきねこは外部向けフランチャイズを原則募集していない（社員独立制が主体）",
+    "collection_date": "2026-04-02",
+    "total_score": null,
+    "rank": "?",
+    "fact_score": null,
+    "insight_score": null,
+    "data_coverage": 33
+  },
+  {
+    "slug": "marugame-seimen",
+    "name": "丸亀製麺 (Marugame Seimen)",
+    "category": "その他サービス",
+    "initial_investment": "2,000万円",
+    "stores": "850",
+    "store_trend": "→ 横ばい",
+    "recruit_status": "FC募集なし",
+    "jfa": "不明",
+    "warning": "",
+    "collection_date": "2026-04-04",
+    "total_score": 47.7,
+    "rank": "C",
+    "fact_score": 47.7,
+    "insight_score": null,
+    "data_coverage": 50
+  },
+  {
+    "slug": "minit",
+    "name": "ミスターミニット (MISTER MINIT)",
+    "category": "その他サービス",
+    "initial_investment": "2,500万円",
+    "stores": "300",
+    "store_trend": "— 直営のみ",
+    "recruit_status": "FC募集なし",
+    "jfa": "加盟",
+    "warning": "",
+    "collection_date": "2026-04-04",
+    "total_score": 61.1,
+    "rank": "B",
+    "fact_score": 66.3,
+    "insight_score": 56.0,
+    "data_coverage": 61
   },
   {
     "slug": "muji",
@@ -8238,11 +9428,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-04",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 54.2,
+    "rank": "B",
+    "fact_score": 66.4,
+    "insight_score": 42.0,
+    "data_coverage": 56
   },
   {
     "slug": "nojima",
@@ -8255,11 +9445,11 @@
     "jfa": "加盟",
     "warning": "",
     "collection_date": "2026-04-04",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 61.2,
+    "rank": "B",
+    "fact_score": 70.6,
+    "insight_score": 51.9,
+    "data_coverage": 50
   },
   {
     "slug": "owndays",
@@ -8272,11 +9462,11 @@
     "jfa": "不明",
     "warning": "",
     "collection_date": "2026-04-03",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
+    "total_score": 52.5,
+    "rank": "B",
+    "fact_score": 52.5,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 50
   },
   {
     "slug": "qbhouse",
@@ -8289,11 +9479,11 @@
     "jfa": "不明",
     "warning": "",
     "collection_date": "2026-04-04",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
+    "total_score": 47.4,
+    "rank": "C",
+    "fact_score": 47.4,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 44
   },
   {
     "slug": "raffine",
@@ -8306,11 +9496,11 @@
     "jfa": "不明",
     "warning": "",
     "collection_date": "2026-04-04",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 28
+    "total_score": 54.9,
+    "rank": "B",
+    "fact_score": 53.2,
+    "insight_score": 56.6,
+    "data_coverage": 50
   },
   {
     "slug": "renaissance",
@@ -8323,11 +9513,11 @@
     "jfa": "不明",
     "warning": "",
     "collection_date": "",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
+    "total_score": 59.1,
+    "rank": "B",
+    "fact_score": 59.1,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 33
   },
   {
     "slug": "st-marc-cafe",
@@ -8340,11 +9530,11 @@
     "jfa": "不明",
     "warning": "",
     "collection_date": "2026-04-04",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
+    "total_score": 45.7,
+    "rank": "C",
+    "fact_score": 45.7,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 50
   },
   {
     "slug": "studio-alice",
@@ -8357,11 +9547,11 @@
     "jfa": "不明",
     "warning": "",
     "collection_date": "2026-04-04",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
+    "total_score": 61.8,
+    "rank": "B",
+    "fact_score": 61.8,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 56
   },
   {
     "slug": "sukiya",
@@ -8374,11 +9564,11 @@
     "jfa": "不明",
     "warning": "",
     "collection_date": "2026-04-04",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
+    "total_score": 38.1,
+    "rank": "C",
+    "fact_score": 38.1,
     "insight_score": null,
-    "data_coverage": 0
+    "data_coverage": 44
   },
   {
     "slug": "uobei",
@@ -8391,10 +9581,10 @@
     "jfa": "不明",
     "warning": "",
     "collection_date": "2026-04-04",
-    "total_score": null,
-    "rank": "?",
-    "fact_score": null,
-    "insight_score": null,
-    "data_coverage": 0
+    "total_score": 44.0,
+    "rank": "C",
+    "fact_score": 31.4,
+    "insight_score": 56.6,
+    "data_coverage": 50
   }
 ]
