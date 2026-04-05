@@ -38,7 +38,7 @@
   {
     "slug": "aeon",
     "name": "イオン (AEON)",
-    "category": "その他サービス",
+    "category": "小売・スーパー",
     "initial_investment": "3億円〜10億円",
     "stores": "19,000店舗以上（国内外）",
     "store_trend": "▲ 増加中",
@@ -74,7 +74,7 @@
   {
     "slug": "ai-pizza",
     "name": "AIピザ窯500 (AI Pizza 500)",
-    "category": "その他サービス",
+    "category": "飲食（ファストフード・ハンバーガー）",
     "initial_investment": "約500万円～800万円",
     "stores": "20店舗",
     "store_trend": "▲ 増加中",
@@ -110,7 +110,7 @@
   {
     "slug": "akabou",
     "name": "赤帽 (Akabou)",
-    "category": "その他サービス",
+    "category": "物流・引越し",
     "initial_investment": "約200万円～250万円",
     "stores": "不明",
     "store_trend": "不明",
@@ -146,7 +146,7 @@
   {
     "slug": "amazon-dsp",
     "name": "Amazon DSP (Delivery Service Partner)",
-    "category": "その他サービス",
+    "category": "物流・引越し",
     "initial_investment": "約500万円～1,000万円",
     "stores": "不明",
     "store_trend": "不明",
@@ -308,7 +308,7 @@
   {
     "slug": "asakuma",
     "name": "ステーキのあさくま",
-    "category": "その他サービス",
+    "category": "飲食（ファミレス・定食）",
     "initial_investment": "100万円",
     "stores": "100億円達成・200億円へ",
     "store_trend": "不明",
@@ -524,7 +524,7 @@
   {
     "slug": "berrys-cafe",
     "name": "Berry's cafe（ベリーズカフェ）",
-    "category": "その他サービス",
+    "category": "飲食（カフェ・スイーツ）",
     "initial_investment": "190〜300万円",
     "stores": "4",
     "store_trend": "不明",
@@ -632,7 +632,7 @@
   {
     "slug": "blue-sky-laundry",
     "name": "ブルースカイランドリー (Blue Sky Laundry)",
-    "category": "その他サービス",
+    "category": "コインランドリー・クリーニング",
     "initial_investment": "約3,500万円～5,000万円",
     "stores": "200",
     "store_trend": "不明",
@@ -668,7 +668,7 @@
   {
     "slug": "book-off",
     "name": "ブックオフ (Book Off)",
-    "category": "その他サービス",
+    "category": "買取・リユース",
     "initial_investment": "約8,000万円",
     "stores": "800",
     "store_trend": "不明",
@@ -722,7 +722,7 @@
   {
     "slug": "broccoli-chicken",
     "name": "究極のブロッコリーと鶏胸肉 (QBT)",
-    "category": "その他サービス",
+    "category": "飲食（ファストフード・ハンバーガー）",
     "initial_investment": "約50万円〜100万円",
     "stores": "185店舗",
     "store_trend": "▲ 増加中",
@@ -794,7 +794,7 @@
   {
     "slug": "capricciosa",
     "name": "カプリチョーザ",
-    "category": "その他サービス",
+    "category": "飲食（ファミレス・定食）",
     "initial_investment": "3,000万円〜7,000万円",
     "stores": "120店",
     "store_trend": "▲ 増加中",
@@ -974,7 +974,7 @@
   {
     "slug": "color-cafe",
     "name": "カラーカフェ（COLOR CAFE）",
-    "category": "その他サービス",
+    "category": "飲食（カフェ・スイーツ）",
     "initial_investment": "3万円",
     "stores": "100店舗前後（推定）",
     "store_trend": "不明",
@@ -1064,7 +1064,7 @@
   {
     "slug": "daikichi-coverall",
     "name": "ダイキチカバーオール (Daikichi Coverall)",
-    "category": "その他サービス",
+    "category": "ハウスクリーニング・便利屋",
     "initial_investment": "約250万円～500万円",
     "stores": "不明",
     "store_trend": "不明",
@@ -1136,7 +1136,7 @@
   {
     "slug": "daiohs",
     "name": "ダイオーズ（オフィスコーヒーサービス・カバーオール）",
-    "category": "その他サービス",
+    "category": "ハウスクリーニング・便利屋",
     "initial_investment": "300万円〜600万円",
     "stores": "1,429",
     "store_trend": "不明",
@@ -1226,7 +1226,7 @@
   {
     "slug": "deno-tantan",
     "name": "175°DENO担担麺 (ひゃくななじゅうごど での たんたんめん)",
-    "category": "その他サービス",
+    "category": "飲食（ラーメン・麺類）",
     "initial_investment": "約4,000万円〜7,000万円",
     "stores": "20店舗以上（直営・FC合計）",
     "store_trend": "▲ 増加中",
@@ -1370,7 +1370,7 @@
   {
     "slug": "e-heya-kobo",
     "name": "E部屋工房",
-    "category": "その他サービス",
+    "category": "修理・リペア",
     "initial_investment": "0万円",
     "stores": "100",
     "store_trend": "不明",
@@ -1442,7 +1442,7 @@
   {
     "slug": "ecoring",
     "name": "エコリング (Eco-ring)",
-    "category": "その他サービス",
+    "category": "買取・リユース",
     "initial_investment": "約1,500万円～2,500万円",
     "stores": "50",
     "store_trend": "不明",
@@ -1658,7 +1658,7 @@
   {
     "slug": "futonmaki-no-jiro",
     "name": "フトン巻きのジロー (Futonmaki no Jiro)",
-    "category": "その他サービス",
+    "category": "コインランドリー・クリーニング",
     "initial_investment": "約3,500万円～5,500万円",
     "stores": "25",
     "store_trend": "不明",
@@ -1766,7 +1766,7 @@
   {
     "slug": "gindaco-highball",
     "name": "築地銀だこハイボール酒場",
-    "category": "その他サービス",
+    "category": "飲食（居酒屋・バー）",
     "initial_investment": "1,200万円〜2,300万円",
     "stores": "700店前後",
     "store_trend": "不明",
@@ -1820,7 +1820,7 @@
   {
     "slug": "gogocurry",
     "name": "ゴーゴーカレー",
-    "category": "その他サービス",
+    "category": "飲食（カレー・中華・エスニック）",
     "initial_investment": "1,500〜2,500万円",
     "stores": "90〜100店舗",
     "store_trend": "不明",
@@ -1910,7 +1910,7 @@
   {
     "slug": "gyomu-super",
     "name": "業務スーパー",
-    "category": "その他サービス",
+    "category": "小売・スーパー",
     "initial_investment": "不明",
     "stores": "2024年時点、FC展開が主軸)",
     "store_trend": "▲ 増加中",
@@ -1928,7 +1928,7 @@
   {
     "slug": "gyoza-yukimatsu",
     "name": "餃子の雪松 (Gyoza Yukimatsu)",
-    "category": "その他サービス",
+    "category": "飲食（その他飲食）",
     "initial_investment": "約500万円～1,000万円",
     "stores": "219店舗",
     "store_trend": "▲ 増加中",
@@ -2054,7 +2054,7 @@
   {
     "slug": "hanko-yasan-21",
     "name": "はんこ屋さん21 (Hanko-yasan 21)",
-    "category": "その他サービス",
+    "category": "小売・雑貨",
     "initial_investment": "800万〜1,500万円",
     "stores": "300店舗超 (2025年2月時点)",
     "store_trend": "▲ 増加中",
@@ -2090,7 +2090,7 @@
   {
     "slug": "hard-off",
     "name": "ハードオフ（Hard Off）",
-    "category": "その他サービス",
+    "category": "買取・リユース",
     "initial_investment": "約6,000万〜9,000万円",
     "stores": "1,050〜1,100店舗",
     "store_trend": "不明",
@@ -2108,7 +2108,7 @@
   {
     "slug": "hattendo",
     "name": "くりーむパンの八天堂",
-    "category": "その他サービス",
+    "category": "飲食（カフェ・スイーツ）",
     "initial_investment": "約100〜300万円",
     "stores": "23店舗（公式参照）",
     "store_trend": "不明",
@@ -2216,7 +2216,7 @@
   {
     "slug": "hinoya-curry",
     "name": "日乃屋カレー",
-    "category": "その他サービス",
+    "category": "飲食（カレー・中華・エスニック）",
     "initial_investment": "300万円",
     "stores": "97〜100店舗",
     "store_trend": "不明",
@@ -2288,7 +2288,7 @@
   {
     "slug": "holiday-books",
     "name": "走る本屋さん ホリデーブックス",
-    "category": "その他サービス",
+    "category": "小売・雑貨",
     "initial_investment": "300〜800万円",
     "stores": "340店（トーハン調査）",
     "store_trend": "▲ 増加中",
@@ -2468,7 +2468,7 @@
   {
     "slug": "ikuraya",
     "name": "買取専門いくらや",
-    "category": "その他サービス",
+    "category": "買取・リユース",
     "initial_investment": "220万円",
     "stores": "300",
     "store_trend": "▲ 増加中",
@@ -2504,7 +2504,7 @@
   {
     "slug": "isomaru",
     "name": "磯丸水産 (Isomaru Suisan)",
-    "category": "その他サービス",
+    "category": "飲食（居酒屋・バー）",
     "initial_investment": "約1億円",
     "stores": "212店舗 (2025年8月時点)",
     "store_trend": "▲ 増加中",
@@ -2846,7 +2846,7 @@
   {
     "slug": "kanazawaya",
     "name": "金沢屋 (Kanazawaya)",
-    "category": "その他サービス",
+    "category": "修理・リペア",
     "initial_investment": "約500万円～700万円",
     "stores": "400",
     "store_trend": "不明",
@@ -2990,7 +2990,7 @@
   {
     "slug": "kawa-kenkyujo",
     "name": "革研究所 (Kawa-kenkyujo)",
-    "category": "その他サービス",
+    "category": "修理・リペア",
     "initial_investment": "約450万円～650万円",
     "stores": "90",
     "store_trend": "不明",
@@ -3026,7 +3026,7 @@
   {
     "slug": "kawai",
     "name": "カワイ音楽教室（河合楽器製作所）",
-    "category": "その他サービス",
+    "category": "学習塾・教育",
     "initial_investment": "7〜31万円",
     "stores": "4,000教室",
     "store_trend": "→ 横ばい",
@@ -3062,7 +3062,7 @@
   {
     "slug": "keikyu-bin",
     "name": "軽急便 (Keikyu-bin)",
-    "category": "その他サービス",
+    "category": "物流・引越し",
     "initial_investment": "約180万円～250万円",
     "stores": "50",
     "store_trend": "不明",
@@ -3278,7 +3278,7 @@
   {
     "slug": "kutsu-senka",
     "name": "靴専科 (Kutsu Senka)",
-    "category": "その他サービス",
+    "category": "修理・リペア",
     "initial_investment": "1,200万円～1,800万円",
     "stores": "100",
     "store_trend": "不明",
@@ -3386,7 +3386,7 @@
   {
     "slug": "liplus",
     "name": "LiPLUS（リプラス）",
-    "category": "その他サービス",
+    "category": "買取・リユース",
     "initial_investment": "10〜90万円",
     "stores": "23,000〜24,000社（2025年時点）",
     "store_trend": "不明",
@@ -3404,7 +3404,7 @@
   {
     "slug": "loft",
     "name": "ロフト (Loft)",
-    "category": "その他サービス",
+    "category": "小売・雑貨",
     "initial_investment": "5億円",
     "stores": "160店舗以上 (海外含む)",
     "store_trend": "▲ 増加中",
@@ -3422,7 +3422,7 @@
   {
     "slug": "logiquest",
     "name": "ロジクエスト (Logiquest)",
-    "category": "その他サービス",
+    "category": "物流・引越し",
     "initial_investment": "約10万円～30万円",
     "stores": "1",
     "store_trend": "不明",
@@ -3440,7 +3440,7 @@
   {
     "slug": "lopia",
     "name": "ロピア (Lopia)",
-    "category": "その他サービス",
+    "category": "小売・スーパー",
     "initial_investment": "不明",
     "stores": "139店舗 (2025年時点、海外含む)",
     "store_trend": "▲ 増加中",
@@ -3548,7 +3548,7 @@
   {
     "slug": "maimon-sushi",
     "name": "金沢まいもん寿司 (Kanazawa Maimon Sushi)",
-    "category": "その他サービス",
+    "category": "飲食（寿司・海鮮）",
     "initial_investment": "5億円〜3億円",
     "stores": "40店舗以上 (直営中心)",
     "store_trend": "▲ 増加中",
@@ -3584,7 +3584,7 @@
   {
     "slug": "mammachiao",
     "name": "マンマチャオ（ecolaundry mammaciao）",
-    "category": "その他サービス",
+    "category": "コインランドリー・クリーニング",
     "initial_investment": "約2,000万〜3,500万円",
     "stores": "580店舗（2025年時点）",
     "store_trend": "不明",
@@ -3620,7 +3620,7 @@
   {
     "slug": "mango-tree",
     "name": "マンゴツリーカフェ（MANGO TREE CAFE）",
-    "category": "その他サービス",
+    "category": "飲食（カレー・中華・エスニック）",
     "initial_investment": "2,000〜3,500万円",
     "stores": "799",
     "store_trend": "不明",
@@ -4052,7 +4052,7 @@
   {
     "slug": "okome-mujin",
     "name": "お米の無人販売所・コイン精米所 (Okome Mujin / Coin Seimaisho)",
-    "category": "その他サービス",
+    "category": "飲食（その他飲食）",
     "initial_investment": "約500万円～1,000万円",
     "stores": "36,000箇所",
     "store_trend": "▲ 増加中",
@@ -4286,7 +4286,7 @@
   {
     "slug": "palette-plaza",
     "name": "パレットプラザ (Palette Plaza)",
-    "category": "その他サービス",
+    "category": "写真・カメラ",
     "initial_investment": "1,500万〜3,500万円",
     "stores": "300店舗超 (2025年2月時点)",
     "store_trend": "▲ 増加中",
@@ -4304,7 +4304,7 @@
   {
     "slug": "panda-express",
     "name": "パンダエクスプレス (Panda Express)",
-    "category": "その他サービス",
+    "category": "飲食（カレー・中華・エスニック）",
     "initial_investment": "約8,000万円",
     "stores": "18店舗",
     "store_trend": "▲ 増加中",
@@ -4466,7 +4466,7 @@
   {
     "slug": "primero",
     "name": "焼きたてメロンパンのプリメーロ",
-    "category": "その他サービス",
+    "category": "飲食（カフェ・スイーツ）",
     "initial_investment": "200〜800万円",
     "stores": "4〜5店舗",
     "store_trend": "▲ 増加中",
@@ -4520,7 +4520,7 @@
   {
     "slug": "raffine",
     "name": "ラフィネ（Raffine）",
-    "category": "その他サービス",
+    "category": "フィットネス・ストレッチ",
     "initial_investment": "約2,400〜4,000万円",
     "stores": "700店舗以上（リラクゼーション最大手）",
     "store_trend": "不明",
@@ -4556,7 +4556,7 @@
   {
     "slug": "reaskin",
     "name": "リースキン（ダスキングループ）",
-    "category": "その他サービス",
+    "category": "ハウスクリーニング・便利屋",
     "initial_investment": "約20万円",
     "stores": "900社",
     "store_trend": "→ 横ばい",
@@ -4700,7 +4700,7 @@
   {
     "slug": "renaissance",
     "name": "スポーツクラブ ルネサンス",
-    "category": "その他サービス",
+    "category": "フィットネス・ストレッチ",
     "initial_investment": "約2,000万円",
     "stores": "150施設（2025年時点）",
     "store_trend": "▲ 増加中",
@@ -4718,7 +4718,7 @@
   {
     "slug": "repark",
     "name": "三井のリパーク（駐車場経営）",
-    "category": "その他サービス",
+    "category": "駐車場",
     "initial_investment": "8〜15万円",
     "stores": "15,800カ所（2024年3月末時点）",
     "store_trend": "▲ 増加中",
@@ -4808,7 +4808,7 @@
   {
     "slug": "sakura-heiando",
     "name": "さくら平安堂 (Sakura Heiando)",
-    "category": "その他サービス",
+    "category": "小売・雑貨",
     "initial_investment": "1,500万〜3,500万円",
     "stores": "2025年2月時点)",
     "store_trend": "▲ 増加中",
@@ -4844,7 +4844,7 @@
   {
     "slug": "sanikurin",
     "name": "サニクリーン（クリーンサービス）",
-    "category": "その他サービス",
+    "category": "ハウスクリーニング・便利屋",
     "initial_investment": "405万円",
     "stores": "270拠点以上",
     "store_trend": "→ 横ばい",
@@ -4916,7 +4916,7 @@
   {
     "slug": "selfurugi",
     "name": "セルフ古着 SELFURUGI (セルフルギ)",
-    "category": "その他サービス",
+    "category": "買取・リユース",
     "initial_investment": "約550万円～1,000万円",
     "stores": "35店舗",
     "store_trend": "→ 横ばい",
@@ -5060,7 +5060,7 @@
   {
     "slug": "shonan-beauty",
     "name": "湘南美容クリニック（SBC Medical Group）",
-    "category": "その他サービス",
+    "category": "美容（エステ・ネイル・脱毛）",
     "initial_investment": "5,000万〜1億円",
     "stores": "282院（国内外合計）",
     "store_trend": "不明",
@@ -5168,7 +5168,7 @@
   {
     "slug": "smart-cafe24",
     "name": "スマートカフェ24 (Smart Cafe 24)",
-    "category": "その他サービス",
+    "category": "飲食（カフェ・スイーツ）",
     "initial_investment": "約800万円～1,500万円",
     "stores": "15店舗 (目標)",
     "store_trend": "▲ 増加中",
@@ -5258,7 +5258,7 @@
   {
     "slug": "studio-mario",
     "name": "スタジオマリオ (Studio Mario)",
-    "category": "その他サービス",
+    "category": "写真・カメラ",
     "initial_investment": "3,000万〜6,000万円",
     "stores": "350店舗超 (2025年2月時点)",
     "store_trend": "▲ 増加中",
@@ -5294,7 +5294,7 @@
   {
     "slug": "sumaho-dock24",
     "name": "スマホドック24 (Sumaho Dock 24)",
-    "category": "その他サービス",
+    "category": "修理・リペア",
     "initial_investment": "約650万円～1,000万円",
     "stores": "50",
     "store_trend": "不明",
@@ -5312,7 +5312,7 @@
   {
     "slug": "super-cargo",
     "name": "スーパーカーゴ (Super Cargo)",
-    "category": "その他サービス",
+    "category": "物流・引越し",
     "initial_investment": "約40万円～250万円",
     "stores": "不明",
     "store_trend": "不明",
@@ -5366,7 +5366,7 @@
   {
     "slug": "sushi-meijin",
     "name": "寿司めいじん (Sushi Meijin)",
-    "category": "その他サービス",
+    "category": "飲食（寿司・海鮮）",
     "initial_investment": "約8,000万円",
     "stores": "20店舗 (グループ合計)",
     "store_trend": "▲ 増加中",
@@ -5402,7 +5402,7 @@
   {
     "slug": "syurou-a",
     "name": "就労継続支援A型 (Employment Support Type A)",
-    "category": "その他サービス",
+    "category": "介護・福祉・医療",
     "initial_investment": "2,500万円～4,500万円",
     "stores": "4,300拠点",
     "store_trend": "▲ 増加中",
@@ -5438,7 +5438,7 @@
   {
     "slug": "taidashi",
     "name": "鯛だし茶漬け専門店 (taidashi)",
-    "category": "その他サービス",
+    "category": "飲食（弁当・宅配）",
     "initial_investment": "約30万円〜50万円",
     "stores": "215拠点",
     "store_trend": "→ 横ばい",
@@ -5618,7 +5618,7 @@
   {
     "slug": "times24",
     "name": "タイムズ24（駐車場経営）",
-    "category": "その他サービス",
+    "category": "駐車場",
     "initial_investment": "15〜30万円",
     "stores": "27,000件（国内）",
     "store_trend": "▲ 増加中",
@@ -5690,7 +5690,7 @@
   {
     "slug": "total-repair",
     "name": "トータルリペア (Total Repair)",
-    "category": "その他サービス",
+    "category": "修理・リペア",
     "initial_investment": "約500万円～700万円",
     "stores": "1,000",
     "store_trend": "不明",
@@ -6068,7 +6068,7 @@
   {
     "slug": "x-kitchen",
     "name": "X Kitchen (エックスキッチン)",
-    "category": "その他サービス",
+    "category": "飲食（弁当・宅配）",
     "initial_investment": "約40万円〜80万円",
     "stores": "192拠点",
     "store_trend": "→ 横ばい",
@@ -6158,7 +6158,7 @@
   {
     "slug": "yamaha",
     "name": "ヤマハ音楽教室",
-    "category": "その他サービス",
+    "category": "学習塾・教育",
     "initial_investment": "500万〜3,000万円",
     "stores": "2,200〜2,300",
     "store_trend": "不明",
@@ -6338,7 +6338,7 @@
   {
     "slug": "laundry-depot",
     "name": "ランドリーデポ (Laundry Depot)",
-    "category": "その他サービス",
+    "category": "コインランドリー・クリーニング",
     "initial_investment": "約3,000万円～4,500万円",
     "stores": "100",
     "store_trend": "不明",
@@ -6356,7 +6356,7 @@
   {
     "slug": "2ndstreet-geo",
     "name": "セカンドストリート（2nd STREET）",
-    "category": "その他サービス",
+    "category": "買取・リユース",
     "initial_investment": "2,000万円〜5,000万円",
     "stores": "880店舗（2025年3月末）",
     "store_trend": "→ 横ばい",
@@ -6374,7 +6374,7 @@
   {
     "slug": "adastria",
     "name": "アダストリア",
-    "category": "その他サービス",
+    "category": "ファッション・アパレル",
     "initial_investment": "5,000万円",
     "stores": "1,500+",
     "store_trend": "▲ 増加中",
@@ -6392,7 +6392,7 @@
   {
     "slug": "akachan-honpo",
     "name": "赤ちゃん本舗 (Akachan Honpo)",
-    "category": "その他サービス",
+    "category": "小売・ベビー用品",
     "initial_investment": "3億円",
     "stores": "125店舗超 (2025年2月時点)",
     "store_trend": "▲ 増加中",
@@ -6410,7 +6410,7 @@
   {
     "slug": "bestland",
     "name": "ベストランド",
-    "category": "その他サービス",
+    "category": "不動産・住宅",
     "initial_investment": "500万～1,000万円",
     "stores": "700",
     "store_trend": "— 直営のみ",
@@ -6428,7 +6428,7 @@
   {
     "slug": "cafe-veloce",
     "name": "カフェ・ベローチェ (Cafe Veloce)",
-    "category": "その他サービス",
+    "category": "飲食（カフェ・スイーツ）",
     "initial_investment": "1,500万〜3,500万円",
     "stores": "85店舗超 (2025年2月時点)",
     "store_trend": "▼ 減少傾向",
@@ -6446,7 +6446,7 @@
   {
     "slug": "cocoichi",
     "name": "カレーハウスCoCo壱番屋 (CoCoIchibanya)",
-    "category": "その他サービス",
+    "category": "飲食（カレー・中華・エスニック）",
     "initial_investment": "1,000万〜3,000万円",
     "stores": "1,460店舗 2025年2月時点)",
     "store_trend": "→ 横ばい",
@@ -6464,7 +6464,7 @@
   {
     "slug": "excelsior",
     "name": "エクセルシオール カフェ",
-    "category": "その他サービス",
+    "category": "飲食（カフェ・スイーツ）",
     "initial_investment": "5,000万円〜8,000万円",
     "stores": "120+",
     "store_trend": "→ 横ばい",
@@ -6482,7 +6482,7 @@
   {
     "slug": "hm",
     "name": "H&M (エイチ・アンド・エム)",
-    "category": "その他サービス",
+    "category": "ファッション・アパレル",
     "initial_investment": "10億円",
     "stores": "120店舗超 (2025年2月時点)",
     "store_trend": "▲ 増加中",
@@ -6500,7 +6500,7 @@
   {
     "slug": "ichiran",
     "name": "天然とんこつラーメン 一蘭 (Ichiran)",
-    "category": "その他サービス",
+    "category": "飲食（ラーメン・麺類）",
     "initial_investment": "5,000万〜3億円",
     "stores": "85店舗超 (2025年2月時点)",
     "store_trend": "→ 横ばい",
@@ -6518,7 +6518,7 @@
   {
     "slug": "kitamura",
     "name": "カメラのキタムラ",
-    "category": "その他サービス",
+    "category": "写真・カメラ",
     "initial_investment": "4,192万円",
     "stores": "561店",
     "store_trend": "▼ 減少傾向",
@@ -6536,7 +6536,7 @@
   {
     "slug": "kura-sushi",
     "name": "くら寿司 (Kura Sushi)",
-    "category": "その他サービス",
+    "category": "飲食（寿司・海鮮）",
     "initial_investment": "6億円",
     "stores": "650店舗超 (2025年2月時点)",
     "store_trend": "▲ 増加中",
@@ -6554,7 +6554,7 @@
   {
     "slug": "lashinbang",
     "name": "らしんばん (Lashinbang)",
-    "category": "その他サービス",
+    "category": "買取・リユース",
     "initial_investment": "3,000万円〜8,000万円",
     "stores": "60+",
     "store_trend": "→ 横ばい",
@@ -6572,7 +6572,7 @@
   {
     "slug": "manekineko",
     "name": "まねきねこ（カラオケ）",
-    "category": "その他サービス",
+    "category": "カラオケ・エンタメ",
     "initial_investment": "76億円",
     "stores": "703店舗（2025年8月末、ワンカラ含む）",
     "store_trend": "▼ 減少傾向",
@@ -6590,7 +6590,7 @@
   {
     "slug": "marugame-seimen",
     "name": "丸亀製麺 (Marugame Seimen)",
-    "category": "その他サービス",
+    "category": "飲食（ラーメン・麺類）",
     "initial_investment": "4,000万〜1億2,000万円",
     "stores": "850店舗超 (2025年2月時点)",
     "store_trend": "→ 横ばい",
@@ -6608,7 +6608,7 @@
   {
     "slug": "minit",
     "name": "ミスターミニット (MISTER MINIT)",
-    "category": "その他サービス",
+    "category": "修理・リペア",
     "initial_investment": "1,500万〜2,500万円",
     "stores": "2025年2月時点）",
     "store_trend": "▲ 増加中",
@@ -6626,7 +6626,7 @@
   {
     "slug": "muji",
     "name": "無印良品 (MUJI)",
-    "category": "その他サービス",
+    "category": "小売・雑貨",
     "initial_investment": "3億円",
     "stores": "1,100店舗 2025年2月時点)",
     "store_trend": "▲ 増加中",
@@ -6644,7 +6644,7 @@
   {
     "slug": "nojima",
     "name": "ノジマ (Nojima)",
-    "category": "その他サービス",
+    "category": "家電量販",
     "initial_investment": "3億円",
     "stores": "210店舗超 (2025年2月時点)",
     "store_trend": "▲ 増加中",
@@ -6662,7 +6662,7 @@
   {
     "slug": "owndays",
     "name": "オンデーズ (OWNDAYS)",
-    "category": "その他サービス",
+    "category": "ファッション・アパレル",
     "initial_investment": "1,500万円〜3,000万円",
     "stores": "600+",
     "store_trend": "▲ 増加中",
@@ -6680,7 +6680,7 @@
   {
     "slug": "qbhouse",
     "name": "QBハウス",
-    "category": "その他サービス",
+    "category": "美容（ヘアサロン）",
     "initial_investment": "1,500万〜2,500万円",
     "stores": "140店舗超 (2025年2月時点)",
     "store_trend": "▲ 増加中",
@@ -6698,7 +6698,7 @@
   {
     "slug": "st-marc-cafe",
     "name": "サンマルクカフェ (Saint Marc Cafe)",
-    "category": "その他サービス",
+    "category": "飲食（カフェ・スイーツ）",
     "initial_investment": "3,000万円〜6,000万円",
     "stores": "350+予定",
     "store_trend": "▲ 増加中",
@@ -6716,7 +6716,7 @@
   {
     "slug": "studio-alice",
     "name": "スタジオアリス (Studio Alice)",
-    "category": "その他サービス",
+    "category": "写真・カメラ",
     "initial_investment": "6,000万円",
     "stores": "460+",
     "store_trend": "▲ 増加中",
@@ -6734,7 +6734,7 @@
   {
     "slug": "sukiya",
     "name": "すき家 (Sukiya)",
-    "category": "その他サービス",
+    "category": "飲食（ファミレス・定食）",
     "initial_investment": "5,000万円",
     "stores": "1,950店舗超 (2025年2月時点)",
     "store_trend": "▲ 増加中",
@@ -6752,7 +6752,7 @@
   {
     "slug": "uobei",
     "name": "魚べい (Uobei)",
-    "category": "その他サービス",
+    "category": "飲食（寿司・海鮮）",
     "initial_investment": "5,000万円",
     "stores": "400店 2025年2月時点)",
     "store_trend": "▲ 増加中",
@@ -6788,7 +6788,7 @@
   {
     "slug": "abc-mart",
     "name": "ABC-MART（エービーシー・マート）",
-    "category": "その他サービス",
+    "category": "小売・100均",
     "initial_investment": "5,000万円〜2億円",
     "stores": "1,086店",
     "store_trend": "→ 横ばい",
@@ -6806,7 +6806,7 @@
   {
     "slug": "alsok",
     "name": "ALSOK (綜合警備保障)",
-    "category": "その他サービス",
+    "category": "セキュリティ・警備",
     "initial_investment": "5,000万〜1億5,000万円",
     "stores": "2025年2月時点)",
     "store_trend": "▲ 増加中",
@@ -6824,7 +6824,7 @@
   {
     "slug": "aoki",
     "name": "AOKI（紳士服）",
-    "category": "その他サービス",
+    "category": "ファッション・アパレル",
     "initial_investment": "不明",
     "stores": "496",
     "store_trend": "→ 横ばい",
@@ -6860,7 +6860,7 @@
   {
     "slug": "ari-hikkoshi",
     "name": "アリさんマークの引越社",
-    "category": "その他サービス",
+    "category": "物流・引越し",
     "initial_investment": "不明",
     "stores": "100+",
     "store_trend": "→ 横ばい",
@@ -6878,7 +6878,7 @@
   {
     "slug": "asahi-culture",
     "name": "朝日カルチャーセンター",
-    "category": "その他サービス",
+    "category": "学習塾・教育",
     "initial_investment": "8億円",
     "stores": "11教室",
     "store_trend": "→ 横ばい",
@@ -6896,7 +6896,7 @@
   {
     "slug": "bic-camera",
     "name": "ビックカメラ",
-    "category": "その他サービス",
+    "category": "家電量販",
     "initial_investment": "50億円〜150億円",
     "stores": "50",
     "store_trend": "不明",
@@ -6950,7 +6950,7 @@
   {
     "slug": "clean-crew",
     "name": "クリーンクルー",
-    "category": "その他サービス",
+    "category": "ハウスクリーニング・便利屋",
     "initial_investment": "80〜150万円",
     "stores": "不明",
     "store_trend": "▲ 増加中",
@@ -6986,7 +6986,7 @@
   {
     "slug": "dai-ichi-life",
     "name": "第一生命 (Dai-ichi Life)",
-    "category": "その他サービス",
+    "category": "保険・金融",
     "initial_investment": "200万円〜500万円",
     "stores": "16,500",
     "store_trend": "不明",
@@ -7004,7 +7004,7 @@
   {
     "slug": "daito-kentaku-partners",
     "name": "大東建託パートナーズ",
-    "category": "その他サービス",
+    "category": "不動産・住宅",
     "initial_investment": "不明",
     "stores": "180",
     "store_trend": "→ 横ばい",
@@ -7022,7 +7022,7 @@
   {
     "slug": "daiwa-house",
     "name": "大和ハウス（Daiwa House）",
-    "category": "その他サービス",
+    "category": "不動産・住宅",
     "initial_investment": "5,000万円〜5億円",
     "stores": "1級の建築・不動産グループ",
     "store_trend": "不明",
@@ -7076,7 +7076,7 @@
   {
     "slug": "edion",
     "name": "エディオン (EDION)",
-    "category": "その他サービス",
+    "category": "家電量販",
     "initial_investment": "500万〜1,500万円",
     "stores": "450、FC 750超 2025年2月時点)",
     "store_trend": "→ 横ばい",
@@ -7112,7 +7112,7 @@
   {
     "slug": "fukuya-estate",
     "name": "福屋不動産販売",
-    "category": "その他サービス",
+    "category": "不動産・住宅",
     "initial_investment": "不明",
     "stores": "90",
     "store_trend": "▲ 増加中",
@@ -7130,7 +7130,7 @@
   {
     "slug": "gu",
     "name": "GU (ジーユー)",
-    "category": "その他サービス",
+    "category": "ファッション・アパレル",
     "initial_investment": "3億円",
     "stores": "490店舗 2025年2月時点)",
     "store_trend": "▲ 増加中",
@@ -7184,7 +7184,7 @@
   {
     "slug": "hankyuhanshin-re",
     "name": "阪急阪神不動産",
-    "category": "その他サービス",
+    "category": "不動産・住宅",
     "initial_investment": "不明",
     "stores": "35",
     "store_trend": "▲ 増加中",
@@ -7202,7 +7202,7 @@
   {
     "slug": "haruyama",
     "name": "はるやま",
-    "category": "その他サービス",
+    "category": "ファッション・アパレル",
     "initial_investment": "約5,000万円〜8,000万円",
     "stores": "2024年3月末時点、グループ合計)",
     "store_trend": "不明",
@@ -7256,7 +7256,7 @@
   {
     "slug": "ikea",
     "name": "IKEA (イケア)",
-    "category": "その他サービス",
+    "category": "ホームセンター",
     "initial_investment": "150億円",
     "stores": "3、商品受取センター多数)",
     "store_trend": "▲ 増加中",
@@ -7274,7 +7274,7 @@
   {
     "slug": "isetan-mitsukoshi-realestate",
     "name": "三越伊勢丹不動産",
-    "category": "その他サービス",
+    "category": "不動産・住宅",
     "initial_investment": "不明",
     "stores": "不明",
     "store_trend": "▲ 増加中",
@@ -7292,7 +7292,7 @@
   {
     "slug": "ito-yokado",
     "name": "イトーヨーカドー",
-    "category": "その他サービス",
+    "category": "小売・スーパー",
     "initial_investment": "8,147億円",
     "stores": "92〜93店舗維持",
     "store_trend": "不明",
@@ -7328,7 +7328,7 @@
   {
     "slug": "jibun-clinic",
     "name": "じぶんクリニック（医療脱毛）",
-    "category": "その他サービス",
+    "category": "介護・福祉・医療",
     "initial_investment": "500〜800万円",
     "stores": "0院",
     "store_trend": "▼ 減少傾向",
@@ -7346,7 +7346,7 @@
   {
     "slug": "jolly-pasta",
     "name": "ジョリーパスタ",
-    "category": "その他サービス",
+    "category": "飲食（ファミレス・定食）",
     "initial_investment": "3,000万円〜6,000万円",
     "stores": "319店",
     "store_trend": "→ 横ばい",
@@ -7364,7 +7364,7 @@
   {
     "slug": "joyful-honda",
     "name": "ジョイフル本田",
-    "category": "その他サービス",
+    "category": "ホームセンター",
     "initial_investment": "1,200億円",
     "stores": "1",
     "store_trend": "▲ 増加中",
@@ -7382,7 +7382,7 @@
   {
     "slug": "junkful",
     "name": "ジャンクフル（JUNKFUL）",
-    "category": "その他サービス",
+    "category": "買取・リユース",
     "initial_investment": "500〜1,500万円",
     "stores": "不明",
     "store_trend": "不明",
@@ -7400,7 +7400,7 @@
   {
     "slug": "kaldi",
     "name": "カルディコーヒーファーム（KALDI COFFEE FARM）",
-    "category": "その他サービス",
+    "category": "小売・スーパー",
     "initial_investment": "不明",
     "stores": "500店舗超",
     "store_trend": "不明",
@@ -7436,7 +7436,7 @@
   {
     "slug": "keio-fudosan",
     "name": "京王不動産",
-    "category": "その他サービス",
+    "category": "不動産・住宅",
     "initial_investment": "不明",
     "stores": "不明",
     "store_trend": "→ 横ばい",
@@ -7454,7 +7454,7 @@
   {
     "slug": "ken",
     "name": "ステーキハンバーグ&サラダバー けん",
-    "category": "その他サービス",
+    "category": "飲食（ファミレス・定食）",
     "initial_investment": "約2,000〜2,500万円",
     "stores": "2024〜2025年時点。絶滅危機状態）**",
     "store_trend": "不明",
@@ -7490,7 +7490,7 @@
   {
     "slug": "kintetsu-re",
     "name": "近鉄不動産",
-    "category": "その他サービス",
+    "category": "不動産・住宅",
     "initial_investment": "不明",
     "stores": "90",
     "store_trend": "→ 横ばい",
@@ -7508,7 +7508,7 @@
   {
     "slug": "kireimo",
     "name": "キレイモ",
-    "category": "その他サービス",
+    "category": "美容（エステ・ネイル・脱毛）",
     "initial_investment": "不明",
     "stores": "0店舗(ブランド終了)",
     "store_trend": "▼ 減少傾向",
@@ -7526,7 +7526,7 @@
   {
     "slug": "kojima-pet",
     "name": "ペットのコジマ（PETのコジマ）",
-    "category": "その他サービス",
+    "category": "ペット",
     "initial_investment": "不明",
     "stores": "50店舗以上（首都圏中心にドミナント展開）",
     "store_trend": "不明",
@@ -7544,7 +7544,7 @@
   {
     "slug": "ks-denki",
     "name": "ケーズデンキ (K's Denki)",
-    "category": "その他サービス",
+    "category": "家電量販",
     "initial_investment": "5億円",
     "stores": "560店舗超 (2025年2月時点)",
     "store_trend": "▲ 増加中",
@@ -7562,7 +7562,7 @@
   {
     "slug": "kuradashiya",
     "name": "蔵出し屋（リユース・焼き芋系）",
-    "category": "その他サービス",
+    "category": "買取・リユース",
     "initial_investment": "不明",
     "stores": "6店舗（直営、2024〜2025年時点）",
     "store_trend": "不明",
@@ -7598,7 +7598,7 @@
   {
     "slug": "lego-school",
     "name": "レゴスクール（LEGO School）",
-    "category": "その他サービス",
+    "category": "幼児教育・英語",
     "initial_investment": "不明",
     "stores": "40校（正規レゴスクール）",
     "store_trend": "→ 横ばい",
@@ -7670,7 +7670,7 @@
   {
     "slug": "matsukiyo",
     "name": "マツモトキヨシ（Matsumoto Kiyoshi）",
-    "category": "その他サービス",
+    "category": "ドラッグストア",
     "initial_investment": "5億円",
     "stores": "3,499店舗**（2025年3月末時点）",
     "store_trend": "不明",
@@ -7706,7 +7706,7 @@
   {
     "slug": "misawa-home",
     "name": "ミサワホーム",
-    "category": "その他サービス",
+    "category": "不動産・住宅",
     "initial_investment": "約612万円",
     "stores": "260",
     "store_trend": "→ 横ばい",
@@ -7724,7 +7724,7 @@
   {
     "slug": "mitsui-rehouse",
     "name": "三井のリハウス",
-    "category": "その他サービス",
+    "category": "不動産・住宅",
     "initial_investment": "不明",
     "stores": "280",
     "store_trend": "▲ 増加中",
@@ -7742,7 +7742,7 @@
   {
     "slug": "ms-ad",
     "name": "三井住友海上 (MS&AD)",
-    "category": "その他サービス",
+    "category": "保険・金融",
     "initial_investment": "100万円〜500万円",
     "stores": "34,710",
     "store_trend": "不明",
@@ -7760,7 +7760,7 @@
   {
     "slug": "musbell",
     "name": "ムスベル",
-    "category": "その他サービス",
+    "category": "結婚相談所",
     "initial_investment": "不明",
     "stores": "43～44店舗",
     "store_trend": "→ 横ばい",
@@ -7796,7 +7796,7 @@
   {
     "slug": "musubell",
     "name": "ムスベル（結婚相談所）",
-    "category": "その他サービス",
+    "category": "結婚相談所",
     "initial_investment": "約50万〜100万円",
     "stores": "2024年末）/ 46拠点（2025年末見込み）",
     "store_trend": "不明",
@@ -7814,7 +7814,7 @@
   {
     "slug": "mybasket",
     "name": "まいばすけっと",
-    "category": "その他サービス",
+    "category": "小売・スーパー",
     "initial_investment": "不明",
     "stores": "1,150+",
     "store_trend": "▲ 増加中",
@@ -7832,7 +7832,7 @@
   {
     "slug": "nafco",
     "name": "ナフコ",
-    "category": "その他サービス",
+    "category": "ホームセンター",
     "initial_investment": "2345億円",
     "stores": "359",
     "store_trend": "→ 横ばい",
@@ -7886,7 +7886,7 @@
   {
     "slug": "newdays",
     "name": "NewDays",
-    "category": "その他サービス",
+    "category": "コンビニ",
     "initial_investment": "不明",
     "stores": "665",
     "store_trend": "▲ 増加中",
@@ -7922,7 +7922,7 @@
   {
     "slug": "nhk-culture",
     "name": "NHKカルチャー（NHK文化センター）",
-    "category": "その他サービス",
+    "category": "学習塾・教育",
     "initial_investment": "33万円",
     "stores": "15カ所",
     "store_trend": "▲ 増加中",
@@ -7940,7 +7940,7 @@
   {
     "slug": "nihon-house-hd",
     "name": "日本ハウスホールディングス",
-    "category": "その他サービス",
+    "category": "不動産・住宅",
     "initial_investment": "不明",
     "stores": "不明",
     "store_trend": "▲ 増加中",
@@ -7976,7 +7976,7 @@
   {
     "slug": "nishimatsuya",
     "name": "西松屋チェーン",
-    "category": "その他サービス",
+    "category": "小売・ベビー用品",
     "initial_investment": "2,000億円",
     "stores": "1,153店",
     "store_trend": "→ 横ばい",
@@ -7994,7 +7994,7 @@
   {
     "slug": "nissay",
     "name": "日本生命 (Nissay)",
-    "category": "その他サービス",
+    "category": "保険・金融",
     "initial_investment": "200万円〜500万円",
     "stores": "19,000",
     "store_trend": "不明",
@@ -8012,7 +8012,7 @@
   {
     "slug": "nitori",
     "name": "ニトリ (Nitori)",
-    "category": "その他サービス",
+    "category": "ホームセンター",
     "initial_investment": "10億円",
     "stores": "1,000店舗 2025年2月時点)",
     "store_trend": "→ 横ばい",
@@ -8030,7 +8030,7 @@
   {
     "slug": "nomura-re-nos",
     "name": "野村不動産ソリューションズ",
-    "category": "その他サービス",
+    "category": "不動産・住宅",
     "initial_investment": "不明",
     "stores": "100",
     "store_trend": "▲ 増加中",
@@ -8048,7 +8048,7 @@
   {
     "slug": "o-net",
     "name": "オーネット（O-net）",
-    "category": "その他サービス",
+    "category": "結婚相談所",
     "initial_investment": "不明",
     "stores": "39拠点（すべて直営）",
     "store_trend": "不明",
@@ -8066,7 +8066,7 @@
   {
     "slug": "odakyu-fudosan",
     "name": "小田急不動産",
-    "category": "その他サービス",
+    "category": "不動産・住宅",
     "initial_investment": "不明",
     "stores": "30",
     "store_trend": "→ 横ばい",
@@ -8084,7 +8084,7 @@
   {
     "slug": "ok-store",
     "name": "オーケー (OK Store)",
-    "category": "その他サービス",
+    "category": "小売・スーパー",
     "initial_investment": "5億円",
     "stores": "160店舗以上 (2024年時点)",
     "store_trend": "▲ 増加中",
@@ -8102,7 +8102,7 @@
   {
     "slug": "open-house",
     "name": "オープンハウス",
-    "category": "その他サービス",
+    "category": "不動産・住宅",
     "initial_investment": "不明",
     "stores": "200",
     "store_trend": "▲ 増加中",
@@ -8174,7 +8174,7 @@
   {
     "slug": "polus",
     "name": "ポラス (POLUS)",
-    "category": "その他サービス",
+    "category": "不動産・住宅",
     "initial_investment": "不明",
     "stores": "不明",
     "store_trend": "▲ 増加中",
@@ -8264,7 +8264,7 @@
   {
     "slug": "royal-homac",
     "name": "ロイヤルホームセンター",
-    "category": "その他サービス",
+    "category": "ホームセンター",
     "initial_investment": "約444万円",
     "stores": "64",
     "store_trend": "▲ 増加中",
@@ -8408,7 +8408,7 @@
   {
     "slug": "seibu-re-solutions",
     "name": "西武リアルティソリューションズ",
-    "category": "その他サービス",
+    "category": "不動産・住宅",
     "initial_investment": "不明",
     "stores": "不明",
     "store_trend": "→ 横ばい",
@@ -8426,7 +8426,7 @@
   {
     "slug": "seijo-ishii",
     "name": "成城石井 (Seijo Ishii)",
-    "category": "その他サービス",
+    "category": "小売・スーパー",
     "initial_investment": "不明",
     "stores": "2024年2月時点：直営188、FC31）",
     "store_trend": "▲ 増加中",
@@ -8444,7 +8444,7 @@
   {
     "slug": "seino",
     "name": "西濃運輸 (Seino Transportation)",
-    "category": "その他サービス",
+    "category": "物流・引越し",
     "initial_investment": "不明",
     "stores": "不明",
     "store_trend": "不明",
@@ -8462,7 +8462,7 @@
   {
     "slug": "sekisui-house",
     "name": "積水ハウス（Sekisui House）",
-    "category": "その他サービス",
+    "category": "不動産・住宅",
     "initial_investment": "5,000万円〜2億円",
     "stores": "1（260万戸以上）",
     "store_trend": "不明",
@@ -8498,7 +8498,7 @@
   {
     "slug": "shimachu",
     "name": "島忠",
-    "category": "その他サービス",
+    "category": "ホームセンター",
     "initial_investment": "約492万円",
     "stores": "60",
     "store_trend": "→ 横ばい",
@@ -8516,7 +8516,7 @@
   {
     "slug": "shimamura",
     "name": "しまむら (Shimamura)",
-    "category": "その他サービス",
+    "category": "ファッション・アパレル",
     "initial_investment": "3億円",
     "stores": "2025年2月時点)",
     "store_trend": "▲ 増加中",
@@ -8534,7 +8534,7 @@
   {
     "slug": "steak-gusto",
     "name": "ステーキガスト",
-    "category": "その他サービス",
+    "category": "飲食（ファミレス・定食）",
     "initial_investment": "200〜300万円",
     "stores": "2025年3月時点）",
     "store_trend": "不明",
@@ -8552,7 +8552,7 @@
   {
     "slug": "stlassh",
     "name": "ストラッシュ（STLASSH）",
-    "category": "その他サービス",
+    "category": "美容（エステ・ネイル・脱毛）",
     "initial_investment": "3,000万〜5,000万円",
     "stores": "62〜80店舗",
     "store_trend": "不明",
@@ -8570,7 +8570,7 @@
   {
     "slug": "sugi-drug",
     "name": "スギ薬局（Sugi Drug）",
-    "category": "その他サービス",
+    "category": "ドラッグストア",
     "initial_investment": "不明",
     "stores": "1,700店舗以上（中部・関西・関東・北陸）",
     "store_trend": "不明",
@@ -8588,7 +8588,7 @@
   {
     "slug": "sugi-pharmacy",
     "name": "スギ薬局",
-    "category": "その他サービス",
+    "category": "ドラッグストア",
     "initial_investment": "約350億円",
     "stores": "2,174",
     "store_trend": "▲ 増加中",
@@ -8606,7 +8606,7 @@
   {
     "slug": "sumitomo-real-estate",
     "name": "住友不動産（Sumitomo Realty）",
-    "category": "その他サービス",
+    "category": "不動産・住宅",
     "initial_investment": "3,000万円〜2億円",
     "stores": "不明",
     "store_trend": "不明",
@@ -8624,7 +8624,7 @@
   {
     "slug": "sushizanmai",
     "name": "すしざんまい（廻るすしざんまい）",
-    "category": "その他サービス",
+    "category": "飲食（寿司・海鮮）",
     "initial_investment": "1億円",
     "stores": "46店舗",
     "store_trend": "不明",
@@ -8642,7 +8642,7 @@
   {
     "slug": "takano-yuri",
     "name": "たかの友梨ビューティクリニック",
-    "category": "その他サービス",
+    "category": "美容（エステ・ネイル・脱毛）",
     "initial_investment": "1,000〜3,000万円",
     "stores": "70店舗（2024年12月現在）",
     "store_trend": "→ 横ばい",
@@ -8660,7 +8660,7 @@
   {
     "slug": "tbc",
     "name": "TBC",
-    "category": "その他サービス",
+    "category": "美容（エステ・ネイル・脱毛）",
     "initial_investment": "不明",
     "stores": "130店",
     "store_trend": "→ 横ばい",
@@ -8678,7 +8678,7 @@
   {
     "slug": "tokyu-hands",
     "name": "東急ハンズ（ハンズ / HANDS）",
-    "category": "その他サービス",
+    "category": "小売・雑貨",
     "initial_investment": "5億円",
     "stores": "18日現在）※ FC11店＋海外12店含む",
     "store_trend": "不明",
@@ -8696,7 +8696,7 @@
   {
     "slug": "tokyu-livable",
     "name": "東急リバブル",
-    "category": "その他サービス",
+    "category": "不動産・住宅",
     "initial_investment": "不明",
     "stores": "216",
     "store_trend": "▲ 増加中",
@@ -8714,7 +8714,7 @@
   {
     "slug": "town-housing",
     "name": "タウンハウジング",
-    "category": "その他サービス",
+    "category": "不動産・住宅",
     "initial_investment": "不明",
     "stores": "250",
     "store_trend": "→ 横ばい",
@@ -8732,7 +8732,7 @@
   {
     "slug": "trial",
     "name": "トライアル (TRIAL)",
-    "category": "その他サービス",
+    "category": "小売・スーパー",
     "initial_investment": "不明",
     "stores": "310店舗以上 (2024年時点)",
     "store_trend": "▲ 増加中",
@@ -8786,7 +8786,7 @@
   {
     "slug": "tsuruha",
     "name": "ツルハドラッグ (Tsuruha Drug)",
-    "category": "その他サービス",
+    "category": "ドラッグストア",
     "initial_investment": "不明",
     "stores": "5,676店舗（2026年2月28日現在）",
     "store_trend": "不明",
@@ -8804,7 +8804,7 @@
   {
     "slug": "turban-curry",
     "name": "ターバンカレー（カレーハウス・ターバン）",
-    "category": "その他サービス",
+    "category": "飲食（カレー・中華・エスニック）",
     "initial_investment": "1,500〜2,500万円",
     "stores": "5〜6店舗",
     "store_trend": "不明",
@@ -8894,7 +8894,7 @@
   {
     "slug": "yakuzen-hinabe",
     "name": "薬膳火鍋 龍（りゅう）",
-    "category": "その他サービス",
+    "category": "飲食（居酒屋・バー）",
     "initial_investment": "1,500〜3,000万円",
     "stores": "6店舗（東京都内直営）",
     "store_trend": "不明",
@@ -8912,7 +8912,7 @@
   {
     "slug": "yamada-denki",
     "name": "ヤマダデンキ (Yamada Denki)",
-    "category": "その他サービス",
+    "category": "家電量販",
     "initial_investment": "3億円",
     "stores": "1,000店舗以上 (2024年時点)",
     "store_trend": "▲ 増加中",
@@ -8948,7 +8948,7 @@
   {
     "slug": "yodobashi",
     "name": "ヨドバシカメラ (Yodobashi Camera)",
-    "category": "その他サービス",
+    "category": "家電量販",
     "initial_investment": "50億円",
     "stores": "24店舗 (2024年時点)",
     "store_trend": "▲ 増加中",
@@ -8966,7 +8966,7 @@
   {
     "slug": "zara",
     "name": "ZARA (ザラ)",
-    "category": "その他サービス",
+    "category": "ファッション・アパレル",
     "initial_investment": "15億円",
     "stores": "2025年2月時点)",
     "store_trend": "▲ 増加中",
@@ -8984,7 +8984,7 @@
   {
     "slug": "zwei",
     "name": "ツヴァイ（ZWEI）",
-    "category": "その他サービス",
+    "category": "結婚相談所",
     "initial_investment": "300万円〜500万円",
     "stores": "54拠点（2025年時点）",
     "store_trend": "不明",
