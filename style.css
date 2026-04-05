@@ -27,14 +27,6 @@ header { background: #1a1a2e; color: white; padding: 16px 0; }
 .badge.inquiry { background: #e8f4fd; color: #0c5460; padding: 3px 8px; border-radius: 8px; font-size: 0.7rem; }
 
 /* ランクバッジ（カード用） */
-.rank-badge { font-weight: 800; font-size: 0.85rem; padding: 2px 8px; border-radius: 6px; letter-spacing: 0.05em; }
-.rank-badge.rank-S { background: #ffd700; color: #7a5800; }
-.rank-badge.rank-A { background: #d4edda; color: #155724; }
-.rank-badge.rank-B { background: #cce5ff; color: #004085; }
-.rank-badge.rank-C { background: #fff3cd; color: #856404; }
-.rank-badge.rank-D { background: #f8d7da; color: #721c24; }
-.rank-badge.rank-E { background: #e2e3e5; color: #383d41; }
-.rank-badge.rank-none { background: #e2e3e5; color: #888; }
 
 /* ソートコントロール */
 .sort-controls { margin-top: 10px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
@@ -63,6 +55,7 @@ header { background: #1a1a2e; color: white; padding: 16px 0; }
 .fc-card h3 { font-size: 1.1rem; margin-bottom: 12px; }
 .fc-card h3 a { color: #1a1a2e; text-decoration: none; }
 .fc-card h3 a:hover { color: #e94560; }
+.fc-desc { font-size: 0.82rem; color: #555; line-height: 1.5; margin-bottom: 12px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 .fc-stats { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; margin-bottom: 14px; }
 .stat { background: #f8f9fa; padding: 8px; border-radius: 8px; text-align: center; }
 .stat .label { font-size: 0.7rem; color: #888; display: block; }
