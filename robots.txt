@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://arshe-corp.com/sitemap.xml
+Sitemap: https://fc-databank.com/sitemap.xml
 
 # AI Crawlers
 User-agent: GPTBot
